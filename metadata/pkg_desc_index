@@ -39,3 +39,4 @@ media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
 media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
 sys-cluster/drbd-utils 8.9.3: mirror/replicate block-devices across a network-connection
 sys-power/phc-intel 0.3.2.12.17-r1: Processor Hardware Control for Intel CPUs
+x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
