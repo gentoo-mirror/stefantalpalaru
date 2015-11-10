@@ -36,6 +36,7 @@ media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
 media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
+net-misc/streamtuner2 2.1.9: internet radio browser
 sys-cluster/drbd-utils 8.9.3: mirror/replicate block-devices across a network-connection
 sys-power/phc-intel 0.3.2.12.17-r1: Processor Hardware Control for Intel CPUs
 x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
