@@ -1,42 +1,42 @@
-app-emulation/vagrant-bin 1.7.3: 
-app-office/upwork 4.0.70.0: 
-app-vim/nim-syntax 9999: 
-dev-lang/nim 0.12.0 9999: 
-dev-libs/chan 0.0.3 9999: 
-dev-libs/golib 9999: 
-dev-libs/lthread 9999: 
-dev-nim/aporia 9999: 
-dev-nim/bcrypt-nim 9999: 
-dev-nim/c2nim 9999: 
-dev-nim/cairo-nim 9999: 
-dev-nim/chan-nim 9999: 
-dev-nim/dialogs 9999: 
-dev-nim/golib-nim 9999: 
-dev-nim/gtk2-nim 9999: 
-dev-nim/irc 9999: 
-dev-nim/jester 9999: 
-dev-nim/lthread-nim 9999: 
-dev-nim/mongo-nim 9999: 
-dev-nim/nimble 0.6 9999: 
-dev-nim/nimforum 9999: 
-dev-nim/nimsuggest 9999: 
-dev-nim/opencl-nim 9999: 
-dev-nim/opengl-nim 9999: 
-dev-nim/pas2nim 9999: 
-dev-nim/sdl2-nim 9999: 
-dev-nim/x11-nim 9999: 
-dev-nim/zmq-nim 9999: 
-dev-python/flower 0.8.2: 
-dev-python/hiredis 0.1.5: 
-dev-python/messaging 0.5.12: 
-media-gfx/fbcat 0.4: 
-media-libs/zita-convolver 3.1.0: 
-media-radio/dabreceiver 0.97: 
-media-radio/fmreceiver 0.97: 
-media-radio/swreceiver 6.0: 
-media-sound/jack-audio-connection-kit 0.124.1-r1: 
-media-sound/setbfree 99999999: 
-net-misc/streamtuner2 2.1.9: 
+app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
+app-office/upwork 4.0.70.0: Project collaboration and tracking software for upwork.com
+app-vim/nim-syntax 9999: Nim language support
+dev-lang/nim 0.12.0 9999: Nim (formerly known as 'Nimrod') is a compiled, garbage-collected systems programming language
+dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
+dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
+dev-libs/lthread 9999: multicore enabled coroutine library written in C
+dev-nim/aporia 9999: IDE for the Nim programming language
+dev-nim/bcrypt-nim 9999: Nim bindings for bcrypt
+dev-nim/c2nim 9999: a tool to translate ANSI C code to Nim
+dev-nim/cairo-nim 9999: Nim bindings for cairo
+dev-nim/chan-nim 9999: Nim bindings for dev-libs/chan
+dev-nim/dialogs 9999: portable dialogs for Nim
+dev-nim/golib-nim 9999: Nim bindings for golib
+dev-nim/gtk2-nim 9999: Nim bindings for GTK+ 2
+dev-nim/irc 9999: IRC client module for Nim
+dev-nim/jester 9999: sinatra-like web framework for Nim
+dev-nim/lthread-nim 9999: Nim bindings for lthread
+dev-nim/mongo-nim 9999: Nim bindings for MongoDB
+dev-nim/nimble 0.6 9999: Nim package manager
+dev-nim/nimforum 9999: Nim forum
+dev-nim/nimsuggest 9999: tool for providing auto completion data for Nim source code
+dev-nim/opencl-nim 9999: Nim bindings for OpenCL
+dev-nim/opengl-nim 9999: Nim bindings for OpenGL
+dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
+dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
+dev-nim/x11-nim 9999: Nim bindings for X11
+dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
+dev-python/hiredis 0.1.5: Python extension that wraps hiredis
+dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
+media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
+media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
+media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
+media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
+media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
+media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
+net-misc/streamtuner2 2.1.9: internet radio browser
 sys-cluster/drbd-utils 8.9.3: mirror/replicate block-devices across a network-connection
-sys-power/phc-intel 0.3.2.12.19: 
-x11-drivers/xf86-video-virtualbox 5.0.0-r1: 
+sys-power/phc-intel 0.3.2.12.19: Processor Hardware Control for Intel CPUs
+x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
