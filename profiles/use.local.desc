@@ -11,3 +11,4 @@ media-sound/setbfree:convolution - enable experimental built-in convolution reve
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
+www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
