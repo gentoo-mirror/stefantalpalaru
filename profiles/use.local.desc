@@ -8,6 +8,7 @@ media-sound/jack-audio-connection-kit:coreaudio - Build the CoreAudio driver on 
 media-sound/jack-audio-connection-kit:cpudetection - Enables runtime cpudetection
 media-sound/jack-audio-connection-kit:pam - Add basic realime configuration via sys-auth/realtime-base
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
+net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
