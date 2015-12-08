@@ -29,6 +29,7 @@ dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
 dev-python/hiredis 0.1.5: Python extension that wraps hiredis
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+media-gfx/digikam 4.14.0: Digital photo management application for KDE
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
 media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
