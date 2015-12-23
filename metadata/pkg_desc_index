@@ -38,10 +38,10 @@ media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
 media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
 net-misc/streamtuner2 2.1.9: internet radio browser
-net-wireless/cubicsdr 0.1.16: Cross-Platform Software-Defined Radio Application
+net-wireless/cubicsdr 0.1.20: Cross-Platform Software-Defined Radio Application
 net-wireless/liquid-dsp 1.2.0 9999: digital signal processing library for software-defined radios
-net-wireless/soapy-rtlsdr 0.1.0: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.3.1 9999: vendor and platform neutral SDR support library
+net-wireless/soapy-rtlsdr 0.2.0: SoapySDR RTL-SDR Support Module
+net-wireless/soapysdr 0.4.0 9999: vendor and platform neutral SDR support library
 sys-cluster/drbd-utils 8.9.3: mirror/replicate block-devices across a network-connection
 sys-power/phc-intel 0.3.2.12.19: Processor Hardware Control for Intel CPUs
 www-servers/varnish 4.1.0: Varnish is a state-of-the-art, high-performance HTTP accelerator
