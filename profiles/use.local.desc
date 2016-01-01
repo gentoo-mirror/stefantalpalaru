@@ -3,12 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
-media-gfx/digikam:addressbook - Add support for kdepim
-media-gfx/digikam:linguas_ha - Hausa translation
-media-gfx/digikam:linguas_mi - Maori translation
-media-gfx/digikam:linguas_ven - Venda translation
-media-gfx/digikam:thumbnails - Enable thumbnails database support
-media-gfx/digikam:video - Pull in mplayerthumbs to enable video thumbnails
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-sound/jack-audio-connection-kit:coreaudio - Build the CoreAudio driver on Mac OS X systems
 media-sound/jack-audio-connection-kit:cpudetection - Enables runtime cpudetection

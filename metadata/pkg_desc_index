@@ -17,7 +17,7 @@ dev-nim/irc 9999: IRC client module for Nim
 dev-nim/jester 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 9999: Nim bindings for lthread
 dev-nim/mongo-nim 9999: Nim bindings for MongoDB
-dev-nim/nimble 0.6 9999: Nim package manager
+dev-nim/nimble 0.6.4 9999: Nim package manager
 dev-nim/nimforum 9999: Nim forum
 dev-nim/nimsuggest 9999: tool for providing auto completion data for Nim source code
 dev-nim/opencl-nim 9999: Nim bindings for OpenCL
@@ -29,7 +29,6 @@ dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
 dev-python/hiredis 0.1.5: Python extension that wraps hiredis
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
-media-gfx/digikam 4.14.0: Digital photo management application for KDE
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
 media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
