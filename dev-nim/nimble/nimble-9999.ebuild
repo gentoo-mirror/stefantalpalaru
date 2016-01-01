@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -17,7 +17,7 @@ KEYWORDS=""
 IUSE="test"
 
 DEPEND="
-	>=dev-lang/nim-0.9.4
+	>=dev-lang/nim-0.12.1
 "
 RDEPEND=""
 
