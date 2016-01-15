@@ -1,6 +1,7 @@
 app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
 app-office/upwork 4.0.144.0: Project collaboration and tracking software for upwork.com
 app-vim/nim-syntax 9999: Nim language support
+app-vim/pony-syntax 9999: vim plugin: Pony language support
 dev-lang/nim 0.12.0 9999: Nim (formerly known as 'Nimrod') is a compiled, garbage-collected systems programming language
 dev-lang/pony 0.2.1 9999: Compiler for the Pony language
 dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
