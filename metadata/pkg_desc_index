@@ -2,7 +2,7 @@ app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual mach
 app-office/upwork 4.0.144.0: Project collaboration and tracking software for upwork.com
 app-vim/nim-syntax 9999: Nim language support
 app-vim/pony-syntax 9999: vim plugin: Pony language support
-dev-lang/nim 0.12.0 9999: Nim (formerly known as 'Nimrod') is a compiled, garbage-collected systems programming language
+dev-lang/nim 0.13.0 9999: Nim is a compiled, garbage-collected systems programming language
 dev-lang/pony 0.2.1 9999: Compiler for the Pony language
 dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
 dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
@@ -20,7 +20,7 @@ dev-nim/irc 9999: IRC client module for Nim
 dev-nim/jester 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 9999: Nim bindings for lthread
 dev-nim/mongo-nim 9999: Nim bindings for MongoDB
-dev-nim/nimble 0.6.4 9999: Nim package manager
+dev-nim/nimble 0.7.0 9999: Nim package manager
 dev-nim/nimforum 9999: Nim forum
 dev-nim/nimsuggest 9999: tool for providing auto completion data for Nim source code
 dev-nim/opencl-nim 9999: Nim bindings for OpenCL
