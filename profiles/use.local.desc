@@ -2,3 +2,48 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
+dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
+dev-lang/php:cli - Enable CLI SAPI
+dev-lang/php:embed - Enable embed SAPI
+dev-lang/php:enchant - Add supports Enchant spelling library.
+dev-lang/php:fileinfo - Add fileinfo extension support
+dev-lang/php:filter - Add filter extension support
+dev-lang/php:fpm - Enable the FastCGI Process Manager SAPI
+dev-lang/php:gd - Adds support for gd (bundled with PHP)
+dev-lang/php:hash - Enable the hash extension
+dev-lang/php:intl - Enables the intl extension for extended internalization support
+dev-lang/php:json - Enable JSON support
+dev-lang/php:ldap-sasl - Add SASL support for the PHP LDAP extension
+dev-lang/php:mysqlnd - Use native driver for mysql, mysqli, PDO_Mysql
+dev-lang/php:pdo - Enable the bundled PDO extensions
+dev-lang/php:phar - Enables the phar extension to provide phar archive support
+dev-lang/php:xmlreader - Enable XMLReader support
+dev-lang/php:xmlwriter - Enable XMLWriter support
+dev-lang/php:xslt - Enable the XSL extension
+dev-lang/php:zip - Enable ZIP file support
+dev-libs/libpcre2:bzip2 - Add support for pcregrep command to search within bzip2-compressed files (via app-arch/bzip2).
+dev-libs/libpcre2:pcre16 - Build PCRE2 library for 16 bit characters (e.g. UTF-16).
+dev-libs/libpcre2:pcre32 - Build PCRE2 library for 32 bit characters (e.g. UTF-32).
+dev-libs/libpcre2:readline - Add support for command line editing to pcre2test, through sys-libs/readline.
+dev-libs/libpcre2:recursion-limit - Limit match recursion to 8192; if disabled, the default limit is used, which is the same as the match limit.
+dev-libs/libpcre2:zlib - Add support for pcregrep command to search within gzip-compressed files (via sys-libs/zlib).
+media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
+media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
+media-libs/avidemux-plugins:aften - Enable A/52 (AC-3) audio encoder support.
+media-libs/avidemux-plugins:amr - Enable Adaptive Multi-Rate format support via media-libs/opencore-amr.
+media-libs/avidemux-plugins:fribidi - Enable unicode bidirectional algorithm support via dev-libs/fribidi.
+media-libs/avidemux-plugins:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
+media-libs/avidemux-plugins:opus - Adds support for the Opus codec via media-libs/opus.
+media-libs/avidemux-plugins:twolame - Enable TwoLAME support via media-sound/twolame, an optimised MPEG Audio Layer 2 (MP2) encoder.
+media-libs/avidemux-plugins:vpx - Enable WebM VP8 Codec SDK support via media-libs/libvpx.
+media-libs/avidemux-plugins:x265 - Enables HEVC support with media-libs/x265.
+media-sound/jack-audio-connection-kit:coreaudio - Build the CoreAudio driver on Mac OS X systems
+media-sound/jack-audio-connection-kit:cpudetection - Enables runtime cpudetection
+media-sound/jack-audio-connection-kit:pam - Add basic realime configuration via sys-auth/realtime-base
+media-sound/kid3:acoustid - Enable support for acoustic fingerprinting plugin using (media-libs/chromaprint)
+media-sound/kid3:phonon - Enable sound support via media-libs/phonon or dev-qt/qtphonon
+media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
+media-video/nvidia_video_sdk:tools - Build and install example tools.
+net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
+www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations

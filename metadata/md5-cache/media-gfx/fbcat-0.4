@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=doc? ( dev-libs/libxslt ) fbgrab? ( !media-gfx/fbgrab )
+DESCRIPTION=utility that takes a screenshot using the framebuffer device
+EAPI=5
+HOMEPAGE=https://code.google.com/p/fbcat/
+IUSE=doc fbgrab
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://bitbucket.org/jwilk/fbcat/downloads/fbcat-0.4.tar.gz
+_eclass_exported_funcs=src_compile:- src_install:-
+_md5_=9c6c1d3105095516f5b87a1c2559bbd1

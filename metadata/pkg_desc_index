@@ -1,3 +1,17 @@
+app-crypt/letsencrypt-s3front 9999: S3/CloudFront plugin for Let's Encrypt client
+app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
+app-office/upwork 4.0.144.0: Project collaboration and tracking software for upwork.com
+app-portage/cpuinfo2cpuflags 9999: Tool to guess CPU_FLAGS_X86 flags for the host
+app-vim/nim-syntax 9999: Nim language support
+app-vim/pony-syntax 9999: vim plugin: Pony language support
+app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
+dev-lang/nim 0.13.0 9999: Nim is a compiled, garbage-collected systems programming language
+dev-lang/php 5.3.29: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
+dev-lang/pony 0.2.1 9999: Compiler for the Pony language
+dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
+dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
+dev-libs/libpcre2 10.21_pre: Perl-compatible regular expression library
+dev-libs/lthread 9999: multicore enabled coroutine library written in C
 dev-nim/aporia 9999: IDE for the Nim programming language
 dev-nim/bcrypt-nim 9999: Nim bindings for bcrypt
 dev-nim/c2nim 9999: a tool to translate ANSI C code to Nim
@@ -19,3 +33,33 @@ dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
 dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
+dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
+media-gfx/flam3 3.0.1 9999: Tools and a library for creating fractal flames
+media-gfx/mcomix 1.2.1: A fork of comix, a GTK image viewer for comic book archives
+media-libs/avidemux-core 2.6.12: Core libraries for a video editor designed for simple cutting, filtering and encoding tasks
+media-libs/avidemux-plugins 2.6.12: Plugins for avidemux; a video editor designed for simple cutting, filtering and encoding tasks
+media-libs/glee 5.4.0: OpenGL Easy Extension library
+media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
+media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
+media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
+media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
+media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
+media-sound/kid3 3.3.1-r1: A simple tag editor for KDE
+media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
+media-tv/w_scan 20141122-r1: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
+media-video/avidemux 2.6.12: Video editor designed for simple cutting, filtering and encoding tasks
+media-video/nvidia_video_sdk 6.0.1: NVIDIA Video Codec SDK
+net-misc/streamtuner2 2.1.9: internet radio browser
+net-wireless/cubicsdr 0.1.20: Cross-Platform Software-Defined Radio Application
+net-wireless/liquid-dsp 1.2.0 9999: digital signal processing library for software-defined radios
+net-wireless/soapy-rtlsdr 0.2.0: SoapySDR RTL-SDR Support Module
+net-wireless/soapysdr 0.4.0 9999: vendor and platform neutral SDR support library
+sci-geosciences/gpsprune-bin 18.3: An application for viewing, editing and converting GPS data.
+sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
+sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
+sys-power/phc-intel 0.3.2.12.20: Processor Hardware Control for Intel CPUs
+www-servers/varnish 4.1.0: Varnish is a state-of-the-art, high-performance HTTP accelerator
+x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
+x11-misc/electricsheep 9999: realize the collective dream of sleeping computers from all over the internet
