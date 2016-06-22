@@ -5,6 +5,7 @@
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
 dev-lang/php:cli - Enable CLI SAPI
+dev-lang/php:curlwrappers - Enable curl wrappers
 dev-lang/php:embed - Enable embed SAPI
 dev-lang/php:enchant - Add supports Enchant spelling library.
 dev-lang/php:fileinfo - Add fileinfo extension support
