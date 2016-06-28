@@ -36,6 +36,7 @@ dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
 dev-python/python-fastimport 9999: Fastimport parser in Python
+games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1 9999: Tools and a library for creating fractal flames
 media-gfx/mcomix 1.2.1: A fork of comix, a GTK image viewer for comic book archives
