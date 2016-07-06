@@ -64,6 +64,5 @@ sci-geosciences/gpsprune-bin 18.3: An application for viewing, editing and conve
 sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
 sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
 sys-power/phc-intel 0.3.2.12.20: Processor Hardware Control for Intel CPUs
-www-servers/varnish 4.1.0: Varnish is a state-of-the-art, high-performance HTTP accelerator
 x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
 x11-misc/electricsheep 9999: realize the collective dream of sleeping computers from all over the internet
