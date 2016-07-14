@@ -1,6 +1,6 @@
 app-crypt/letsencrypt-s3front 9999: S3/CloudFront plugin for Let's Encrypt client
 app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
-app-office/upwork 4.0.144.0: Project collaboration and tracking software for upwork.com
+app-office/upwork 4.1.321 4.1.337: Project collaboration and tracking software for upwork.com
 app-portage/cpuinfo2cpuflags 9999: Tool to guess CPU_FLAGS_X86 flags for the host
 app-vim/nim-syntax 9999: Nim language support
 app-vim/pony-syntax 9999: vim plugin: Pony language support
