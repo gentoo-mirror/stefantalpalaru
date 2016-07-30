@@ -33,8 +33,11 @@ dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
 dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-python/flake8 3.0.3: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
+dev-python/mccabe 0.5.0: flake8 plugin: McCabe complexity checker
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+dev-python/pycodestyle 2.0.0: Python style guide checker (previously pep8)
 dev-python/python-fastimport 9999: Fastimport parser in Python
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
