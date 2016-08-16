@@ -35,7 +35,6 @@ dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/flake8 3.0.3: A wrapper around PyFlakes, pep8 & mccabe
-dev-python/flower 0.8.2: Flower is a web based tool for monitoring and administrating Celery clusters.
 dev-python/mccabe 0.5.0: flake8 plugin: McCabe complexity checker
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
 dev-python/pycodestyle 2.0.0: Python style guide checker (previously pep8)
@@ -43,18 +42,14 @@ dev-python/python-fastimport 9999: Fastimport parser in Python
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1 9999: Tools and a library for creating fractal flames
-media-gfx/mcomix 1.2.1: A fork of comix, a GTK image viewer for comic book archives
 media-libs/avidemux-core 2.6.12: Core libraries for a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.6.12: Plugins for avidemux; a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/glee 5.4.0: OpenGL Easy Extension library
-media-libs/zita-convolver 3.1.0: A high performance audio signal convolver library
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
 media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
 media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
-media-sound/jack-audio-connection-kit 0.124.1-r1: A low-latency audio server
-media-sound/kid3 3.3.1-r1: A simple tag editor for KDE
 media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r1: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 media-video/avidemux 2.6.12: Video editor designed for simple cutting, filtering and encoding tasks
@@ -68,6 +63,5 @@ sci-geosciences/gpsprune-bin 18.3: An application for viewing, editing and conve
 sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
 sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
 sys-power/phc-intel 0.3.2.12.22: Processor Hardware Control for Intel CPUs
-x11-drivers/xf86-video-virtualbox 5.0.0-r1: VirtualBox video driver
 x11-misc/electricsheep 9999: realize the collective dream of sleeping computers from all over the internet
 x11-themes/numix-solarized 9999: solarized version of Numix
