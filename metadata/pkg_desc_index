@@ -33,14 +33,11 @@ dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
 dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
-dev-python/flake8 3.0.3: A wrapper around PyFlakes, pep8 & mccabe
-dev-python/mccabe 0.5.0: flake8 plugin: McCabe complexity checker
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
-dev-python/pycodestyle 2.0.0: Python style guide checker (previously pep8)
 dev-python/python-fastimport 9999: Fastimport parser in Python
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
-media-gfx/flam3 3.0.1 9999: Tools and a library for creating fractal flames
+media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
 media-libs/avidemux-core 2.6.12: Core libraries for a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.6.12: Plugins for avidemux; a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/glee 5.4.0: OpenGL Easy Extension library
