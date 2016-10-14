@@ -47,7 +47,8 @@ media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB stic
 media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
-media-tv/w_scan 20141122-r1: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
+media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
+media-tv/w_scan2 1.0.0 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
 media-video/avidemux 2.6.12: Video editor designed for simple cutting, filtering and encoding tasks
 media-video/nvidia_video_sdk 6.0.1: NVIDIA Video Codec SDK
 net-misc/streamtuner2 2.1.9: internet radio browser
