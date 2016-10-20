@@ -33,6 +33,8 @@ dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
 dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-python/billiard 3.3.0.23: Python multiprocessing fork
+dev-python/celery 3.1.24-r1: Asynchronous task queue/job queue based on distributed message passing
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
 dev-python/python-fastimport 9999: Fastimport parser in Python
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher

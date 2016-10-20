@@ -26,6 +26,10 @@ dev-lang/php:xmlreader - Enable XMLReader support
 dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
 dev-lang/php:zip - Enable ZIP file support
+dev-python/celery:redis - Enables redis support
+dev-python/celery:sqs - Enables Amazon SQS transport module for celery
+dev-python/celery:yaml - Enable support of yaml as a configuration file format
+dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
 media-libs/avidemux-plugins:aften - Enable A/52 (AC-3) audio encoder support.
