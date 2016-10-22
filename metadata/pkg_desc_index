@@ -1,14 +1,14 @@
 app-crypt/letsencrypt-s3front 9999: S3/CloudFront plugin for Let's Encrypt client
 app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
 app-office/gnucash 2.6.14: A personal finance manager
-app-office/upwork 4.1.351: Project collaboration and tracking software for upwork.com
+app-office/upwork 4.2.77: Project collaboration and tracking software for upwork.com
 app-portage/cpuid2cpuflags 9999: Tool to guess CPU_FLAGS_X86 flags for the host
 app-vim/nim-syntax 9999: Nim language support
 app-vim/pony-syntax 9999: vim plugin: Pony language support
 app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
 dev-lang/nim 0.15.0-r1 9999: Nim is a compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
-dev-lang/pony 0.6.0 9999: Compiler for the Pony language
+dev-lang/pony 0.7.0 9999: Compiler for the Pony language
 dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
 dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
 dev-libs/lthread 9999: multicore enabled coroutine library written in C
