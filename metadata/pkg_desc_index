@@ -62,10 +62,10 @@ media-tv/w_scan2 1.0.0 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior k
 media-video/avidemux 2.6.12: Video editor designed for simple cutting, filtering and encoding tasks
 media-video/nvidia_video_sdk 6.0.1: NVIDIA Video Codec SDK
 net-misc/streamtuner2 2.1.9: internet radio browser
-net-wireless/cubicsdr 0.2.0: Cross-Platform Software-Defined Radio Application
-net-wireless/liquid-dsp 1.2.0 9999: digital signal processing library for software-defined radios
-net-wireless/soapy-rtlsdr 0.2.1: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.5.0 9999: vendor and platform neutral SDR support library
+net-wireless/cubicsdr 0.2.0-r1: Cross-Platform Software-Defined Radio Application
+net-wireless/liquid-dsp 1.2.0_p20161107 9999: digital signal processing library for software-defined radios
+net-wireless/soapy-rtlsdr 0.2.2: SoapySDR RTL-SDR Support Module
+net-wireless/soapysdr 0.5.4 9999: vendor and platform neutral SDR support library
 sci-geosciences/gpsprune-bin 18.3: An application for viewing, editing and converting GPS data.
 sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
 sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
