@@ -51,6 +51,7 @@ media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
 media-libs/avidemux-core 2.6.12: Core libraries for a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.6.12: Plugins for avidemux; a video editor designed for simple cutting, filtering and encoding tasks
 media-libs/glee 5.4.0: OpenGL Easy Extension library
+media-libs/portaudio 19.6.0_pre20161030: A free, cross-platform, open-source, audio I/O library
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
 media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
