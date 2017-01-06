@@ -61,7 +61,7 @@ media-sound/setbfree 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 media-tv/w_scan2 1.0.0 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
 media-video/nvidia_video_sdk 6.0.1: NVIDIA Video Codec SDK
-net-misc/streamtuner2 2.1.9: internet radio browser
+net-misc/streamtuner2 2.2.0: internet radio browser
 net-wireless/cubicsdr 0.2.0-r1: Cross-Platform Software-Defined Radio Application
 net-wireless/liquid-dsp 1.2.0_p20161107 9999: digital signal processing library for software-defined radios
 net-wireless/soapy-rtlsdr 0.2.2: SoapySDR RTL-SDR Support Module
