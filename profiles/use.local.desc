@@ -32,15 +32,6 @@ dev-python/celery:yaml - Enable support of yaml as a configuration file format
 dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
-media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
-media-libs/avidemux-plugins:aften - Enable A/52 (AC-3) audio encoder support.
-media-libs/avidemux-plugins:amr - Enable Adaptive Multi-Rate format support via media-libs/opencore-amr.
-media-libs/avidemux-plugins:fribidi - Enable unicode bidirectional algorithm support via dev-libs/fribidi.
-media-libs/avidemux-plugins:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
-media-libs/avidemux-plugins:opus - Adds support for the Opus codec via media-libs/opus.
-media-libs/avidemux-plugins:twolame - Enable TwoLAME support via media-sound/twolame, an optimised MPEG Audio Layer 2 (MP2) encoder.
-media-libs/avidemux-plugins:vpx - Enable WebM VP8 Codec SDK support via media-libs/libvpx.
-media-libs/avidemux-plugins:x265 - Enables HEVC support with media-libs/x265.
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/nvidia_video_sdk:tools - Build and install example tools.
 net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
