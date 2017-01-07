@@ -1,3 +1,4 @@
+app-admin/mcelog 146: A tool to log and decode Machine Check Exceptions
 app-crypt/letsencrypt-s3front 9999: S3/CloudFront plugin for Let's Encrypt client
 app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
 app-misc/iccloader 0.3 9999: systray widget used to load ICC color profiles with different color temperatures
