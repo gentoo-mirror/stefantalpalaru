@@ -26,7 +26,7 @@ dev-nim/irc 9999: IRC client module for Nim
 dev-nim/jester 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 9999: Nim bindings for lthread
 dev-nim/mongo-nim 9999: Nim bindings for MongoDB
-dev-nim/nimble 0.7.0 9999: Nim package manager
+dev-nim/nimble 0.8.2 9999: Nim package manager
 dev-nim/nimforum 9999: Nim forum
 dev-nim/opencl-nim 9999: Nim bindings for OpenCL
 dev-nim/opengl-nim 9999: Nim bindings for OpenGL
