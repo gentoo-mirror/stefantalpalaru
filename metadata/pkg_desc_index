@@ -14,14 +14,14 @@ dev-lang/pony 0.10.0 9999: Compiler for the Pony language
 dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
 dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
 dev-libs/lthread 9999: multicore enabled coroutine library written in C
-dev-nim/aporia 9999: IDE for the Nim programming language
+dev-nim/aporia 0.4.1 9999: IDE for the Nim programming language
 dev-nim/bcrypt-nim 9999: Nim bindings for bcrypt
 dev-nim/c2nim 9999: a tool to translate ANSI C code to Nim
-dev-nim/cairo-nim 9999: Nim bindings for cairo
+dev-nim/cairo-nim 1.0_pre20161129 9999: Nim bindings for cairo
 dev-nim/chan-nim 9999: Nim bindings for dev-libs/chan
-dev-nim/dialogs 9999: portable dialogs for Nim
+dev-nim/dialogs 1.0_pre20160326 9999: portable dialogs for Nim
 dev-nim/golib-nim 9999: Nim bindings for golib
-dev-nim/gtk2-nim 9999: Nim bindings for GTK+ 2
+dev-nim/gtk2-nim 1.0 9999: Nim bindings for GTK+ 2
 dev-nim/irc 9999: IRC client module for Nim
 dev-nim/jester 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 9999: Nim bindings for lthread
