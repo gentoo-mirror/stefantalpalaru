@@ -26,6 +26,9 @@ dev-lang/php:xmlreader - Enable XMLReader support
 dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
 dev-lang/php:zip - Enable ZIP file support
+dev-lang/py28:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/py28:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/py28:wininst - Install Windows executables required to create an executable installer for MS Windows.
 dev-python/celery:redis - Enables redis support
 dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
