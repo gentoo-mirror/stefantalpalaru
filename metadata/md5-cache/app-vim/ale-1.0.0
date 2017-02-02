@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm prepare
+DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+DESCRIPTION=Asynchronous Lint Engine for vim
+EAPI=6
+HOMEPAGE=https://github.com/w0rp/ale
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+SLOT=0
+SRC_URI=https://github.com/w0rp/ale/archive/v1.0.0.tar.gz -> ale-1.0.0.tar.gz
+_eclass_exported_funcs=pkg_postrm:vim-plugin pkg_postinst:- src_prepare:- src_install:-
+_eclasses_=vim-doc	1b0813c9dadf2431c96854a8d46f5eaf	vim-plugin	cba1cae8a355e4e89cbd2615aed3b1d5
+_md5_=27d224807f10bd26e52f165c1e9da966
