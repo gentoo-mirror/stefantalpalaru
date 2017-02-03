@@ -33,7 +33,6 @@ dev-python/celery:redis - Enables redis support
 dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
 dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
-dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/nvidia_video_sdk:tools - Build and install example tools.
