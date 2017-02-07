@@ -41,7 +41,7 @@ dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif fil
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
 dev-python/python-fastimport 9999: Fastimport parser in Python
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
-dev-util/systemtap 3.0_p20161230: A linux trace/probe tool
+dev-util/systemtap 3.0_p20170206: A linux trace/probe tool
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
