@@ -33,4 +33,6 @@ dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/nvidia_video_sdk:tools - Build and install example tools.
+net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
+net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
