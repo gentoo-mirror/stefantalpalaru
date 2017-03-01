@@ -49,7 +49,9 @@ dev-util/systemtap 3.1: A linux trace/probe tool
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
+media-gfx/pngquant 2.8.0: command-line utility and library for lossy compression of PNG images
 media-libs/glee 5.4.0: OpenGL Easy Extension library
+media-libs/libimagequant 2.8.2: Palette quantization library that powers pngquant and other PNG optimizers
 media-libs/portaudio 19.6.0_pre20161030: A free, cross-platform, open-source, audio I/O library
 media-libs/zita-convolver 3.1.0-r1: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
