@@ -1,5 +1,5 @@
 app-admin/mcelog 146: A tool to log and decode Machine Check Exceptions
-app-crypt/letsencrypt-s3front 9999: S3/CloudFront plugin for Let's Encrypt client
+app-crypt/certbot-s3front 0.2.0_p20170216 9999: S3/CloudFront plugin for Let's Encrypt client
 app-emulation/vagrant-bin 1.7.3: Tool for building and distributing virtual machines
 app-misc/iccloader 0.3 9999: systray widget used to load ICC color profiles with different color temperatures
 app-office/upwork 4.2.136: Project collaboration and tracking software for upwork.com
@@ -36,11 +36,14 @@ dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
 dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-python/boto3 1.4.4: The AWS SDK for Python
+dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
 dev-python/case 1.5.2: Python unittest Utilities
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
 dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
 dev-python/python-fastimport 9999: Fastimport parser in Python
+dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
 dev-util/systemtap 3.1: A linux trace/probe tool
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
