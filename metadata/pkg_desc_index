@@ -42,6 +42,7 @@ dev-python/case 1.5.2: Python unittest Utilities
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
 dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+dev-python/pillow 4.0.0a: Python Imaging Library (fork)
 dev-python/python-fastimport 9999: Fastimport parser in Python
 dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
