@@ -50,6 +50,7 @@ dev-util/systemtap 3.1: A linux trace/probe tool
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
+media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
 media-gfx/pngquant 2.8.0: command-line utility and library for lossy compression of PNG images
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/libimagequant 2.8.2: Palette quantization library that powers pngquant and other PNG optimizers

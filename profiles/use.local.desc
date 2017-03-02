@@ -33,6 +33,9 @@ dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 dev-python/pillow:imagequant - Enable support for media-libs/libimagequant (pngquant backend).
 dev-python/pillow:webp - Enable support for webp image format.
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
+media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
+media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
+media-gfx/geeqie:map - Enable items map display - experimental
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/nvidia_video_sdk:tools - Build and install example tools.
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
