@@ -37,7 +37,6 @@ media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
-media-video/nvidia_video_sdk:tools - Build and install example tools.
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support

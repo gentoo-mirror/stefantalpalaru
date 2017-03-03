@@ -38,7 +38,6 @@ dev-nim/x11-nim 9999: Nim bindings for X11
 dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/boto3 1.4.4: The AWS SDK for Python
 dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
-dev-python/case 1.5.2: Python unittest Utilities
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
 dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
@@ -47,7 +46,6 @@ dev-python/pillow 4.0.0a_p20170302: Python Imaging Library (fork)
 dev-python/python-fastimport 9999: Fastimport parser in Python
 dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
-dev-util/systemtap 3.1: A linux trace/probe tool
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
 media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
@@ -65,7 +63,6 @@ media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 media-tv/w_scan2 1.0.0 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
-media-video/nvidia_video_sdk 6.0.1: NVIDIA Video Codec SDK
 net-libs/liquid-dsp 1.3.0_p20170204 9999: digital signal processing library for software-defined radios
 net-misc/streamtuner2 2.2.0: internet radio browser
 net-p2p/transmission 2.92_p20170212: A fast, easy, and free BitTorrent client
