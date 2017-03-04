@@ -47,7 +47,7 @@ dev-python/python-fastimport 9999: Fastimport parser in Python
 dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
 games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
-media-gfx/fbcat 0.4: utility that takes a screenshot using the framebuffer device
+media-gfx/fbcat 0.4.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.0.1-r1 9999: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
 media-gfx/pngquant 2.8.0: command-line utility and library for lossy compression of PNG images
@@ -57,8 +57,8 @@ media-libs/portaudio 19.6.0_pre20161030: A free, cross-platform, open-source, au
 media-libs/zita-convolver 3.1.0-r1: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
-media-radio/dabreceiver 0.97: SDR-J DAB/DAB+ receiver for RTL2832-based USB sticks
 media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
+media-radio/qt-dab 0.998: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
 media-radio/swreceiver 6.0: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
@@ -72,7 +72,7 @@ net-wireless/soapysdr 0.5.4 9999: vendor and platform neutral SDR support librar
 sci-geosciences/gpsprune-bin 18.6: An application for viewing, editing and converting GPS data.
 sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
 sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
-sys-power/phc-intel 0.3.2.12.23-r1: Processor Hardware Control for Intel CPUs
+sys-power/phc-intel 0.3.2.24: Processor Hardware Control for Intel CPUs
 www-apps/collectd-web 0.4.1: Collectd-web is a web-based front-end for RRD data collected by collectd
 www-misc/profile-sync-daemon 5.75: Symlinks and syncs browser profile dirs to RAM
 x11-misc/electricsheep 9999: realize the collective dream of sleeping computers from all over the internet
