@@ -70,10 +70,10 @@ net-wireless/cubicsdr 0.2.1_alpha1_p20170209: Cross-Platform Software-Defined Ra
 net-wireless/soapy-rtlsdr 0.2.2: SoapySDR RTL-SDR Support Module
 net-wireless/soapysdr 0.5.4 9999: vendor and platform neutral SDR support library
 sci-geosciences/gpsprune-bin 18.6: An application for viewing, editing and converting GPS data.
-sci-geosciences/mkgmap-bin 3676: Tool to create garmin maps
-sci-geosciences/splitter-bin 437: Tile splitter for mkgmap
+sci-geosciences/mkgmap-bin 3831: Tool to create garmin maps
+sci-geosciences/splitter-bin 580: Tile splitter for mkgmap
 sys-power/phc-intel 0.3.2.24: Processor Hardware Control for Intel CPUs
-www-apps/collectd-web 0.4.1: Collectd-web is a web-based front-end for RRD data collected by collectd
+www-apps/collectd-web 0.4.1_p20140225: Collectd-web is a web-based front-end for RRD data collected by collectd
 www-misc/profile-sync-daemon 5.75: Symlinks and syncs browser profile dirs to RAM
 x11-misc/electricsheep 2.7.33_p20170204 9999: realize the collective dream of sleeping computers from all over the internet
 x11-themes/numix-solarized 9999: solarized version of Numix
