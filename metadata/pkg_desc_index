@@ -57,7 +57,7 @@ media-libs/portaudio 19.6.0_pre20161030: A free, cross-platform, open-source, au
 media-libs/zita-convolver 3.1.0-r1: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
-media-radio/fmreceiver 0.97: SDR-J FM receiver for RTL2832-based USB sticks
+media-radio/fmreceiver 0.99_pre20160312: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/qt-dab 0.998: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
 media-radio/swreceiver 7.25_pre20161128: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
