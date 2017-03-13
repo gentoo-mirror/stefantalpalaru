@@ -40,13 +40,13 @@ dev-python/boto3 1.4.4: The AWS SDK for Python
 dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
 dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif file
-dev-python/messaging 0.5.12: SMS/MMS encoder/decoder
+dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
 dev-python/pgmagick 0.6.4: Yet another boost.python based wrapper for GraphicsMagick
 dev-python/pillow 4.0.0a_p20170302: Python Imaging Library (fork)
 dev-python/python-fastimport 9999: Fastimport parser in Python
 dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
-games-emulation/dbgl-bin 0.80: DOSBox Game Launcher
+games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
 media-gfx/fbcat 0.4.4: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
