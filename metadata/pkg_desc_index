@@ -39,7 +39,7 @@ dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
 dev-python/boto3 1.4.4: The AWS SDK for Python
 dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
-dev-python/imagesize 0.7.1-r2: Getting image size from png/jpeg/jpeg2000/gif file
+dev-python/imagesize 0.7.1_p20160530: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
 dev-python/pgmagick 0.6.4: Yet another boost.python based wrapper for GraphicsMagick
 dev-python/pillow 4.0.0a_p20170302: Python Imaging Library (fork)
