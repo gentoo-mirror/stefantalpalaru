@@ -13,29 +13,28 @@ dev-lang/php 5.3.29: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apa
 dev-lang/pony 0.11.2 9999: Compiler for the Pony language
 dev-lang/tauthon 2.8.0_pre20170203: Python 2.7 fork with new syntax, builtins, and libraries backported from Python 3
 dev-libs/chan 0.0.3 9999: pure C implementation of Go channels
-dev-libs/golib 9999: a library exposing Go's channels and goroutines to plain C
+dev-libs/golib 0.0.1_pre20170320 9999: a library exposing Go's channels and goroutines to plain C
 dev-libs/libb64 1.2.1-r1: Fast Base64 encoding/decoding routines
-dev-libs/lthread 9999: multicore enabled coroutine library written in C
+dev-libs/lthread 1.0_pre20150617 9999: multicore enabled coroutine library written in C
 dev-nim/aporia 0.4.1 9999: IDE for the Nim programming language
-dev-nim/bcrypt-nim 9999: Nim bindings for bcrypt
+dev-nim/bcrypt-nim 0.2.1_pre20150221 9999: Nim bindings for bcrypt
 dev-nim/c2nim 9999: a tool to translate ANSI C code to Nim
 dev-nim/cairo-nim 1.0_pre20161129 9999: Nim bindings for cairo
 dev-nim/chan-nim 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.0_pre20160326 9999: portable dialogs for Nim
-dev-nim/golib-nim 9999: Nim bindings for golib
-dev-nim/gtk2-nim 1.0 9999: Nim bindings for GTK+ 2
-dev-nim/irc 9999: IRC client module for Nim
-dev-nim/jester 9999: sinatra-like web framework for Nim
-dev-nim/lthread-nim 9999: Nim bindings for lthread
-dev-nim/mongo-nim 9999: Nim bindings for MongoDB
-dev-nim/nimble 0.8.2 9999: Nim package manager
-dev-nim/nimforum 9999: Nim forum
-dev-nim/opencl-nim 9999: Nim bindings for OpenCL
-dev-nim/opengl-nim 9999: Nim bindings for OpenGL
-dev-nim/pas2nim 9999: a tool to translate Pascal code to Nim
-dev-nim/sdl2-nim 9999: Nim bindings for SDL 2
-dev-nim/x11-nim 9999: Nim bindings for X11
-dev-nim/zmq-nim 9999: Nim bindings for ZeroMQ
+dev-nim/golib-nim 0.0.1_pre20161208 9999: Nim bindings for golib
+dev-nim/gtk2-nim 1.1_pre20161106 9999: Nim bindings for GTK+ 2
+dev-nim/irc 0.1.0_pre20170117 9999: IRC client module for Nim
+dev-nim/jester 0.1.1 9999: sinatra-like web framework for Nim
+dev-nim/lthread-nim 0.1_pre20150405 9999: Nim bindings for lthread
+dev-nim/mongo-nim 0.3_pre20150701 9999: Nim bindings for MongoDB
+dev-nim/nimble 0.8.4 9999: Nim package manager
+dev-nim/nimforum 0.1.0_pre20170301 9999: Nim forum
+dev-nim/opencl-nim 1.0_pre20160731 9999: Nim bindings for OpenCL
+dev-nim/opengl-nim 1.1.0 9999: Nim bindings for OpenGL
+dev-nim/sdl2-nim 1.1_pre20170319 9999: Nim bindings for SDL 2
+dev-nim/x11-nim 0.1_pre20161106 9999: Nim bindings for X11
+dev-nim/zmq-nim 0.1_pre20161028 9999: Nim bindings for ZeroMQ
 dev-python/boto3 1.4.4: The AWS SDK for Python
 dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing

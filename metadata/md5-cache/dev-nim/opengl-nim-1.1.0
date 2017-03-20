@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=>dev-lang/nim-0.10.3 dev-nim/x11-nim virtual/opengl
+DESCRIPTION=Nim bindings for OpenGL
+EAPI=6
+HOMEPAGE=https://github.com/nim-lang/opengl
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/nim-lang/opengl/archive/1.1.0.tar.gz -> opengl-nim-1.1.0.tar.gz
+_eclass_exported_funcs=src_install:-
+_md5_=69109ee9136650eb9eba245ddecba796
