@@ -1,13 +1,13 @@
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Tool for building and distributing virtual machines
-EAPI=5
+EAPI=6
 HOMEPAGE=http://vagrantup.com/
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=app-arch/libarchive net-misc/curl !app-emulation/vagrant
 RESTRICT=mirror
 SLOT=0
-SRC_URI=amd64? ( https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.3_x86_64.deb ) x86? ( https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.3_i686.deb )
+SRC_URI=amd64? ( https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb ) x86? ( https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_i686.deb )
 _eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
 _eclasses_=epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70
-_md5_=055e37a7ba1292d22e944961bd4b72a5
+_md5_=29f04b9cc06f6f45138b925423547029
