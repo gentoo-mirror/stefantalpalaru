@@ -7,7 +7,7 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
-SRC_URI=https://github.com/w0rp/ale/archive/v1.0.0.tar.gz -> ale-1.0.0.tar.gz
-_eclass_exported_funcs=pkg_postrm:vim-plugin pkg_postinst:- src_prepare:- src_install:-
+SRC_URI=https://github.com/w0rp/ale/archive/v1.2.0.tar.gz -> ale-1.2.0.tar.gz
+_eclass_exported_funcs=pkg_postrm:vim-plugin pkg_postinst:- src_prepare:- src_install:vim-plugin
 _eclasses_=vim-doc	af2c81a1feeb0a99e91bee3e20769edb	vim-plugin	6f0171b0a2f2fce005c13b4c0685a0d8
-_md5_=2390f4e3ff3f1c7b478c0d57c949e692
+_md5_=3ddfc6121834bcd2117517740ef3db9c
