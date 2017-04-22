@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:- src_test:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=bc08bbeef1f41ede1598c56c539a44b3
+_md5_=9220eedc80e09d37cf61e7ee654a0565
