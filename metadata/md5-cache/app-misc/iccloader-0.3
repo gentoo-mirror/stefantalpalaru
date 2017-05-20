@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile configure install prepare test
+DEFINED_PHASES=configure prepare
 DEPEND=dev-libs/glib:2 media-gfx/argyllcms x11-libs/gtk+:3 || ( dev-lang/vala:0.34 dev-lang/vala:0.32 dev-lang/vala:0.30 dev-lang/vala:0.28 dev-lang/vala:0.26 ) >=dev-util/intltool-0.50 virtual/pkgconfig >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=systray widget used to load ICC color profiles with different color temperatures
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/stefantalpalaru/iccloader
 IUSE=nls
 KEYWORDS=~amd64 ~x86
@@ -9,6 +9,6 @@ LICENSE=MPL-2.0
 RDEPEND=dev-libs/glib:2 media-gfx/argyllcms x11-libs/gtk+:3
 SLOT=0
 SRC_URI=https://github.com/stefantalpalaru/iccloader/archive/v0.3.tar.gz -> iccloader-0.3.tar.gz
-_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:autotools-utils
-_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	autotools-utils	5a4611dfba155b1659528663fad4cd5e	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vala	45cd5c637ea9287eeaf983960768e17c
-_md5_=4ee35315e554b23728b4b215467d5322
+_eclass_exported_funcs=src_prepare:- src_configure:-
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vala	45cd5c637ea9287eeaf983960768e17c
+_md5_=68a3e244d72f3e291ac75b9c4529f794
