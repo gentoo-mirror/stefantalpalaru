@@ -22,7 +22,7 @@ dev-nim/c2nim 0.9.12_pre20161024 9999: a tool to translate ANSI C code to Nim
 dev-nim/cairo-nim 1.0_pre20161029 9999: Nim bindings for cairo
 dev-nim/chan-nim 0.1_pre20170320 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.0_pre20160326 9999: portable dialogs for Nim
-dev-nim/golib-nim 0.0.1_pre20161208 9999: Nim bindings for golib
+dev-nim/golib-nim 0.0.1_pre20170607 9999: Nim bindings for golib
 dev-nim/gtk2-nim 1.1_pre20161106 9999: Nim bindings for GTK+ 2
 dev-nim/irc 0.1.0_pre20170117 9999: IRC client module for Nim
 dev-nim/jester 0.1.1 9999: sinatra-like web framework for Nim
