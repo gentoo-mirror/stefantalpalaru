@@ -1,0 +1,13 @@
+DEFINED_PHASES=install test unpack
+DEPEND=>=dev-lang/nim-0.11.3 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Nim unit test library
+EAPI=6
+HOMEPAGE=https://github.com/jyapayne/einheit
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/nim-0.11.3
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_test:- src_install:-
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=7133ae0bac3eb77b6862398a9c9b4b29
