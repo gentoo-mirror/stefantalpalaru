@@ -60,6 +60,7 @@ media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
 media-radio/fmreceiver 0.99_pre20160312: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/qt-dab 0.998: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
 media-radio/swreceiver 7.25_pre20161128: SDR-J SW receiver for RTL2832-based USB sticks
+media-sound/jack_capture 0.9.73: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 media-tv/w_scan2 1.0.1 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
