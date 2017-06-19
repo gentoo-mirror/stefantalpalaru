@@ -36,6 +36,10 @@ media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mim
 media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
+media-sound/hydrogen:jacksession - Enable jacksession support
+media-sound/hydrogen:lrdf - Enable liblrdf support
+media-sound/hydrogen:portmidi - Enable portmidi support
+media-sound/hydrogen:rubberband - Enable rubberband support
 media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/vlc:X - Enables support for, e.g., fullscreen mode via the X Window System. By itself, this flag does not build a graphical interface.
 media-video/vlc:avcodec - Enables libavcodec support for video/audio encoding/decoding. libavcodec is part of FFmpeg.
