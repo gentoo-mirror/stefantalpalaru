@@ -10,4 +10,4 @@ RDEPEND=>=dev-lang/nim-0.11.3
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_test:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=7133ae0bac3eb77b6862398a9c9b4b29
+_md5_=94a828545a0d1a3eff3547efa2799df7

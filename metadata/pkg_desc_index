@@ -22,7 +22,7 @@ dev-nim/c2nim 0.9.12_pre20161024 9999: a tool to translate ANSI C code to Nim
 dev-nim/cairo-nim 1.0_pre20161029 9999: Nim bindings for cairo
 dev-nim/chan-nim 0.1_pre20170320 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.0_pre20160326 9999: portable dialogs for Nim
-dev-nim/einheit 0.1.7_p20170201: Nim unit test library
+dev-nim/einheit 0.1.7_p20170620: Nim unit test library
 dev-nim/golib-nim 0.0.1_pre20170607 9999: Nim bindings for golib
 dev-nim/gtk2-nim 1.1_pre20161106 9999: Nim bindings for GTK+ 2
 dev-nim/irc 0.1.0_pre20170117 9999: IRC client module for Nim
@@ -63,6 +63,7 @@ media-radio/qt-dab 0.998: software DAB decoder for use with a dabstick, airspy o
 media-radio/swreceiver 7.25_pre20161128: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/gtklick 0.6.4-r1: A simple metronome with an easy-to-use GTK interface
 media-sound/hydrogen 0.9.7 9999: Advanced drum machine
+media-sound/jack-audio-connection-kit 1.9.11_rc1: A low-latency audio server (media-sound/jack2 copy because of #602898)
 media-sound/jack_capture 0.9.73: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
