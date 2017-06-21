@@ -36,6 +36,8 @@ media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mim
 media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
+media-gfx/gmic:cli - Build CLI interface
+media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
 media-sound/hydrogen:jacksession - Enable jacksession support
 media-sound/hydrogen:lrdf - Enable liblrdf support
 media-sound/hydrogen:portmidi - Enable portmidi support
