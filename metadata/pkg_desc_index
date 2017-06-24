@@ -37,7 +37,7 @@ dev-nim/sdl2-nim 1.1_pre20170319 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 0.1_pre20161106 9999: Nim bindings for X11
 dev-nim/zmq-nim 0.1_pre20161028 9999: Nim bindings for ZeroMQ
 dev-python/boto3 1.4.4: The AWS SDK for Python
-dev-python/botocore 1.5.19: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.52: Low-level, data-driven core of boto 3.
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
 dev-python/imagesize 0.7.1_p20160530: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
