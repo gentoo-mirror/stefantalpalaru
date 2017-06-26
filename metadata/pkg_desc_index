@@ -67,6 +67,7 @@ media-sound/hydrogen 0.9.7 9999: Advanced drum machine
 media-sound/jack-audio-connection-kit 1.9.11_rc1: A low-latency audio server (media-sound/jack2 copy because of #602898)
 media-sound/jack_capture 0.9.73: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/setbfree 0.8.4 99999999: MIDI controlled DSP tonewheel organ
+media-sound/tg 0.5.0 9999: a program for timing mechanical watches
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 media-tv/w_scan2 1.0.1 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
 media-video/vlc 9999-r1: VLC media player - Video player and streamer
