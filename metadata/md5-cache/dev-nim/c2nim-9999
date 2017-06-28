@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install test unpack
-DEPEND=>=dev-lang/nim-0.14.0 >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-lang/nim-0.16.0 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=a tool to translate ANSI C code to Nim
 EAPI=6
 HOMEPAGE=https://github.com/nim-lang/c2nim
 IUSE=doc test
 LICENSE=MIT
-RDEPEND=>=dev-lang/nim-0.14.0
+RDEPEND=>=dev-lang/nim-0.16.0
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_test:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=02b2df20c462eb2e246cc82f83f05a91
+_md5_=84719ca70eee5b0eac623c32f6dd7fa0

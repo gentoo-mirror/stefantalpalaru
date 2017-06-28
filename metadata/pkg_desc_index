@@ -18,7 +18,7 @@ dev-libs/libb64 1.2.1-r1: Fast Base64 encoding/decoding routines
 dev-libs/lthread 1.0_pre20150617 9999: multicore enabled coroutine library written in C
 dev-nim/aporia 0.4.1 9999: IDE for the Nim programming language
 dev-nim/bcrypt-nim 0.2.1_pre20150221 9999: Nim bindings for bcrypt
-dev-nim/c2nim 0.9.12_pre20161024 9999: a tool to translate ANSI C code to Nim
+dev-nim/c2nim 0.9.13_p20170610 9999: a tool to translate ANSI C code to Nim
 dev-nim/cairo-nim 1.0_pre20161029 9999: Nim bindings for cairo
 dev-nim/chan-nim 0.1_pre20170320 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.0_pre20160326 9999: portable dialogs for Nim
