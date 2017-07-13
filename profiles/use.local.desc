@@ -30,8 +30,6 @@ dev-python/celery:redis - Enables redis support
 dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
 dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
-dev-python/pillow:imagequant - Enable support for media-libs/libimagequant (pngquant backend).
-dev-python/pillow:webp - Enable support for webp image format.
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
