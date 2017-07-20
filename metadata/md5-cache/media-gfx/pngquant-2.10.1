@@ -1,5 +1,5 @@
-DEFINED_PHASES=compile configure install prepare
-DEPEND=media-libs/libpng:0= sys-libs/zlib:= lcms? ( media-libs/lcms:2 ) media-libs/libimagequant
+DEFINED_PHASES=configure install prepare
+DEPEND=media-libs/libpng:0= sys-libs/zlib:= lcms? ( media-libs/lcms:2 ) media-gfx/libimagequant
 DESCRIPTION=command-line utility and library for lossy compression of PNG images
 EAPI=6
 HOMEPAGE=http://pngquant.org/
@@ -8,7 +8,7 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 HPND rwpng
 RDEPEND=media-libs/libpng:0= sys-libs/zlib:= lcms? ( media-libs/lcms:2 )
 SLOT=0
-SRC_URI=http://pngquant.org/pngquant-2.8.0-src.tar.gz
-_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:- src_install:-
+SRC_URI=http://pngquant.org/pngquant-2.10.1-src.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
-_md5_=d2f89e066be24ffc1d7dfef1dc4efc41
+_md5_=9ba638046e63a168d1efe13c3fe8bcfe
