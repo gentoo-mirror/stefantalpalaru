@@ -3,10 +3,10 @@ DEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Nim is a compiled, garbage-collected systems programming language
 EAPI=6
 HOMEPAGE=http://nim-lang.org/
-IUSE=boehm-gc doc +readline test
+IUSE=boehm-gc +readline test
 LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 _eclass_exported_funcs=src_unpack:- src_compile:- src_test:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=a8d6106ba584110196b7e5558873c64f
+_md5_=772ba1488c7bb242661a6cbe5e0aa060
