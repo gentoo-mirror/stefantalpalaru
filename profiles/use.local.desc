@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
+app-vim/youcompleteme:rust - Enable semantic support for Rust
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
 dev-lang/php:cli - Enable CLI SAPI
 dev-lang/php:curlwrappers - Enable curl wrappers
