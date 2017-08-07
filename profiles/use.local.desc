@@ -100,6 +100,7 @@ media-video/vlc:x265 - Support X265 Encoder.
 media-video/vlc:xcb - Support the X C-language Binding, a replacement for Xlib; !!! you will need this option to be able to integrate video in the Qt interface, see bug #500678.
 media-video/vlc:zeroconf - Enables support for zero-configuration networking via avahi.
 media-video/vlc:zvbi - Enables support for teletext subtitles via the zvbi library.
+net-mail/courier-imap:trashquota - include deleted messages, and the Trash folder, in the estimated quota usage for maildirs
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
