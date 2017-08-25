@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 _eclass_exported_funcs=src_unpack:- src_compile:- src_test:- src_install:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
 _md5_=772ba1488c7bb242661a6cbe5e0aa060
