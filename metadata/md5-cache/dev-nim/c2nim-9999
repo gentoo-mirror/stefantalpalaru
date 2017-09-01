@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/nim-0.16.0
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_test:- src_install:-
-_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
+_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=84719ca70eee5b0eac623c32f6dd7fa0

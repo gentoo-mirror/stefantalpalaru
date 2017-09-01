@@ -10,5 +10,5 @@ RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boe
 SLOT=0
 SRC_URI=http://nim-lang.org/download/nim-0.17.0.tar.xz
 _eclass_exported_funcs=src_unpack:- src_compile:- src_test:- src_install:-
-_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
+_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=6426e5455bd00307cdb3ef6fda08509f
