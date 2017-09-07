@@ -10,5 +10,4 @@ RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:0 sys-libs/ncu
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/ponylang/ponyc/archive/0.19.0.tar.gz -> pony-0.19.0.tar.gz
-_eclass_exported_funcs=src_prepare:- src_compile:- src_test:- src_install:-
 _md5_=484becd261596c8f705c7c1e1cc5370c

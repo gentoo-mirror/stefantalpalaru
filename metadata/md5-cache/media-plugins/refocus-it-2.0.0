@@ -8,5 +8,4 @@ LICENSE=GPL-2
 RDEPEND=media-gfx/gimp:2 x11-libs/gtk+:2
 SLOT=0
 SRC_URI=mirror://sourceforge/refocus-it/refocus-it-2.0.0.tar.gz
-_eclass_exported_funcs=-
 _md5_=fb784db946e3029a38e4111ad023dd93

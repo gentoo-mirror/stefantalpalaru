@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/nim-lang/opencl
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=aa21c12d4f767372b2f06f554c3c9228

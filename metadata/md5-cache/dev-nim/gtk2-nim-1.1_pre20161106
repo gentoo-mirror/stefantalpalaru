@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/nim-lang/gtk2
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=98b28145adbaa2c56fda2b4e1ad37ac0
