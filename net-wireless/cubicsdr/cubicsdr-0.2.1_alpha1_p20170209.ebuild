@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+rtlsdr"
 
-DEPEND="media-libs/rtaudio
+DEPEND=">=media-libs/rtaudio-4.1.2
 	>net-libs/liquid-dsp-1.2.0
 	>=net-wireless/soapysdr-0.4.0
 	rtlsdr? ( net-wireless/soapy-rtlsdr )
