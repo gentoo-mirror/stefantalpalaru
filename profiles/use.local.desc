@@ -131,6 +131,10 @@ media-video/vlc:xcb - Support the X C-language Binding, a replacement for Xlib; 
 media-video/vlc:zeroconf - Enables support for zero-configuration networking via avahi.
 media-video/vlc:zvbi - Enables support for teletext subtitles via the zvbi library.
 net-mail/courier-imap:trashquota - include deleted messages, and the Trash folder, in the estimated quota usage for maildirs
+net-misc/hylafaxplus:html - Convert faxes into html email
+net-misc/hylafaxplus:jbig - JBIG Fax Compression Support
+net-misc/hylafaxplus:mgetty - Receive faxes via serial port connections
+net-misc/hylafaxplus:pam - hfaxd authentication via PAM
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-wireless/cubicsdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
