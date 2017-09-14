@@ -12,7 +12,7 @@ app-vim/youcompleteme 20170724 99999999-r1: vim plugin: a code-completion engine
 dev-db/mariadb 10.1.26-r1: An enhanced, drop-in replacement for MySQL
 dev-lang/nim 0.17.2-r100 9999: Nim is a compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
-dev-lang/pony 0.19.0 9999: Compiler for the Pony language
+dev-lang/pony 0.19.1 9999: Compiler for the Pony language
 dev-lang/tauthon 2.8.0_pre20170519: Python 2.7 fork with new syntax, builtins, and libraries backported from Python 3
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
 dev-libs/golib 0.0.1_pre20170724 9999: a library exposing Go's channels and goroutines to plain C
