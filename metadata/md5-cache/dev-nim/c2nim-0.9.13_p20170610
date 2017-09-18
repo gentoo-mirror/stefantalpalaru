@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/nim-0.16.0
 SLOT=0
-_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
 _md5_=92b790f05091446df38ef93282be09f5
