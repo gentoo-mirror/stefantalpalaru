@@ -92,7 +92,6 @@ media-video/vlc:fluidsynth - Enables Fluidsynth MIDI software synthesis (with ex
 media-video/vlc:gcrypt - Enables cryptography support via libgcrypt.
 media-video/vlc:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
 media-video/vlc:gstreamer - Enables GStreamer based decoding support (currently supports only video decoding)
-media-video/vlc:httpd - Enables a web based interface for vlc.
 media-video/vlc:kate - Adds support for Ogg Kate subtitles via libkate.
 media-video/vlc:libtar - Uses libtar instead of the built-in tar reader for reading custom skins.
 media-video/vlc:libtiger - Enables Ogg Kate subtitles rendering using libtiger.
