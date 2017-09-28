@@ -10,6 +10,7 @@ app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 app-vim/youcompleteme 20170724 99999999-r1: vim plugin: a code-completion engine for Vim
 dev-db/mariadb 10.1.26-r1: An enhanced, drop-in replacement for MySQL
+dev-db/pgadmin3 1.22.2: wxWidgets GUI for PostgreSQL
 dev-lang/nim 0.17.2-r100 9999: Nim is a compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r2: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.19.2 9999: Compiler for the Pony language
