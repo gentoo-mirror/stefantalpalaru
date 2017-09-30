@@ -47,10 +47,10 @@ dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 dev-python/pgmagick 0.6.5_p20170526: Yet another boost.python based wrapper for GraphicsMagick
 dev-python/python-fastimport 9999: Fastimport parser in Python
-dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.1.11: An Amazon S3 Transfer Manager
 dev-ruby/rmagick 2.16.0-r1: An interface between Ruby and the ImageMagick(TM) image processing library
 games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
-media-gfx/fbcat 0.4.4: utility that takes a screenshot using the framebuffer device
+media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
 media-gfx/gmic 2.0.2: GREYC's Magic Image Converter
@@ -75,15 +75,15 @@ media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior k
 media-tv/w_scan2 1.0.1 9999: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations (w_scan fork)
 media-video/vlc 9999-r1: VLC media player - Video player and streamer
 media-video/vobsub2srt 1.0_pre20170129 9999: Converts VobSub subtitles (.sub/.idx) to .srt text subtitles using tesseract
-net-libs/liquid-dsp 1.3.0_p20170204 9999-r1: digital signal processing library for software-defined radios
+net-libs/liquid-dsp 1.3.0_p20170813 9999-r1: digital signal processing library for software-defined radios
 net-mail/courier-imap 4.18.0: An IMAP daemon designed specifically for maildirs
 net-misc/hylafaxplus 5.5.9: Enterprise client-server fax package for class 1 and 2 fax modems
 net-misc/streamtuner2 2.2.0: internet radio browser
 net-p2p/nicotine+ 1.4.1: A fork of nicotine, a Soulseek client in Python
 net-p2p/transmission 2.92_p20170613: A fast, easy, and free BitTorrent client
-net-wireless/cubicsdr 0.2.1_alpha1_p20170209: Cross-Platform Software-Defined Radio Application
-net-wireless/soapy-rtlsdr 0.2.2: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.5.4 9999: vendor and platform neutral SDR support library
+net-wireless/cubicsdr 0.2.2: Cross-Platform Software-Defined Radio Application
+net-wireless/soapy-rtlsdr 0.2.4: SoapySDR RTL-SDR Support Module
+net-wireless/soapysdr 0.6.0 9999: vendor and platform neutral SDR support library
 sci-geosciences/gpsprune-bin 18.6: An application for viewing, editing and converting GPS data.
 sci-geosciences/mkgmap-bin 3831: Tool to create garmin maps
 sci-geosciences/splitter-bin 580: Tile splitter for mkgmap
