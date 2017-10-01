@@ -19,7 +19,7 @@ DEPEND="dev-lang/lua:0
 	dev-libs/expat
 	dev-libs/tinyxml
 	gnome-base/libgtop
-	=media-gfx/flam3-9999
+	>=media-gfx/flam3-9999
 	media-libs/freeglut
 	media-libs/glee
 	media-libs/libpng:*
