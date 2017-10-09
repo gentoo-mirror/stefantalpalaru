@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND=dev-python/autopep8 >=dev-vcs/git-1.8.2.1 || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+DESCRIPTION=vim plugin: easy and fast outlining
+EAPI=6
+HOMEPAGE=https://github.com/vimoutliner/vimoutliner
+IUSE=python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_targets_python3_6 python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5 python_single_target_python3_6
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/autopep8 || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+REQUIRED_USE=^^ ( python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5 python_single_target_python3_6 ) python_single_target_python2_7? ( python_targets_python2_7 ) python_single_target_python3_4? ( python_targets_python3_4 ) python_single_target_python3_5? ( python_targets_python3_5 ) python_single_target_python3_6? ( python_targets_python3_6 )
+SLOT=0
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	ac2e7fee5b40ebcfd4e9b1fa1929c42c	toolchain-funcs	185a06792159ca143528e7010368e8af	vim-doc	af2c81a1feeb0a99e91bee3e20769edb	vim-plugin	6f0171b0a2f2fce005c13b4c0685a0d8
+_md5_=3683b9ed9cf7f9321c28df8140421a56

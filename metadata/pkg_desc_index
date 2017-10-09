@@ -9,6 +9,7 @@ app-vim/neocomplete 9999: vim plugin: Next generation completion framework after
 app-vim/nim-syntax 1.2_pre20160519 9999: Nim language support
 app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
+app-vim/vimoutliner 0.4.0_p20170802: vim plugin: easy and fast outlining
 app-vim/youcompleteme 20170724 99999999-r1: vim plugin: a code-completion engine for Vim
 dev-db/pgadmin3 1.22.2: wxWidgets GUI for PostgreSQL
 dev-lang/nim 0.17.2-r100 9999: Nim is a compiled, garbage-collected systems programming language
