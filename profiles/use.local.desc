@@ -38,8 +38,12 @@ media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mim
 media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
-media-gfx/gmic:cli - Build CLI interface
+media-gfx/gmic:cli - Build the CLI interface
+media-gfx/gmic:gui - Build the standalone Qt5 GUI
+media-gfx/gmic:krita - Build the Krita plugin
+media-gfx/gmic:libgmic - Build libgmic (not used by any of the tools)
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
+media-gfx/gmic:zart - Build ZArt - a GUI for the realtime manipulation of a webcam video stream
 media-gfx/inkscape:cdr - Enable support for CorelDRAW Diagrams
 media-gfx/inkscape:dia - pull in app-office/dia for dia import extension
 media-gfx/inkscape:inkjar - Enable support for OpenOffice.org SVG jar files
