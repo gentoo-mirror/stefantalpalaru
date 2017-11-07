@@ -2,6 +2,15 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/vmware-modules:pax_kernel - Apply patch needed for pax enabled kernels
+app-emulation/vmware-modules:vmci - Build the Virtual Machine Communication Interface module; disable this if you want to use the module from the mainline kernel
+app-emulation/vmware-modules:vsock - Build the VMware VMCI transport for Virtual Sockets; disable this if you want to use the module from the mainline kernel
+app-emulation/vmware-workstation:bundled-libs - Use precompiled bundled libraries instead of the system installation.
+app-emulation/vmware-workstation:macos-guests - Support macOS guests.
+app-emulation/vmware-workstation:ovftool - Install OVF tool.
+app-emulation/vmware-workstation:server - Install VMware Workstation Server component.
+app-emulation/vmware-workstation:vix - Install VIX. The VIX API allows you to write programs and scripts that automate virtual machine operations, and run programs or manipulate files within guest operating systems.
+app-emulation/vmware-workstation:vmware-tools - Install VMware Tools images.
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
 app-vim/youcompleteme:rust - Enable semantic support for Rust
 dev-db/pgadmin3:databasedesigner - Enable the Database Designer component
