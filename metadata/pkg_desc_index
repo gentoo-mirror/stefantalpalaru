@@ -13,7 +13,6 @@ app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 app-vim/vimoutliner 0.4.0_p20170802-r1: Vim plugin for easy and fast outlining
 app-vim/youcompleteme 20170724 99999999-r1: vim plugin: a code-completion engine for Vim
-dev-db/pgadmin3 1.22.2: wxWidgets GUI for PostgreSQL
 dev-lang/nim 0.17.2-r100 9999: Nim is a compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r2: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.20.0 9999: Compiler for the Pony language
@@ -57,7 +56,7 @@ games-emulation/rpcs3 9999: PlayStation 3 emulator
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
-media-gfx/gmic 2.1.1: GREYC's Magic Image Converter
+media-gfx/gmic 2.1.5: GREYC's Magic Image Converter
 media-gfx/inkscape 0.92.2: A SVG based generic vector-drawing program
 media-gfx/pngquant 2.10.1: command-line utility and library for lossy compression of PNG images
 media-libs/cimg 2.1.0: C++ template image processing toolkit
