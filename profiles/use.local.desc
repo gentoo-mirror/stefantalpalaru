@@ -55,9 +55,10 @@ media-gfx/geeqie:gpu-accel - Enable GPU acceleration support - experimental
 media-gfx/geeqie:gtk3 - Link against x11-libs/gtk+:3 instead of x11-libs/gtk+:2
 media-gfx/geeqie:map - Enable items map display - experimental
 media-gfx/gmic:cli - Build the CLI interface
+media-gfx/gmic:gimp - Build the Qt5 GIMP plugin
+media-gfx/gmic:gimp-gtk - Build the (deprecated) GTK+ GIMP plugin
 media-gfx/gmic:gui - Build the standalone Qt5 GUI
 media-gfx/gmic:krita - Build the Krita plugin
-media-gfx/gmic:libgmic - Build libgmic (not used by any of the tools)
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
 media-gfx/gmic:zart - Build ZArt - a GUI for the realtime manipulation of a webcam video stream
 media-gfx/inkscape:cdr - Enable support for CorelDRAW Diagrams
