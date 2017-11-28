@@ -56,9 +56,10 @@ games-emulation/rpcs3 9999: PlayStation 3 emulator
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
-media-gfx/gmic 2.1.5-r4 9999: GREYC's Magic Image Converter
+media-gfx/gmic 2.1.5-r5 9999-r1: GREYC's Magic Image Converter
 media-gfx/pngquant 2.10.1: command-line utility and library for lossy compression of PNG images
-media-libs/cimg 2.1.0: C++ template image processing toolkit
+media-gfx/zart 3.2.1_p20171127 9999: G'MIC GUI for video streams
+media-libs/cimg 2.1.5 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/portaudio 19.6.0_pre20161030: A free, cross-platform, open-source, audio I/O library

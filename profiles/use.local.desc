@@ -60,7 +60,6 @@ media-gfx/gmic:gimp-gtk - Build the (deprecated) GTK+ GIMP plugin
 media-gfx/gmic:gui - Build the standalone Qt5 GUI
 media-gfx/gmic:krita - Build the Krita plugin
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
-media-gfx/gmic:zart - Build ZArt - a GUI for the realtime manipulation of a webcam video stream
 media-sound/hydrogen:jacksession - Enable jacksession support
 media-sound/hydrogen:lrdf - Enable liblrdf support
 media-sound/hydrogen:portmidi - Enable portmidi support
