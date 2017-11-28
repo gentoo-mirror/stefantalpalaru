@@ -7,5 +7,5 @@ IUSE=boehm-gc +readline test
 LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
 _md5_=772ba1488c7bb242661a6cbe5e0aa060
