@@ -35,6 +35,7 @@ for guest in ${IUSE_VMWARE_GUESTS}; do
 	IUSE+=" vmware-tools-${guest}"
 done
 REQUIRED_USE="
+	server? ( modules )
 	vmware-tools-darwin? ( macos-guests )
 	vmware-tools-darwinPre15? ( macos-guests )
 "
@@ -524,11 +525,13 @@ src_install() {
 		EOF
 	fi
 
-	# install the init.d script
-	local initscript="${T}/vmware.rc"
-	sed -e "s:@@BINDIR@@:${VM_INSTALL_DIR}/bin:g" \
-		"${FILESDIR}/vmware-${major_minor}.rc" > "${initscript}" || die
-	newinitd "${initscript}" vmware
+	if use modules; then
+		# install the init.d script
+		local initscript="${T}/vmware.rc"
+		sed -e "s:@@BINDIR@@:${VM_INSTALL_DIR}/bin:g" \
+			"${FILESDIR}/vmware-${major_minor}.rc" > "${initscript}" || die
+		newinitd "${initscript}" vmware
+	fi
 
 	if use server; then
 		# install the init.d script
@@ -678,14 +681,14 @@ pkg_preinst() {
 }
 
 pkg_postinst() {
-	fdo-xdg_desktop_database_update
+	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
 	gnome2_icon_cache_update
 	readme.gentoo_print_elog
 }
 
 pkg_postrm() {
-	fdo-xdg_desktop_database_update
+	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
 	gnome2_icon_cache_update
 }
