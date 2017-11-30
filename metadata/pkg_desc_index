@@ -2,7 +2,7 @@ app-benchmarks/phoronix-test-suite 7.2.1: Phoronix's comprehensive, cross-platfo
 app-crypt/certbot-s3front 0.3.1 9999: S3/CloudFront plugin for Let's Encrypt client
 app-emulation/vagrant-bin 1.9.2: Tool for building and distributing virtual machines
 app-emulation/vmware-modules 329.0.0-r2: VMware kernel modules
-app-emulation/vmware-workstation 14.0.0.6661328-r7: Emulate a complete PC without the performance overhead of most emulators
+app-emulation/vmware-workstation 14.0.0.6661328-r8: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.3 9999: systray widget used to load ICC color profiles with different color temperatures
 app-office/upwork 4.2.153-r1: Project collaboration and tracking software for upwork.com
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
