@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=X? ( x11-libs/libX11 x11-libs/libXt ) X? ( x11-proto/xproto ) >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Create, manipulate, and optimize GIF images and animations
+EAPI=6
+HOMEPAGE=https://www.lcdf.org/~eddietwo/gifsicle/ https://github.com/kohler/gifsicle
+IUSE=X
+LICENSE=GPL-2 MIT
+RDEPEND=X? ( x11-libs/libX11 x11-libs/libXt )
+SLOT=0
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=9484275245a94e07d432938000fb0f2b
