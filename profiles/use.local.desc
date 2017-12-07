@@ -20,6 +20,10 @@ app-emulation/vmware-workstation:vmware-tools-solaris - Install VMware Tools for
 app-emulation/vmware-workstation:vmware-tools-winPre2k - Install VMware Tools for Windows (before 2000) guests.
 app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools for Windows (after 2000, before Vista) guests.
 app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests.
+app-office/gnucash:chipcard - Enable support for chipcard reading and processing.
+app-office/gnucash:deprecated - Enable usage of deprecated functions in glib, gtk and gnome.
+app-office/gnucash:hbci - Enable HBCI support, for connecting to some internet banks
+app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
 app-vim/youcompleteme:rust - Enable semantic support for Rust
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
