@@ -59,7 +59,7 @@ media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer devic
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/geeqie 1.3_p20170226: A lightweight GTK image viewer forked from GQview
 media-gfx/gifsicle 9999: Create, manipulate, and optimize GIF images and animations
-media-gfx/gmic 2.1.5-r5 9999-r1: GREYC's Magic Image Converter
+media-gfx/gmic 2.1.5-r5 9999-r2: GREYC's Magic Image Converter
 media-gfx/pngquant 2.10.1: command-line utility and library for lossy compression of PNG images
 media-gfx/zart 3.2.1_p20171127 9999: G'MIC GUI for video streams
 media-libs/cimg 2.1.5 9999: C++ template image processing toolkit
