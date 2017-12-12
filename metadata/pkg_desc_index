@@ -22,6 +22,7 @@ dev-lang/tauthon 2.8.0_pre20170519: Python 2.7 fork with new syntax, builtins, a
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
 dev-libs/golib 0.0.1_pre20170724 9999: a library exposing Go's channels and goroutines to plain C
 dev-libs/libb64 1.2.1-r1: Fast Base64 encoding/decoding routines
+dev-libs/libbytesize 1.2-r1: Tiny library providing a C "class" for working with arbitrary big sizes in bytes
 dev-libs/lthread 1.0_pre20150617 9999: multicore enabled coroutine library written in C
 dev-nim/aporia 0.4.1 9999: IDE for the Nim programming language
 dev-nim/bcrypt-nim 0.2.1_pre20150221 9999: Nim bindings for bcrypt
