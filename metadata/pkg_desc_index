@@ -1,4 +1,4 @@
-app-benchmarks/phoronix-test-suite 7.2.1: Phoronix's comprehensive, cross-platform testing and benchmark suite
+app-benchmarks/phoronix-test-suite 7.6.0: Phoronix's comprehensive, cross-platform testing and benchmark suite
 app-crypt/certbot-s3front 0.3.1 9999: S3/CloudFront plugin for Let's Encrypt client
 app-doc/gnucash-docs 2.6.18: Documentation package for GnuCash
 app-emulation/vagrant-bin 1.9.2: Tool for building and distributing virtual machines
