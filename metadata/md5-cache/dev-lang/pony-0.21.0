@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare test
+DEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax ) virtual/pkgconfig
+DESCRIPTION=Compiler for the Pony language
+EAPI=6
+HOMEPAGE=http://www.ponylang.org/
+IUSE=test vim-syntax
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/ponylang/ponyc/archive/0.21.0.tar.gz -> pony-0.21.0.tar.gz
+_md5_=cc0a8d543d6cad2ce8460b7ece1f84a3

@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install prepare test unpack
-DEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:0 sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax ) virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax ) virtual/pkgconfig >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Compiler for the Pony language
 EAPI=6
 HOMEPAGE=http://www.ponylang.org/
 IUSE=test vim-syntax
 LICENSE=BSD-2
-RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:0 sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
+RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.7:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=9220eedc80e09d37cf61e7ee654a0565
+_md5_=2f49acf5e1940454ee28a02ca0d0f768
