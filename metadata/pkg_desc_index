@@ -1,4 +1,4 @@
-dev-lang/tauthon 2.8.0_pre20170519: Python 2.7 fork with new syntax, builtins, and libraries backported from Python 3
+dev-lang/tauthon 2.8.0_pre20171211: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
