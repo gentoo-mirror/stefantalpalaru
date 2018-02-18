@@ -1,5 +1,5 @@
-dev-lang/python 2.7.14-r100: An interpreted, interactive, object-oriented programming language
-dev-lang/tauthon 2.8.0_pre20171211-r3: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
+dev-lang/python 2.7.14-r101: An interpreted, interactive, object-oriented programming language
+dev-lang/tauthon 2.8.0_pre20171211-r4: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
