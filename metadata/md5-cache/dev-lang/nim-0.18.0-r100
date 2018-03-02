@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
-SRC_URI=http://nim-lang.org/download/nim-0.17.2.tar.xz
+SRC_URI=http://nim-lang.org/download/nim-0.18.0.tar.xz
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=6426e5455bd00307cdb3ef6fda08509f
+_md5_=fd64a2b882d50ba8f2d44c8a8723e195
