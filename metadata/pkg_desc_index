@@ -3,4 +3,5 @@ dev-lang/tauthon 2.8.0_pre20171211-r4: Python 2.7 fork with new syntax, builtins
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
+net-fs/s3fs 1.83: Amazon S3 mounting via fuse
 net-mail/courier-imap 4.18.0: An IMAP daemon designed specifically for maildirs
