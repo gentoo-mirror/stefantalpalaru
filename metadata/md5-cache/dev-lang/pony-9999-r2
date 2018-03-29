@@ -8,5 +8,5 @@ LICENSE=BSD-2
 RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.9.1:= <sys-devel/llvm-6.0.0:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	llvm	f9e74238f1b5743ea5d7214fcc7dbb36
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	llvm	f9e74238f1b5743ea5d7214fcc7dbb36
 _md5_=5d4dd83eb589c8007df4aa21af5bf5db
