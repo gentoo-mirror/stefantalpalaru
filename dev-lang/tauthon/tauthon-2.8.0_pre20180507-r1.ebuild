@@ -1,21 +1,20 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=6
 WANT_LIBTOOL="none"
 
-inherit autotools eutils flag-o-matic multilib pax-utils python-utils-r1 toolchain-funcs multiprocessing
+inherit autotools eutils flag-o-matic git-r3 multilib pax-utils python-utils-r1 toolchain-funcs multiprocessing
 
-MY_P="Python-${PV}"
-
-DESCRIPTION="An interpreted, interactive, object-oriented programming language"
-HOMEPAGE="https://www.python.org/"
-SRC_URI="https://www.python.org/ftp/python/${PV}/${MY_P}.tar.xz"
+DESCRIPTION="Python 2.7 fork with new syntax, builtins, and libraries backported from Python3"
+HOMEPAGE="https://github.com/naftaliharris/tauthon"
+EGIT_REPO_URI="https://github.com/naftaliharris/tauthon.git"
+EGIT_COMMIT="d49b951bbc6cc409259a77238970bf7fb88b2930"
 
 LICENSE="PSF-2"
-SLOT="2.7"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-fbsd ~x86-fbsd"
-IUSE="-berkdb build doc elibc_uclibc examples gdbm hardened ipv6 libressl +ncurses +optimizations +readline sqlite +ssl +threads tk +wide-unicode wininst +xml"
+SLOT="2.8"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd"
+IUSE="-berkdb build doc elibc_uclibc examples gdbm hardened ipv6 libressl +lto +ncurses +pgo +readline sqlite +ssl +threads tk +wide-unicode wininst +xml"
 
 # Do not add a dependency on dev-lang/python to this ebuild.
 # If you need to apply a patch which requires python for bootstrapping, please
@@ -60,15 +59,14 @@ DEPEND="${RDEPEND}
 	>=sys-devel/autoconf-2.65
 	!sys-devel/gcc[libffi(-)]"
 RDEPEND+=" !build? ( app-misc/mime-types )
-	doc? ( dev-python/python-docs:${SLOT} )"
+		"
+	#doc? ( dev-python/python-docs:${SLOT} )"
 PDEPEND=">=app-eselect/eselect-python-20140125-r1"
-
-S="${WORKDIR}/${MY_P}"
 
 pkg_setup() {
 	if use berkdb; then
 		ewarn "'bsddb' module is out-of-date and no longer maintained inside"
-		ewarn "dev-lang/python. 'bsddb' and 'dbhash' modules have been additionally"
+		ewarn "dev-lang/tauthon. 'bsddb' and 'dbhash' modules have been additionally"
 		ewarn "removed in Python 3. A maintained alternative of 'bsddb3' module"
 		ewarn "is provided by dev-python/bsddb3."
 	else
@@ -106,6 +104,7 @@ src_prepare() {
 	epatch "${FILESDIR}/python-2.7.9-ncurses-pkg-config.patch"
 	epatch "${FILESDIR}/python-2.7.10-cross-compile-warn-test.patch"
 	epatch "${FILESDIR}/python-2.7.10-system-libffi.patch"
+	epatch "${FILESDIR}/tauthon-rename.patch"
 
 	eapply_user
 
@@ -139,7 +138,7 @@ src_configure() {
 		export PYTHON_DISABLE_MODULES="${disable}"
 
 		if ! use xml; then
-			ewarn "You have configured Python without XML support."
+			ewarn "You have configured Tauthon without XML support."
 			ewarn "This is NOT a recommended configuration as you"
 			ewarn "may face problems parsing any XML documents."
 		fi
@@ -172,13 +171,13 @@ src_configure() {
 	# http://bugs.python.org/issue15506
 	export ac_cv_path_PKG_CONFIG=$(tc-getPKG_CONFIG)
 
-	# Set LDFLAGS so we link modules with -lpython2.7 correctly.
-	# Needed on FreeBSD unless Python 2.7 is already installed.
+	# Set LDFLAGS so we link modules with -ltauthon correctly.
+	# Needed on FreeBSD unless Tauthon is already installed.
 	# Please query BSD team before removing this!
 	append-ldflags "-L."
 
 	# LTO needs this
-	if use optimizations; then
+	if use lto; then
 		append-ldflags "${CFLAGS}"
 	fi
 
@@ -201,8 +200,8 @@ src_configure() {
 		$(use_enable ipv6) \
 		$(use_with threads) \
 		$(use wide-unicode && echo "--enable-unicode=ucs4" || echo "--enable-unicode=ucs2") \
-		$(use_enable optimizations) \
-		$(use_with optimizations lto) \
+		$(use_enable pgo optimizations) \
+		$(use_with lto) \
 		--infodir='${prefix}/share/info' \
 		--mandir='${prefix}/share/man' \
 		--with-computed-gotos \
@@ -239,9 +238,9 @@ src_compile() {
 
 	# Work around bug 329499. See also bug 413751 and 457194.
 	if has_version dev-libs/libffi[pax_kernel]; then
-		pax-mark E python
+		pax-mark E tauthon
 	else
-		pax-mark m python
+		pax-mark m tauthon
 	fi
 }
 
@@ -280,7 +279,7 @@ src_test() {
 	done
 
 	elog "If you would like to run them, you may:"
-	elog "cd '${EPREFIX}/usr/$(get_libdir)/python${SLOT}/test'"
+	elog "cd '${EPREFIX}/usr/$(get_libdir)/tauthon${SLOT}/test'"
 	elog "and run the tests separately."
 
 	if [[ "${result}" -ne 0 ]]; then
@@ -289,10 +288,16 @@ src_test() {
 }
 
 src_install() {
-	local libdir=${ED}/usr/$(get_libdir)/python${SLOT}
+	local libdir=${ED}/usr/$(get_libdir)/tauthon${SLOT}
 
 	cd "${BUILD_DIR}" || die
 	emake DESTDIR="${D}" altinstall
+
+	# symlinks for autotools
+	ln -s tauthon${SLOT} "${ED}/usr/$(get_libdir)/python${SLOT}"
+	ln -s libtauthon${SLOT}.a "${ED}/usr/$(get_libdir)/libpython${SLOT}.a"
+	ln -s libtauthon${SLOT}.so "${ED}/usr/$(get_libdir)/libpython${SLOT}.so"
+	ln -s python${SLOT}-config "${ED}/usr/bin/tauthon${SLOT}-config"
 
 	sed -e "s/\(LDFLAGS=\).*/\1/" -i "${libdir}/config/Makefile" || die "sed failed"
 
@@ -310,7 +315,7 @@ src_install() {
 	use threads || rm -r "${libdir}/multiprocessing" || die
 	use wininst || rm -r "${libdir}/distutils/command/"wininst-*.exe || die
 
-	dodoc "${S}"/Misc/{ACKS,HISTORY,NEWS}
+	dodoc "${S}"/Misc/{ACKS,HISTORY}
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples
@@ -333,13 +338,13 @@ src_install() {
 
 	# if not using a cross-compiler, use the fresh binary
 	if ! tc-is-cross-compiler; then
-		local -x PYTHON=./python
+		local -x PYTHON=./tauthon
 		local -x LD_LIBRARY_PATH=${LD_LIBRARY_PATH+${LD_LIBRARY_PATH}:}${PWD}
 	else
 		vars=( PYTHON "${vars[@]}" )
 	fi
 
-	python_export "python${SLOT}" "${vars[@]}"
+	python_export "tauthon${SLOT}" "${vars[@]}"
 	echo "EPYTHON='${EPYTHON}'" > epython.py || die
 	python_domodule epython.py
 
@@ -347,7 +352,7 @@ src_install() {
 	local pymajor=${SLOT%.*}
 	mkdir -p "${D}${PYTHON_SCRIPTDIR}" || die
 	# python and pythonX
-	ln -s "../../../bin/python${SLOT}" \
+	ln -s "../../../bin/tauthon${SLOT}" \
 		"${D}${PYTHON_SCRIPTDIR}/python${pymajor}" || die
 	ln -s "python${pymajor}" \
 		"${D}${PYTHON_SCRIPTDIR}/python" || die
