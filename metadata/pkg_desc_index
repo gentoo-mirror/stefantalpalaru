@@ -1,5 +1,5 @@
 dev-db/pgbouncer 1.8.1-r1: Lightweight connection pooler for PostgreSQL
-dev-lang/python 2.7.15-r103: An interpreted, interactive, object-oriented programming language
+dev-lang/python 2.7.15-r104: An interpreted, interactive, object-oriented programming language
 dev-lang/tauthon 2.8.0_pre20180507-r2: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-python/hiredis 0.2.0-r1: Python extension that wraps hiredis
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
