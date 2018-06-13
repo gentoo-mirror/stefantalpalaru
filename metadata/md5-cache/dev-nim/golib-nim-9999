@@ -1,9 +1,9 @@
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-lang/nim-0.13.0 dev-libs/golib >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-lang/nim-0.13.0 dev-libs/golib >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Nim bindings for golib
 EAPI=6
 HOMEPAGE=https://github.com/stefantalpalaru/golib-nim
 LICENSE=BSD-2
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=48a5e24186d4a76dbf777dd38e398184

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install test unpack
-DEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib >=dev-vcs/git-1.8.2.1
+DEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Nim is a compiled, garbage-collected systems programming language
 EAPI=6
 HOMEPAGE=http://nim-lang.org/
@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 SRC_URI=http://nim-lang.org/download/nim-0.18.0.tar.xz
-_eclasses_=bash-completion-r1	7e76462890d7d19cad453151876b0ecf	git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=bash-completion-r1	6af26c1ffe65d92d3f525cb715f6250c	git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=ae5b9944adbd52ace137e1b955937fa8

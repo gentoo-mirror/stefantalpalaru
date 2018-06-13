@@ -1,9 +1,9 @@
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-lang/nim-0.9.2 >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-lang/nim-0.9.2 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Nim bindings for bcrypt
 EAPI=6
 HOMEPAGE=https://github.com/runvnc/bcryptnim
 LICENSE=BSD
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=6f611e69807ac6964c3c0629de19ee70

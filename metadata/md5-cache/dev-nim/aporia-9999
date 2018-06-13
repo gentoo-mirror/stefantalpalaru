@@ -1,9 +1,9 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=>=dev-lang/nim-0.11.0 x11-libs/gtksourceview dev-libs/libpcre dev-nim/dialogs dev-nim/gtk2-nim >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-lang/nim-0.11.0 x11-libs/gtksourceview dev-libs/libpcre dev-nim/dialogs dev-nim/gtk2-nim >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=IDE for the Nim programming language
 EAPI=6
 HOMEPAGE=https://github.com/nim-lang/Aporia
 LICENSE=MIT
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=c5c367d2578bea1c6f042f3e35b10430
