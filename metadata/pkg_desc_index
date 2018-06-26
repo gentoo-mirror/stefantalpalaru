@@ -6,6 +6,4 @@ dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 net-fs/s3fs 1.83: Amazon S3 mounting via fuse
-net-mail/courier-imap 4.18.0: An IMAP daemon designed specifically for maildirs
-net-p2p/amule 2.3.2-r2: aMule, the all-platform eMule p2p client
 x11-libs/wxGTK 3.1.1-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
