@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/stefantalpalaru/golib-nim
 LICENSE=BSD-2
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=48a5e24186d4a76dbf777dd38e398184

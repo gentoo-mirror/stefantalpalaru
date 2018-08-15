@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/OpenELEC/dvb-firmware
 LICENSE=all-rights-reserved freedist ISC
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=97ef0687e33d2e038e2aae0fbb242955

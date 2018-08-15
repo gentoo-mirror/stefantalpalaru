@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/stefantalpalaru/lthread-nim
 LICENSE=BSD-2
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=f73f8055034c4b2b2c7d59d16f9dda9d
