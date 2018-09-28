@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 SRC_URI=https://github.com/nim-lang/Nim/archive/v0.19.0.tar.gz -> nim-0.19.0.tar.gz https://github.com/nim-lang/csources/archive/v0.19.0.tar.gz -> nim-csources-0.19.0.tar.gz
-_eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
 _md5_=4db34c8fd8cdd5f54773411b62b21e0e
