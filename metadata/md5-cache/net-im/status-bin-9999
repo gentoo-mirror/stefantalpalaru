@@ -1,0 +1,9 @@
+BDEPEND=net-misc/curl
+DEFINED_PHASES=install unpack
+DESCRIPTION=chat client using Whisper on the devp2p wire protocol
+EAPI=7
+HOMEPAGE=https://status.im/
+LICENSE=MPL-2.0
+RDEPEND=sys-fs/fuse sys-libs/zlib
+SLOT=0
+_md5_=7c45d72a7a5379537a7012fbe229bf46
