@@ -6,4 +6,4 @@ HOMEPAGE=https://status.im/
 LICENSE=MPL-2.0
 RDEPEND=sys-fs/fuse sys-libs/zlib || ( gnome-base/libgnome-keyring kde-frameworks/kwallet )
 SLOT=0
-_md5_=68f03d86e5763fbb42a0911a6cf31823
+_md5_=638824c677210669c36e194baf90316e
