@@ -5,6 +5,7 @@ dev-python/kombu 3.0.37-r1: AMQP Messaging Framework for Python
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
+media-libs/vigra 1.11.1-r1: C++ computer vision library emphasizing customizable algorithms and structures
 media-tv/w_scan 20141122-r2: Scan for DVB-C/DVB-T/DVB-S channels without prior knowledge of frequencies and modulations
 net-fs/s3fs 1.83: Amazon S3 mounting via fuse
 x11-libs/wxGTK 3.1.1-r302: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
