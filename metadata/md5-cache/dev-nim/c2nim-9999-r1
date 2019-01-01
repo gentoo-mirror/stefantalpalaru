@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/nim-0.18.0
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=1ecbfacf1c5892d7e4903ee03b004849
+_md5_=b91a25e523d2e5df1c9d948f4d0fa423
