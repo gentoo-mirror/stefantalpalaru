@@ -10,5 +10,5 @@ RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.9.1:= <sys-devel
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/ponylang/ponyc/archive/0.25.0.tar.gz -> pony-0.25.0.tar.gz
-_eclasses_=llvm	01fccd3367b527770b74bfbf59d616c6
+_eclasses_=llvm	f36be95c5bfae7bc8c82a966d3c8324f
 _md5_=2263bc293f1539fbcf32661a31f3fe6c
