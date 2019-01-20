@@ -1,13 +1,13 @@
-DEFINED_PHASES=compile configure prepare
-DEPEND=dev-lang/lua:0 dev-libs/boost[threads] dev-libs/expat dev-libs/tinyxml gnome-base/libgtop media-gfx/flam3 media-libs/freeglut media-libs/glee media-libs/libpng:* media-video/ffmpeg:0/55.57.57 net-misc/curl sys-libs/zlib x11-libs/libX11 x11-libs/libXrender x11-libs/wxGTK:3.0 virtual/opengl >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=dev-lang/lua:0 dev-libs/boost[threads] dev-libs/expat dev-libs/tinyxml gnome-base/libgtop media-gfx/flam3 media-libs/freeglut media-libs/glee media-libs/libpng:* media-video/ffmpeg:0 net-misc/curl sys-libs/zlib x11-libs/libX11 x11-libs/libXrender x11-libs/wxGTK:3.0 virtual/opengl >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=realize the collective dream of sleeping computers from all over the internet
 EAPI=6
 HOMEPAGE=http://electricsheep.org/
 IUSE=video_cards_nvidia
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=dev-lang/lua:0 dev-libs/boost[threads] dev-libs/expat dev-libs/tinyxml gnome-base/libgtop media-gfx/flam3 media-libs/freeglut media-libs/glee media-libs/libpng:* media-video/ffmpeg:0/55.57.57 net-misc/curl sys-libs/zlib x11-libs/libX11 x11-libs/libXrender x11-libs/wxGTK:3.0 virtual/opengl
+RDEPEND=dev-lang/lua:0 dev-libs/boost[threads] dev-libs/expat dev-libs/tinyxml gnome-base/libgtop media-gfx/flam3 media-libs/freeglut media-libs/glee media-libs/libpng:* media-video/ffmpeg:0 net-misc/curl sys-libs/zlib x11-libs/libX11 x11-libs/libXrender x11-libs/wxGTK:3.0 virtual/opengl
 SLOT=0
 SRC_URI=https://github.com/scottdraves/electricsheep/archive/4949c31cfdb0d4363cfa726aa3aa8325e540773f.zip -> electricsheep-3.0.2_p20180714.zip
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	55aaa148741116aa54ad0d80e361818e	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	wxwidgets	0b92c5f33be805e8cc9f988c8350a3ca
-_md5_=c1996386e7aa6aa27d710f290ccf9aac
+_md5_=f2ca86ecb328da92914f930c7c47ffbd
