@@ -9,6 +9,6 @@ LICENSE=BSD-2
 RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= >=sys-devel/llvm-3.9.1:= <sys-devel/llvm-7.0.0:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/ponylang/ponyc/archive/0.25.0.tar.gz -> pony-0.25.0.tar.gz
+SRC_URI=https://github.com/ponylang/ponyc/archive/0.26.0.tar.gz -> pony-0.26.0.tar.gz
 _eclasses_=llvm	f36be95c5bfae7bc8c82a966d3c8324f
-_md5_=2263bc293f1539fbcf32661a31f3fe6c
+_md5_=bc5a12427700a4f27bce4e3ffe268cb7
