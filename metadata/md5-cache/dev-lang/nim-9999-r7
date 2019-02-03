@@ -1,11 +1,12 @@
+BDEPEND=test? ( net-libs/nodejs ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
-DEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib >=dev-vcs/git-1.8.2.1[curl]
-DESCRIPTION=Nim is a compiled, garbage-collected systems programming language
-EAPI=6
-HOMEPAGE=http://nim-lang.org/
+DEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib
+DESCRIPTION=compiled, garbage-collected systems programming language
+EAPI=7
+HOMEPAGE=https://nim-lang.org/
 IUSE=bash-completion boehm-gc doc +readline test
 LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 _eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=ce7da3b2fb4dd0fb18cb9ad199e3f369
+_md5_=18a75cb32d588a9199ba2776405aebb9
