@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=net-libs/libpcap sys-libs/ncurses:0= virtual/pkgconfig
+DESCRIPTION=A small 'net top' tool, grouping bandwidth by process
+EAPI=6
+HOMEPAGE=https://github.com/raboof/nethogs
+KEYWORDS=amd64 ~arm ~ia64 x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libpcap sys-libs/ncurses:0=
+SLOT=0
+SRC_URI=https://github.com/raboof/nethogs/archive/ac5af1d1b969f189cc4094bb20027f557eb54b34.zip -> nethogs-0.8.5_p20181230.zip
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_md5_=d397255d86eb0d02c87c6bdefd9885b0
