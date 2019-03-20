@@ -9,6 +9,6 @@ LICENSE=GPL-3+ LGPL-3+
 RDEPEND=dev-lang/go:=
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.8.21.tar.gz -> go-ethereum-1.8.21.tar.gz
+SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.8.23.tar.gz -> go-ethereum-1.8.23.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
 _md5_=a8eddd27e18a4e065e936edd2e45a962
