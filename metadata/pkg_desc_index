@@ -4,6 +4,7 @@ dev-python/hiredis 1.0.0: Python extension that wraps hiredis
 dev-python/kombu 3.0.37-r1: AMQP Messaging Framework for Python
 dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
+media-gfx/mcomix 1.2.1-r1: A fork of comix, a GTK image viewer for comic book archives
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/opencv 3.4.1-r6: A collection of algorithms and sample code for various computer vision problems
 media-video/vlc 3.0.4-r1: Media player and framework with support for most multimedia files and streaming
