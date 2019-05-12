@@ -2,6 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
+dev-db/postgis:gtk - Build graphical interface for shp2pgsql (shp2pgsql-gui)
+dev-db/postgis:mapbox - Add capability to transform geometry into Mapbox Vector Tile
+dev-db/postgis:topology - Build topology spatial types and functions
 dev-lang/python:lto - Build with link-time optimizations (LTO)
 dev-lang/python:pgo - Build with profile guided optimizations (PGO)
 dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
