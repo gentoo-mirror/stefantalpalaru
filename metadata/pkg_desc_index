@@ -13,4 +13,5 @@ media-video/vlc 3.0.4-r1: Media player and framework with support for most multi
 net-analyzer/nethogs 0.8.5_p20181230: A small 'net top' tool, grouping bandwidth by process
 net-fs/s3fs 1.83: Amazon S3 mounting via fuse
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
+www-plugins/adobe-flash 30.0.0.154: Adobe Flash Player
 x11-libs/wxGTK 3.1.1-r302: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
