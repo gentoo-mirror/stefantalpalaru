@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=all-rights-reserved freedist ISC
 SLOT=0
 SRC_URI=https://github.com/OpenELEC/dvb-firmware/archive/3fef04a4a4bfeba88ae3b20aff9d3a1fabf1c159.zip -> dvb-firmware-20170329.zip
-_md5_=97ef0687e33d2e038e2aae0fbb242955
+_md5_=50a0b780864d01a4a84233cfb271acf1
