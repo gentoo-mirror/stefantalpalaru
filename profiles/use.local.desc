@@ -19,6 +19,7 @@ dev-lang/tauthon:wininst - Install Windows executables required to create an exe
 dev-python/kombu:amqplib - Enable amqplib support
 dev-python/kombu:msgpack - Enables MessagePack (de)serializer for Python
 dev-python/kombu:sqs - Enables Amazon SQS transport module for Kombu
+dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
