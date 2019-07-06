@@ -7,6 +7,7 @@ dev-python/mysql-python 1.2.5-r2: Python interface to MySQL
 dev-python/pillow 6.1.0: Python Imaging Library (fork)
 dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
 media-gfx/mcomix 1.2.1_p20190406-r1: A fork of comix, a GTK image viewer for comic book archives
+media-gfx/ufraw 0.22-r3: RAW Image format viewer and GIMP plugin
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/opencv 3.4.1-r6: A collection of algorithms and sample code for various computer vision problems
 media-video/aegisub 3.2.2_p20160518-r3: Advanced subtitle editor
