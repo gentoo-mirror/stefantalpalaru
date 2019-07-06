@@ -9,6 +9,7 @@ dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
 media-gfx/mcomix 1.2.1_p20190406-r1: A fork of comix, a GTK image viewer for comic book archives
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/opencv 3.4.1-r6: A collection of algorithms and sample code for various computer vision problems
+media-video/aegisub 3.2.2_p20160518-r3: Advanced subtitle editor
 media-video/smtube 18.11.0: YouTube Browser for SMPlayer
 media-video/vlc 3.0.4-r1: Media player and framework with support for most multimedia files and streaming
 net-analyzer/nethogs 0.8.5_p20181230: A small 'net top' tool, grouping bandwidth by process

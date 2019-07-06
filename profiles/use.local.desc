@@ -37,6 +37,7 @@ media-libs/opencv:opencl - Add support for OpenCL
 media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
+media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 media-video/vlc:X - Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
 media-video/vlc:aom - Enable experimental support for AV1 codec
 media-video/vlc:archive - Enable support for libarchive stream extractor
