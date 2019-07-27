@@ -5,8 +5,9 @@ EAPI=6
 HOMEPAGE=http://www.ponylang.org/
 IUSE=test vim-syntax
 LICENSE=BSD-2
+PROPERTIES=live
 RDEPEND=>=sys-devel/llvm-3.9.1:= <sys-devel/llvm-8.0.0:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	llvm	5dbc14df2333105b7c006124ead9bf3f
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	llvm	5dbc14df2333105b7c006124ead9bf3f
 _md5_=5c4b9d06483cf7cc7acfcf79d6342f27

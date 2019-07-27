@@ -6,7 +6,8 @@ HOMEPAGE=https://github.com/nim-lang/c2nim
 IUSE=doc test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=>=dev-lang/nim-0.18.0
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=c1edb08fab26c3c684df23862921c4f2
