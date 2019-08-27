@@ -79,14 +79,14 @@ media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
-media-gfx/gmic 2.5.6-r100 9999-r11: GREYC's Magic Image Converter
+media-gfx/gmic 2.7.0-r100 9999-r12: GREYC's Magic Image Converter
 media-gfx/mcomix 1.2.1_p20190406-r1: A fork of comix, a GTK image viewer for comic book archives
 media-gfx/ufraw 0.22-r3: RAW Image format viewer and GIMP plugin
 media-gfx/wings 2.1.7-r101: Wings 3D is an advanced subdivision modeler
-media-gfx/zart 3.2.2_p20190306 9999-r1: G'MIC GUI for video streams
+media-gfx/zart 3.2.2_p20190823 9999-r1: G'MIC GUI for video streams
 media-libs/avidemux-core 2.7.3: Core libraries for simple video cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.7.3: Plugins for the video editor media-video/avidemux
-media-libs/cimg 2.5.6-r100 9999: C++ template image processing toolkit
+media-libs/cimg 2.7.0-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/libaom 1.0.0-r1: Alliance for Open Media AV1 Codec SDK
