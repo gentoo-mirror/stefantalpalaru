@@ -19,7 +19,7 @@ dev-db/postgis 2.5.2: Geographic Objects for PostgreSQL
 dev-lang/erlang 21.1-r102: Erlang programming language, runtime environment and libraries (OTP)
 dev-lang/nim 0.19.6-r100 0.20.2-r100 9999-r9: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r2: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
-dev-lang/pony 0.30.0 9999-r5: Compiler for the Pony language
+dev-lang/pony 0.31.0 9999-r5: Compiler for the Pony language
 dev-lang/python 2.7.16-r101: An interpreted, interactive, object-oriented programming language
 dev-lang/tauthon 2.8.0: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
