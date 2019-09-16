@@ -217,8 +217,6 @@ net-wireless/soapysdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/soapysdr:uhd - Add support for Ettus USRP hardware
 sci-libs/flann:cuda - Enable support for nVidia CUDA
 sci-libs/flann:octave - Add bindings for sci-mathematics/octave
-sci-libs/openblas:dynamic - Build dynamic architecture detection at run time (for multi targets)
-sci-libs/openblas:int64 - Build the 64 bits integer library
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
@@ -236,6 +234,7 @@ sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSA
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:systemtap - enable systemtap static probe points
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
+sys-power/cpupower:cpufreq_bench - Build and install the cpufreq_bench binary
 www-client/ungoogled-chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/ungoogled-chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
 www-client/ungoogled-chromium:jumbo-build - Combine source files to speed up build process.
