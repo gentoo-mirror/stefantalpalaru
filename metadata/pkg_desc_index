@@ -1,10 +1,12 @@
 app-admin/conky 1.11.5: An advanced, highly configurable system monitor for X
 app-crypt/certbot-dns-linode 0.29.1-r1 9999: Linode DNS Authenticator plugin for Certbot
 app-crypt/certbot-s3front 0.4.2 9999: S3/CloudFront plugin for Let's Encrypt client
+app-doc/gnucash-docs 3.7: Documentation package for GnuCash
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
+app-office/gnucash 3.7: A personal finance manager
 app-office/upwork 5.2.3.771: Project collaboration and tracking software for upwork.com
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.

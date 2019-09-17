@@ -35,6 +35,11 @@ app-emulation/vmware-workstation:vmware-tools-solaris - Install VMware Tools for
 app-emulation/vmware-workstation:vmware-tools-winPre2k - Install VMware Tools for Windows (before 2000) guests.
 app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools for Windows (after 2000, before Vista) guests.
 app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests.
+app-office/gnucash:aqbanking - Connect to some internet banks via AqBanking
+app-office/gnucash:chipcard - Enable support for chipcard reading and processing.
+app-office/gnucash:gui - Enable graphic interface (needs net-libs/webkit-gtk:4 and x11-libs/gtk+:3)
+app-office/gnucash:quotes - Enable Online Stock Quote retrieval
+app-office/gnucash:register2 - Use the new register (Experimental)
 app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
 app-vim/youcompleteme:rust - Enable semantic support for Rust
 dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
