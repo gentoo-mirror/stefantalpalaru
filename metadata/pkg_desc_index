@@ -3,6 +3,7 @@ app-crypt/certbot-dns-linode 0.29.1-r1 9999: Linode DNS Authenticator plugin for
 app-crypt/certbot-s3front 0.4.2 9999: S3/CloudFront plugin for Let's Encrypt client
 app-doc/gnucash-docs 3.7: Documentation package for GnuCash
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
+app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
