@@ -137,7 +137,7 @@ net-p2p/go-ethereum 1.9.1: Official golang implementation of the Ethereum protoc
 net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
 net-print/gutenprint 5.3.1: Ghostscript and cups printer drivers
 net-wireless/cubicsdr 0.2.5-r2: Cross-Platform Software-Defined Radio Application
-net-wireless/dump1090 9999-r1: simple Mode S decoder for RTLSDR devices
+net-wireless/dump1090 3.7.2 9999-r2: simple Mode S decoder for RTLSDR devices
 net-wireless/gqrx 2.11.5: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/soapysdr 0.7.0-r100 9999: vendor and platform neutral SDR support library
 perl-core/Digest-MD5 2.550.0: MD5 message digest algorithm
