@@ -163,6 +163,6 @@ www-plugins/adobe-flash 30.0.0.154: Adobe Flash Player
 www-servers/varnish 6.0.0-r100: Varnish is a state-of-the-art, high-performance HTTP accelerator
 x11-drivers/nvidia-drivers 390.116-r3: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.3_p20190424: C language library for creating bindings for the Qt QML language
-x11-libs/wxGTK 3.1.1-r302: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
+x11-libs/wxGTK 3.1.2-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/electricsheep 3.0.2_p20180714-r3 9999-r3: realize the collective dream of sleeping computers from all over the internet
 x11-themes/numix-solarized 9999-r1: solarized version of Numix
