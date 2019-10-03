@@ -21,11 +21,9 @@ app-admin/conky:weather-metar - Enable support for metar weather service
 app-admin/conky:webserver - Enable support to act as a webserver serving conkys output using net-libs/libmicrohttpd
 app-admin/conky:xmms2 - Enable monitoring of music played by media-sound/xmms2
 app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
-app-emulation/vmware-workstation:bundled-libs - Use precompiled bundled libraries instead of the system installation.
 app-emulation/vmware-workstation:macos-guests - Support macOS guests.
 app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally.
 app-emulation/vmware-workstation:ovftool - Install OVF tool.
-app-emulation/vmware-workstation:server - Install VMware Workstation Server component.
 app-emulation/vmware-workstation:vix - Install VIX. The VIX API allows you to write programs and scripts that automate virtual machine operations, and run programs or manipulate files within guest operating systems.
 app-emulation/vmware-workstation:vmware-tools-darwin - Install VMware Tools for OS X (El Capitan and later) guests.
 app-emulation/vmware-workstation:vmware-tools-darwinPre15 - Install VMware Tools for OS X (up to Yosemite) guests.
