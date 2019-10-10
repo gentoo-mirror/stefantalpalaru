@@ -155,7 +155,7 @@ sys-devel/flamegraph 1.0: stack trace visualizer
 sys-devel/gcc 10.0.0_pre9999: The GNU Compiler Collection
 sys-devel/pyflame 1.6.6: a ptracing profiler for Python
 sys-power/cpupower 5.2: Shows and sets processor power related values
-sys-power/phc-intel 0.3.2.12.29: Processor Hardware Control for Intel CPUs
+sys-power/phc-intel 0.3.2.12.31: Processor Hardware Control for Intel CPUs
 www-apps/mediawiki 1.32.0: The MediaWiki wiki web application (as used on wikipedia.org)
 www-client/ungoogled-chromium 69.0.3497.100.2: Modified Chromium for removing Google integration and enhancing privacy
 www-misc/profile-sync-daemon 5.75: Symlinks and syncs browser profile dirs to RAM
