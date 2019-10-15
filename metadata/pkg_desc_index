@@ -137,7 +137,7 @@ net-misc/streamtuner2 2.2.0: internet radio browser
 net-p2p/deluge 2.0.3-r2: BitTorrent client with a client/server model
 net-p2p/go-ethereum 1.9.6: Official golang implementation of the Ethereum protocol
 net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
-net-print/gutenprint 5.3.1: Ghostscript and cups printer drivers
+net-print/gutenprint 5.3.3: Ghostscript and cups printer drivers
 net-wireless/cubicsdr 0.2.5-r2: Cross-Platform Software-Defined Radio Application
 net-wireless/dump1090 3.7.2 9999-r2: simple Mode S decoder for RTLSDR devices
 net-wireless/gqrx 2.11.5: Software defined radio receiver powered by GNU Radio and Qt
