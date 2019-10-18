@@ -42,7 +42,7 @@ dev-nim/irc 0.1.0_pre20170117 9999: IRC client module for Nim
 dev-nim/jester 0.1.1 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 0.1_pre20150405 9999: Nim bindings for lthread
 dev-nim/mongo-nim 0.3_pre20150701 9999: Nim bindings for MongoDB
-dev-nim/nimble 0.9.0-r1 9999-r1: Nim package manager
+dev-nim/nimble 0.11.0 9999-r1: Nim package manager
 dev-nim/nimforum 0.1.0_pre20170301 9999: Nim forum
 dev-nim/ntags 0.5.0: tool that generates tags for Nim files, similar to ctags
 dev-nim/opencl-nim 1.0_pre20160731 9999: Nim bindings for OpenCL
