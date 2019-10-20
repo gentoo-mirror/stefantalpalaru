@@ -112,7 +112,7 @@ media-sound/bristol 0.60.11-r2: Synthesizer keyboard emulation package: Moog, Ha
 media-sound/fmit 1.1.13-r1: Free Music Instrument Tuner
 media-sound/gigedit 1.1.0: An instrument editor for gig files
 media-sound/gtklick 0.6.4-r1: A simple metronome with an easy-to-use GTK interface
-media-sound/jack-audio-connection-kit 1.9.12: Jackdmp jack implemention for multi-processor machine
+media-sound/jack-audio-connection-kit 1.9.13: Jackdmp jack implemention for multi-processor machine
 media-sound/jack_capture 0.9.73: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CLI)
 media-sound/linuxsampler 2.1.0: LinuxSampler is a software audio sampler engine with professional grade features

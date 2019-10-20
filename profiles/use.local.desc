@@ -136,7 +136,6 @@ media-libs/openimageio:cpu_flags_x86_f16c - SIMD Optimization
 media-libs/openimageio:field3d - Use media-libs/Field3D
 media-libs/openimageio:opencv - Use media-libs/opencv
 media-libs/openimageio:ptex - Use media-libs/ptex
-media-sound/jack-audio-connection-kit:celt - Support CELT low delay audio codec (media-libs/celt)
 media-sound/jack-audio-connection-kit:classic - Enable building of jackd"
 media-sound/jack-audio-connection-kit:opus - Support media-libs/opus
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
