@@ -20,7 +20,7 @@ app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux ke
 app-vim/youcompleteme 20180820 99999999-r4: vim plugin: a code-completion engine for Vim
 dev-db/postgis 2.5.2: Geographic Objects for PostgreSQL
 dev-lang/erlang 21.1-r102: Erlang programming language, runtime environment and libraries (OTP)
-dev-lang/nim 0.19.6-r100 1.0.0-r100 9999-r10: compiled, garbage-collected systems programming language
+dev-lang/nim 0.19.6-r100 1.0.2-r100 9999-r10: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r2: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.32.0 9999-r5: Compiler for the Pony language
 dev-lang/python 2.7.16-r101: An interpreted, interactive, object-oriented programming language
