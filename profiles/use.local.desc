@@ -238,17 +238,6 @@ sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:systemtap - enable systemtap static probe points
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
 sys-power/cpupower:cpufreq_bench - Build and install the cpufreq_bench binary
-www-client/ungoogled-chromium:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
-www-client/ungoogled-chromium:hangouts - Enable support for Google Hangouts features such as screen sharing
-www-client/ungoogled-chromium:jumbo-build - Combine source files to speed up build process.
-www-client/ungoogled-chromium:pic - Disable optimized assembly code that is not PIC friendly
-www-client/ungoogled-chromium:proprietary-codecs - Enable proprietary codecs like H.264, MP3
-www-client/ungoogled-chromium:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
-www-client/ungoogled-chromium:system-ffmpeg - Use system ffmpeg instead of the bundled one
-www-client/ungoogled-chromium:system-icu - Use system icu instead of the bundled one
-www-client/ungoogled-chromium:system-libvpx - Use system libvpx instead of the bundled one
-www-client/ungoogled-chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
-www-client/ungoogled-chromium:widevine - Unsupported closed-source DRM capability (required by Netflix VOD)
 www-plugins/adobe-flash:nsplugin - Install the Netscape Flash API plugin (for Firefox and similar browsers)
 www-plugins/adobe-flash:ppapi - Install the Pepper Flash API plugin (for Chrome and similar browsers)
 www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
