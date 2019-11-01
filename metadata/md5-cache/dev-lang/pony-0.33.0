@@ -9,6 +9,6 @@ LICENSE=BSD-2
 RDEPEND=>=sys-devel/llvm-3.9.1:= <sys-devel/llvm-8.0.0:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/ponylang/ponyc/archive/0.32.0.tar.gz -> pony-0.32.0.tar.gz
+SRC_URI=https://github.com/ponylang/ponyc/archive/0.33.0.tar.gz -> pony-0.33.0.tar.gz
 _eclasses_=llvm	5dbc14df2333105b7c006124ead9bf3f
-_md5_=dcfc1dbc24b5e1a29f6d5680ccf97068
+_md5_=4499155e47619c3ebfeda2dcbfc49ad6
