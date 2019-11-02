@@ -14,7 +14,7 @@ app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, 
 app-text/xlsx2csv 9999: Convert MS Office xlsx files to CSV
 app-vim/ale 2.4.0 99999999-r1: Asynchronous Lint Engine for vim
 app-vim/neocomplete 9999: vim plugin: Next generation completion framework after neocomplcache
-app-vim/nim-syntax 1.2_pre20180919 9999: Nim language support
+app-vim/nim-syntax 1.2_pre20190426 9999: Nim language support
 app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 app-vim/youcompleteme 20180820 99999999-r4: vim plugin: a code-completion engine for Vim
