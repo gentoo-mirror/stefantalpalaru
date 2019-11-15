@@ -5,7 +5,7 @@ app-doc/gnucash-docs 3.7: Documentation package for GnuCash
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
 app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
 app-emulation/vmware-modules 15.5.0-r1: VMware kernel modules
-app-emulation/vmware-workstation 15.5.0.14665864-r4: Emulate a complete PC without the performance overhead of most emulators
+app-emulation/vmware-workstation 15.5.0.14665864-r5: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
 app-office/gnucash 3.7: A personal finance manager
 app-office/upwork 5.2.3.771: Project collaboration and tracking software for upwork.com
