@@ -137,7 +137,7 @@ net-misc/hylafaxplus 5.5.9-r1: Enterprise client-server fax package for class 1 
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.0: internet radio browser
 net-p2p/deluge 2.0.3-r2: BitTorrent client with a client/server model
-net-p2p/go-ethereum 1.9.7: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.9.8: Official golang implementation of the Ethereum protocol
 net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
 net-wireless/cubicsdr 0.2.5_p20191029: Cross-Platform Software-Defined Radio Application
