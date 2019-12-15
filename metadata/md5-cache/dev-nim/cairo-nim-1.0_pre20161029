@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>dev-lang/nim-0.9.2 x11-libs/cairo
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=ce539140169419a657966fd9c896b799

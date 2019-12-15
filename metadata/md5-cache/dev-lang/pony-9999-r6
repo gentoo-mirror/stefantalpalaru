@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=>=sys-devel/llvm-3.9.1:= <sys-devel/llvm-8.0.0:= sys-libs/ncurses:= sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd	llvm	5dbc14df2333105b7c006124ead9bf3f
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	llvm	5dbc14df2333105b7c006124ead9bf3f
 _md5_=5e6000edc4e1a73d6ceb6c2f2c0d716b

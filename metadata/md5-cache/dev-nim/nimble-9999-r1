@@ -7,5 +7,5 @@ IUSE=test
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=bc769a5c9009af0a290feb09983d610c
