@@ -61,6 +61,7 @@ dev-python/ipaddr 2.2.0-r1: Python IP address manipulation library
 dev-python/kombu 3.0.37-r1: AMQP Messaging Framework for Python
 dev-python/linode_api4 2.0.0: The official python SDK for Linode API v4
 dev-python/m2crypto 0.35.2-r1: A Python crypto and SSL toolkit
+dev-python/matplotlib 2.2.4-r100: Pure python plotting library with matlab like syntax
 dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
 dev-python/mysql-python 1.2.5-r3: Python interface to MySQL
 dev-python/perf 1.5.1: toolkit to run Python benchmarks
@@ -105,6 +106,7 @@ media-libs/opencolorio 1.1.0-r2: A color management framework for visual effects
 media-libs/opencv 3.4.1-r6: A collection of algorithms and sample code for various computer vision problems
 media-libs/openimageio 1.8.17: A library for reading and writing images
 media-libs/portaudio 19.6.0_pre20161030 19.6.0_pre20180701: A free, cross-platform, open-source, audio I/O library
+media-libs/qhull 2019.1: Geometry library
 media-libs/zita-convolver 3.1.0-r1: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
