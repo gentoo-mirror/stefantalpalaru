@@ -140,7 +140,7 @@ media-libs/openimageio:field3d - Use media-libs/Field3D
 media-libs/openimageio:opencv - Use media-libs/opencv
 media-libs/openimageio:ptex - Use media-libs/ptex
 media-sound/jack-audio-connection-kit:classic - Enable building of jackd"
-media-sound/jack-audio-connection-kit:opus - Support media-libs/opus
+media-sound/jack-audio-connection-kit:metadata - Enable metadata API
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
 media-sound/linuxsampler:lv2 - Add support for Ladspa V2
 media-sound/qsampler:libgig - Enable libgig support for loading Gigasampler files and DLS (Downloadable Sounds) Level 1/2 files
