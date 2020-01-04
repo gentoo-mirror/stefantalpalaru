@@ -7,7 +7,7 @@ app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
 app-emulation/vmware-modules 15.5.1-r1: VMware kernel modules
 app-emulation/vmware-workstation 15.5.1.15018445-r1: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
-app-office/gnucash 3.7: A personal finance manager
+app-office/gnucash 3.7-r1: A personal finance manager
 app-office/upwork 5.3.3.848: Project collaboration and tracking software for upwork.com
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
