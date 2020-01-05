@@ -58,10 +58,11 @@ dev-python/dns-lexicon 3.0.7-r1: Manipulate DNS records on various DNS providers
 dev-python/hiredis 1.0.0: Python extension that wraps hiredis
 dev-python/imagesize 0.7.1_p20160530: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/ipaddr 2.2.0-r1: Python IP address manipulation library
+dev-python/joblib 0.14.1: Tools to provide lightweight pipelining in Python
 dev-python/kombu 3.0.37-r1: AMQP Messaging Framework for Python
 dev-python/linode_api4 2.0.0: The official python SDK for Linode API v4
 dev-python/m2crypto 0.35.2-r1: A Python crypto and SSL toolkit
-dev-python/matplotlib 2.2.4-r100: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 2.2.4-r101: Pure python plotting library with matlab like syntax
 dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
 dev-python/mysql-python 1.2.5-r3: Python interface to MySQL
 dev-python/perf 1.5.1: toolkit to run Python benchmarks
