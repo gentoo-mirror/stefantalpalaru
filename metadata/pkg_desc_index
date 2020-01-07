@@ -1,6 +1,7 @@
 app-admin/conky 1.11.5: An advanced, highly configurable system monitor for X
 app-crypt/certbot-dns-linode 0.29.1-r1 9999: Linode DNS Authenticator plugin for Certbot
 app-crypt/certbot-s3front 0.4.2 9999: S3/CloudFront plugin for Let's Encrypt client
+app-crypt/seahorse 3.34.1: Manage your passwords and encryption keys
 app-doc/gnucash-docs 3.7: Documentation package for GnuCash
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
 app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
@@ -106,7 +107,6 @@ media-libs/libspatialaudio 0.3.0-r2: Ambisonic encoding / decoding and binaurali
 media-libs/opencolorio 1.1.0-r2: A color management framework for visual effects and animation
 media-libs/opencv 3.4.1-r6: A collection of algorithms and sample code for various computer vision problems
 media-libs/openimageio 1.8.17: A library for reading and writing images
-media-libs/portaudio 19.6.0_pre20161030 19.6.0_pre20180701: A free, cross-platform, open-source, audio I/O library
 media-libs/qhull 2019.1: Geometry library
 media-libs/zita-convolver 3.1.0-r1: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
