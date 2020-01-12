@@ -7,9 +7,12 @@ app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual mach
 app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
 app-emulation/vmware-modules 15.5.1-r1: VMware kernel modules
 app-emulation/vmware-workstation 15.5.1.15018445-r1: Emulate a complete PC without the performance overhead of most emulators
+app-misc/hachoir-subfile 0.5.3-r1: Find subfile in any binary stream
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
+app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
 app-office/gnucash 3.7-r1: A personal finance manager
 app-office/upwork 5.3.3.848-r1: Project collaboration and tracking software for upwork.com
+app-text/pdfshuffler 0.6.0-r1: GUI app that can merge or split pdfs and rotate, crop and rearrange their pages
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
 app-text/xlsx2csv 9999: Convert MS Office xlsx files to CSV
@@ -53,34 +56,180 @@ dev-nim/sdl2-nim 1.1_pre20170319 9999: Nim bindings for SDL 2
 dev-nim/x11-nim 0.1_pre20161106 9999: Nim bindings for X11
 dev-nim/zmq-nim 0.1_pre20161028 9999: Nim bindings for ZeroMQ
 dev-php/pecl-redis 4.2.0: PHP extension for interfacing with Redis
+dev-python/PySensors 0.0.3: Python bindings to libsensors (via ctypes)
+dev-python/PyZilla 0.1.0-r1: Python wrapper for the BugZilla XML-RPC API
+dev-python/RecSQL 0.7.11: Simple SQL analysis of python records
+dev-python/XenAPI 1.2: Xen API SDK, for communication with Citrix XenServer and Xen Cloud Platform
+dev-python/anyvc 0.3.7.1-r1: Library to access any version control system
+dev-python/aplpy 1.1.1: Astronomical Plotting Library in Python
+dev-python/asciitree 0.3.3: Draws ASCII trees
+dev-python/asdf 1.3.3: Python library for the Advanced Scientific Data Format
+dev-python/astlib 0.8.0: Python astronomy modules for image and coordinate manipulation
 dev-python/astor 0.8.0: Read/rewrite/write Python ASTs
+dev-python/astrodendro 0.2.0: Python package for computation of astronomical dendrograms
+dev-python/astroml 0.3: Python Machine Learning library for astronomy
+dev-python/astroml-addons 0.2.2: Performance add-ons for the astroML package
+dev-python/astroplan 0.2.1: Observation planning package for astronomers
+dev-python/astropy 2.0.14: Core functionality for performing astrophysics with Python
+dev-python/astropy-healpix 0.4: HEALPix package developed by the Astropy project
+dev-python/astropy-helpers 2.0.10: Helpers for Astropy and Affiliated packages
+dev-python/astroquery 0.3.6: Collection of packages to access online astronomical resources
+dev-python/astroscrappy 1.0.5: Optimized cosmic ray annihilation astropy python module
+dev-python/atpy 0.9.7: Astronomical tables support for Python
+dev-python/beanstalkc 0.4.0 0.4.0-r1: A simple beanstalkd client library
+dev-python/bicyclerepair 0.9-r3: Bicycle Repair Man is the Python Refactoring Browser
+dev-python/buzhug 1.8-r1: Fast, pure-Python database engine
+dev-python/ccdproc 1.2.0: Astropy affiliated package for reducing optical/IR CCD data
 dev-python/celery 3.1.25: Asynchronous task queue/job queue based on distributed message passing
+dev-python/cement 2.0.2 2.10.0: CLI Application Framework for Python
+dev-python/cherrytemplate 1.0.0-r1: Easy and powerful templating module for Python
+dev-python/clientcookie 1.3.0-r1: Python module for handling HTTP cookies on the client side
+dev-python/dib-utils 0.0.8 0.0.10: Standalone tools related to diskimage-builder.
+dev-python/dirq 1.7.1: Python port of Perl module Directory::Queue
+dev-python/disqus-python 0.4.2: Python client library for accessing the disqus.com API
 dev-python/dns-lexicon 3.0.7-r1: Manipulate DNS records on various DNS providers in a standardized way
+dev-python/figleaf 0.6.1-r1: Code coverage tool
+dev-python/flask-dashed 0.1b_p2 0.1b_p2-r1: Admin app framework for flask
+dev-python/foolscap 0.7.0 0.11.0 0.13.1: RPC protocol for Twisted
+dev-python/gammapy 0.6: Python package for gamma-ray astronomy
+dev-python/gdmodule 0.56-r2: Python extensions for gd
+dev-python/ginga 2.7.2: Astronomical image toolkit for Python
+dev-python/glue-vispy-viewers 0.7.2: Vispy-based viewers for Glue
+dev-python/glueviz 0.10.4: Python library to explore relationships within and among related datasets
+dev-python/graphy 1.0-r1: Simple Chart Library for Python
+dev-python/guppy 0.1.10-r1: Guppy-PE -- A Python Programming Environment
+dev-python/gwcs 0.8.0: Python for managing the World Coordinate System
+dev-python/hachoir-regex 1.0.5-r1: Manipulation of regular expressions (regex)
+dev-python/happydoc 3.1-r2: Tool for extracting documentation from Python source code
+dev-python/hcluster 0.2.0-r1: Python hierarchical clustering package for Scipy
+dev-python/hcs-utils 1.5 2.0: A library containing some useful snippets
+dev-python/healpy 1.13.0: Python wrapper for healpix
 dev-python/hiredis 1.0.0: Python extension that wraps hiredis
+dev-python/hp3parclient 2.0.0 3.0.0: A python interface to sendfile(2) system call
+dev-python/htmlgen 2.2.2-r1: HTMLgen - Python modules for the generation of HTML documents
 dev-python/imagesize 0.7.1_p20160530: Getting image size from png/jpeg/jpeg2000/gif file
+dev-python/imexam 0.8.1: Simple interactive astronomical image examination and plotting
+dev-python/inotifyx 0.2.2: Python bindings to the Linux inotify file system event monitoring API
 dev-python/ipaddr 2.2.0-r1: Python IP address manipulation library
+dev-python/irman-python 0.1-r1: A minimal set of Python bindings for libirman
 dev-python/joblib 0.14.1: Tools to provide lightweight pipelining in Python
+dev-python/jonpy 0.11 0.13: Powerful multi-threaded object-oriented CGI/FastCGI/mod_python/html-templating facilities
+dev-python/keyczar 0.715: Toolkit for safe and simple cryptography
+dev-python/keyring 18.0.1: Provides access to the system keyring service
+dev-python/keyrings_alt 2.3: Alternate keyring implementations
 dev-python/kombu 3.0.37-r1: AMQP Messaging Framework for Python
+dev-python/libextractor-python 0.6-r1: A library used to extract metadata from files of arbitrary type
+dev-python/libiscsi-python 0_pre160211 9999: Python bindings for libiscsi
+dev-python/libnatpmp 20130911 20140401-r1 20150609: Python module for libnatpmp, an alternative protocol to UPnP IGD
 dev-python/linode_api4 2.0.0: The official python SDK for Linode API v4
+dev-python/log4py 1.3-r1: A python logging module similar to log4j
+dev-python/louie 1.1-r1: Signal dispatching mechanism for Python
+dev-python/lp_solve 5.5.2.0-r1: Python wrappers for lpsolve linear programming library
+dev-python/lupy 0.2.1-r2: Lupy is a is a full-text indexer and search engine written in Python
 dev-python/m2crypto 0.35.2-r1: A Python crypto and SSL toolkit
+dev-python/m2secret 0.1.1-r1: Encryption and decryption module and CLI utility
 dev-python/matplotlib 2.2.4-r101: Pure python plotting library with matlab like syntax
 dev-python/messaging 0.5.12_p20151120: SMS/MMS encoder/decoder
+dev-python/montage-wrapper 0.9.9: Python wrapper for the Montage mosaicking toolkit
+dev-python/mwlib-ext 0.13.2: Extension module to mwlib to pull in reportlab
 dev-python/mysql-python 1.2.5-r3: Python interface to MySQL
+dev-python/naima 0.8.4: Python package for gamma-ray astronomy
+dev-python/newt_syrup 0.1.2-r2: Python framework for creating text-based applications
+dev-python/numdisplay 1.6.0-r1: Python package for interactively displaying FITS arrays
+dev-python/optcomplete 1.2-r1: Shell completion self-generator for Python
 dev-python/perf 1.5.1: toolkit to run Python benchmarks
 dev-python/performance 0.6.1-r2: Python Performance Benchmark Suite
 dev-python/pgmagick 0.7.4: Yet another boost.python based wrapper for GraphicsMagick
+dev-python/photutils 0.4.1: Python package for image astronomical photometry
+dev-python/piddle 1.0.15-r1: Cross-media, cross-platform 2D graphics package
 dev-python/pillow 6.1.0: Python Imaging Library (fork)
+dev-python/pp 1.6.5 1.6.6: Parallel and distributed programming for Python
 dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
+dev-python/py-notify 0.3.1-r1: Tools for implementing the Observer programming pattern in Python
+dev-python/py-smbpasswd 1.0.2: Module capable of generating both LANMAN and NT password hashes, for e.g. Samba
+dev-python/pyPdf 1.13-r1: Python library to work with pdf files
+dev-python/pyamf 0.8.0: Action Message Format (AMF) support for Python
+dev-python/pyao 0.82-r3: Python bindings for the libao library
+dev-python/pyavm 0.9.4: Python module for Astronomy Visualization Metadata i/o
+dev-python/pybitmessage 0.6.3.2_p20180521: Reference client for Bitmessage: a P2P communications protocol
+dev-python/pycdf 0.6.3-r1: Python interface to scientific netCDF library
+dev-python/pychef 0.2.3: A Python API for interacting with a Chef server
+dev-python/pyclamav 0.4.1-r2: Python binding for libclamav
+dev-python/pycryptopp 0.6.0 0.7.1-r1: Python wrappers for a few algorithms from the Crypto++ library
+dev-python/pydl 0.7.0: Library of IDL astronomy routines converted to Python
+dev-python/pydvdread 1.0-r1: A set of Python bindings for the libdvdread library
+dev-python/pyelemental 1.2.0-r1: Python bindings for libelemental (sci-chemistry/gelemental)
+dev-python/pyfits 3.5: Provides an interface to FITS formatted files under python
+dev-python/pyifp 0.2.2-r1: Python bindings for libifp library for accessing iRiver iFP devices
+dev-python/pylibpcap 0.6.4-r1: Python interface to libpcap
+dev-python/pyml 0.7.13.3: Python machine learning package
+dev-python/pymoc 0.5.0: Python Multi-Order Coverage maps for Virtual Observatory
+dev-python/pynag 0.9.1: Python modules for Nagios plugins and configuration
+dev-python/pyndex 0.3.2a-r1: Simple and fast Python full-text indexer (aka search engine) using Metakit as its back-end
+dev-python/pyoembed 0.1.1 9999: Python library for oEmbed with auto-discovered and manually added providers
+dev-python/pyrax 1.9.7: Python language bindings for OpenStack Clouds
+dev-python/pyregion 2.0: Python module to parse ds9 region file
+dev-python/pystatgrab 0.7: pystatgrab is a set of Python bindings for the libstatgrab library
+dev-python/pytest 3.6.4: Simple powerful testing with Python
+dev-python/python-caja 1.22.0-r1: Python bindings for the Caja file manager
+dev-python/python-catcher 0.1.7: Beautiful stack traces for Python
+dev-python/python-cdb 0.34-r1: A Python extension module for cdb
+dev-python/python-exconsole 0.1.5: Emergency/postmortem Python console
+dev-python/python-fastcgi 1.1-r1: Interface to OpenMarket's FastCGI C Library/SDK
 dev-python/python-fastimport 9999: Fastimport parser in Python
+dev-python/python-mhash 1.4-r1: Python interface to libmhash
 dev-python/python-modernize 0.7: Modernizes Python code for eventual Python 3 migration
+dev-python/python-oembed 0.2.4: A Python library that implements an OEmbed consumer
+dev-python/python-pam 0.1.4: A python interface to the PAM library on linux using ctypes
+dev-python/python-pluginloader 1.0.0: Library to manage python plugins/extensions
+dev-python/python-recaptcha 2.0.0 2.0.1 2.0.1-r1: A plugin for reCAPTCHA and reCAPTCHA Mailhide
+dev-python/pyvtk 0.4.74: Tools for manipulating VTK files in Python
+dev-python/qserve 0.2.8-r1: A job queue server
+dev-python/radio-beam 0.3.2: toolkit for reading/manipulating beam information from FITS headers
+dev-python/regions 0.4: Astropy affiliated package for region handling
+dev-python/reproject 0.5.1: Reproject astronomical images with Python
 dev-python/requests-file 1.4.3: Transport adapter for fetching file:// URLs with the requests python library
+dev-python/rlcompleter2 0.98-r1: Python command line completion
+dev-python/ropeide 1.5.1-r2: Python refactoring IDE
+dev-python/ropemacs 0.8: Rope in Emacs
 dev-python/s3transfer 0.1.11: An Amazon S3 Transfer Manager
+dev-python/sancho 2.4-r1: Sancho is a unit testing framework
+dev-python/sclapp 0.5.3-r1: Framework for writing simple command-line applications
+dev-python/secretstorage 2.3.1: Python bindings to FreeDesktop.org Secret Service API.
+dev-python/simplesettings 0.5-r1: Simple settings initialization
+dev-python/slowaes 0.1-r2: AES implementation in pure Python
+dev-python/snakefood 1.3.1-r1: Generate dependency graphs from Python code
+dev-python/spectral-cube 0.4.0: Manipulate astronomical data cubes with Python
+dev-python/specutils 0.2.2: Python package for astronomy spectral operations
+dev-python/sphinxcontrib-ditaa 0.2: Ditaa Sphinx extension
+dev-python/sqlitecachec 1.1.4-r1: sqlite cacher for python applications
+dev-python/stapler 0.4_p20160424: Suite of tools for PDF files manipulation written in Python
 dev-python/statistics 3.4.0_beta3: A Python 2.* port of 3.4 Statistics Module
+dev-python/stripogram 1.5-r1: Strip-o-Gram HTML Conversion Library
+dev-python/stsci-distutils 0.3.8: Utilities used to package some of STScI's Python projects
+dev-python/stsci-sphinxext 1.2.2: Tools and templates to customize Sphinx for STScI projects
+dev-python/sudsds 1.0.1-r1: Lightweight SOAP client - Czech NIC labs fork
+dev-python/sunpy 0.9.10: Software library for solar physics based on Python
+dev-python/superlance 0.14 1.0.0: A set of plugins to monitor and control supervisor
+dev-python/supervisor-quick 0.1.4: Bypass supervisor's nasty callbacks stack and make it quick!
+dev-python/telarchive 1.8.3: Script for automated searches of astronomical telescope archives
+dev-python/tgmochikit 1.4.2-r1: MochiKit packaged as TurboGears widgets
 dev-python/tldextract 2.2.0: Accurately separate the TLD from the registered domain and subdomains of a URL
+dev-python/ttfquery 1.0.5-r1: Font metadata and glyph outline extraction utility library
+dev-python/turbolift 2.1.3: Openstack Swift sync/backup utility
+dev-python/ushlex 0.99.1: Replacement for shlex for Python 2.X
+dev-python/vatnumber 1.1-r1: Module to validate VAT numbers
+dev-python/weberror 0.13.1: Web Error handling and exception catching
+dev-python/webhelpers 1.3-r1: Web Helpers
+dev-python/webpy 0.37-r1 0.38: A small and simple web framework for Python
+dev-python/workerpool 0.9.4: Module for distributing jobs to a pool of worker threads
+dev-util/Orange 3.4.5-r3 3.14.0: Open source data visualization and analysis for novice and experts.
 dev-util/ctags 20181219: Exuberant Ctags creates tags files for code browsing in editors
 dev-util/gotags 1.4.1: ctags-compatible tag generator for Go
 dev-util/rebar3 3.6.1-r1: A sophisticated build-tool for Erlang projects that follows OTP principles
 dev-util/trace-cmd 2.7 9999: User-space front-end for Ftrace
+dev-vcs/hg-fast-export 160914 190107: mercurial to git converter using git-fast-import
+dev-vcs/rabbitvcs 0.16-r1: Integrated version control support for your desktop
 games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
 games-emulation/rpcs3 9999: PlayStation 3 emulator
 media-fonts/breeze-sans 20170821: a humanist sans-serif typeface designed by Dalton Maag for Samsung
@@ -88,14 +237,14 @@ media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
-media-gfx/gmic 2.7.4-r100 9999-r13: GREYC's Magic Image Converter
+media-gfx/gmic 2.8.1-r100 9999-r13: GREYC's Magic Image Converter
 media-gfx/mcomix 1.2.1_p20190406-r1: A fork of comix, a GTK image viewer for comic book archives
 media-gfx/ufraw 0.22-r3: RAW Image format viewer and GIMP plugin
 media-gfx/wings 2.1.7-r101: Wings 3D is an advanced subdivision modeler
-media-gfx/zart 3.2.2_p20190823 9999-r1: G'MIC GUI for video streams
+media-gfx/zart 3.2.2_p20191126: G'MIC GUI for video streams
 media-libs/avidemux-core 2.7.3: Core libraries for simple video cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.7.3: Plugins for the video editor media-video/avidemux
-media-libs/cimg 2.7.4-r100 9999: C++ template image processing toolkit
+media-libs/cimg 2.8.1-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/libaom 1.0.0-r1: Alliance for Open Media AV1 Codec SDK
@@ -132,24 +281,33 @@ media-video/avidemux 2.7.3: Video editor designed for simple cutting, filtering 
 media-video/smtube 18.11.0: YouTube Browser for SMPlayer
 media-video/vlc 3.0.4-r1: Media player and framework with support for most multimedia files and streaming
 media-video/vobsub2srt 1.0_pre20171219 9999-r1: Converts VobSub subtitles (.sub/.idx) to .srt text subtitles using tesseract
+net-analyzer/namebench 1.3.1-r3: DNS Benchmark Utility
 net-analyzer/nethogs 0.8.5_p20181230: A small 'net top' tool, grouping bandwidth by process
 net-fs/s3fs 1.83: Amazon S3 mounting via fuse
+net-fs/tahoe-lafs 1.10.2: Secure, decentralized, data store
 net-im/status-bin 9999-r3: chat client using Whisper on the devp2p wire protocol
 net-libs/libtorrent-rasterbar 1.2.1-r100: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/liquid-dsp 1.3.2-r100 9999-r2: digital signal processing library for software-defined radios
 net-misc/hylafaxplus 5.5.9-r1: Enterprise client-server fax package for class 1 and 2 fax modems
+net-misc/irrtree 1.2.1: The BGP swiss army knife of networking
+net-misc/pycnb 0.0.4-r1: Access cnb.cz daily rates with the comfort of your command line
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.0: internet radio browser
 net-p2p/amule 2.3.2_p20191216: aMule, the all-platform eMule p2p client
 net-p2p/deluge 2.0.3-r2: BitTorrent client with a client/server model
 net-p2p/go-ethereum 1.9.8: Official golang implementation of the Ethereum protocol
+net-p2p/pybitmessage 0.6.3.2_p20180521: Reference client for Bitmessage: a P2P communications protocol
 net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
+net-print/pykota 1.26-r1: Flexible print quota and accounting package for use with CUPS and lpd
 net-wireless/cubicsdr 0.2.5_p20191029: Cross-Platform Software-Defined Radio Application
 net-wireless/dump1090 3.7.2 9999-r2: simple Mode S decoder for RTLSDR devices
 net-wireless/gqrx 2.11.5: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/soapysdr 0.7.1-r100 9999: vendor and platform neutral SDR support library
 perl-core/Digest-MD5 2.550.0: MD5 message digest algorithm
+sci-astronomy/astrometry 0.78: Automated astrometric calibration programs and service
+sci-astronomy/casacore 3.2.1: Core libraries for the Common Astronomy Software Applications
+sci-astronomy/kapteyn 2.3: Collection of python tools for astronomy
 sci-geosciences/gpsprune-bin 19.2: An application for viewing, editing and converting GPS data.
 sci-geosciences/mkgmap-bin 3831: Tool to create garmin maps
 sci-geosciences/splitter-bin 580: Tile splitter for mkgmap
@@ -165,6 +323,7 @@ sys-devel/gcc 10.0.0_pre9999: The GNU Compiler Collection
 sys-devel/pyflame 1.6.6: a ptracing profiler for Python
 sys-power/cpupower 5.2: Shows and sets processor power related values
 sys-power/phc-intel 0.3.2.12.31: Processor Hardware Control for Intel CPUs
+www-apps/blohg-tumblelog 0.2 9999: A blohg extension with reStructuredText directives to run a tumblelog
 www-apps/mediawiki 1.32.0: The MediaWiki wiki web application (as used on wikipedia.org)
 www-misc/profile-sync-daemon 5.75: Symlinks and syncs browser profile dirs to RAM
 www-plugins/adobe-flash 30.0.0.154: Adobe Flash Player
@@ -173,4 +332,5 @@ x11-drivers/nvidia-drivers 390.116-r3: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.3_p20190424: C language library for creating bindings for the Qt QML language
 x11-libs/wxGTK 3.1.3-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/electricsheep 3.0.2_p20180714-r3 9999-r3: realize the collective dream of sleeping computers from all over the internet
+x11-misc/magick-rotation 1.6.2-r2: Application that rotates tablet pc's screen automatically, based on orientation
 x11-themes/numix-solarized 9999-r1: solarized version of Numix
