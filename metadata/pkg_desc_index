@@ -1,5 +1,5 @@
 app-admin/conky 1.11.5: An advanced, highly configurable system monitor for X
-app-crypt/certbot-dns-linode 0.29.1-r1 9999: Linode DNS Authenticator plugin for Certbot
+app-crypt/certbot-dns-linode 1.1.0 9999: Linode DNS Authenticator plugin for Certbot
 app-crypt/certbot-s3front 0.4.2 9999: S3/CloudFront plugin for Let's Encrypt client
 app-crypt/seahorse 3.34.1: Manage your passwords and encryption keys
 app-doc/gnucash-docs 3.7: Documentation package for GnuCash
