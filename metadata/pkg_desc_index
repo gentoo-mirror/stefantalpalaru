@@ -11,7 +11,7 @@ app-misc/hachoir-subfile 0.5.3-r1: Find subfile in any binary stream
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
 app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
 app-office/gnucash 3.7-r1: A personal finance manager
-app-office/upwork 5.3.3.848-r1: Project collaboration and tracking software for upwork.com
+app-office/upwork 5.3.3.860: Project collaboration and tracking software for upwork.com
 app-text/pdfshuffler 0.6.0-r1: GUI app that can merge or split pdfs and rotate, crop and rearrange their pages
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
