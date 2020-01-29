@@ -6,7 +6,7 @@ app-doc/gnucash-docs 3.7: Documentation package for GnuCash
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
 app-emulation/virtualbox-modules 6.0.12-r1: Kernel Modules for Virtualbox
 app-emulation/vmware-modules 15.5.1-r1: VMware kernel modules
-app-emulation/vmware-workstation 15.5.1.15018445-r1: Emulate a complete PC without the performance overhead of most emulators
+app-emulation/vmware-workstation 15.5.1.15018445-r2: Emulate a complete PC without the performance overhead of most emulators
 app-misc/hachoir-subfile 0.5.3-r1: Find subfile in any binary stream
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
 app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
