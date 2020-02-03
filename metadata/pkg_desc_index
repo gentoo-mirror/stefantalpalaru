@@ -325,7 +325,7 @@ net-misc/irrtree 1.2.1: The BGP swiss army knife of networking
 net-misc/pycnb 0.0.4-r1: Access cnb.cz daily rates with the comfort of your command line
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.0: internet radio browser
-net-p2p/amule 2.3.2_p20191216: aMule, the all-platform eMule p2p client
+net-p2p/amule 2.3.2_p20200131: aMule, the all-platform eMule p2p client
 net-p2p/deluge 2.0.3-r2: BitTorrent client with a client/server model
 net-p2p/go-ethereum 1.9.8: Official golang implementation of the Ethereum protocol
 net-p2p/pybitmessage 0.6.3.2_p20180521: Reference client for Bitmessage: a P2P communications protocol
