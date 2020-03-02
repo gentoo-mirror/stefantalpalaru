@@ -1,15 +1,15 @@
 BDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python2_7? ( dev-python/setuptools[python_targets_python2_7(-)] ) python_single_target_python3_6? ( dev-python/setuptools[python_targets_python3_6(-)] ) python_single_target_python3_7? ( dev-python/setuptools[python_targets_python3_7(-)] )
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=dev-python/setuptools[%PYTHON_USEDEP-HAS-BEEN-REMOVED%]
+DEPEND=python_single_target_python2_7? ( dev-python/setuptools[python_targets_python2_7(-)] ) python_single_target_python3_6? ( dev-python/setuptools[python_targets_python3_6(-)] ) python_single_target_python3_7? ( dev-python/setuptools[python_targets_python3_7(-)] )
 DESCRIPTION=Modernizes Python code for eventual Python 3 migration
 EAPI=7
 HOMEPAGE=https://github.com/python-modernize/python-modernize
 IUSE=python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-python/setuptools[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] )
+RDEPEND=python_single_target_python2_7? ( dev-python/setuptools[python_targets_python2_7(-)] ) python_single_target_python3_6? ( dev-python/setuptools[python_targets_python3_6(-)] ) python_single_target_python3_7? ( dev-python/setuptools[python_targets_python3_7(-)] ) python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] )
 REQUIRED_USE=^^ ( python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7 )
 SLOT=0
 SRC_URI=https://github.com/python-modernize/python-modernize/archive/0.7.tar.gz -> python-modernize-0.7.tar.gz
 _eclasses_=distutils-r1	0d71c97a0c899f1f11ee4453ebeae2cd	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	3523c14054afd2b17f0d277108d48aeb	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=53a9657a605f673f82b40c43ffc86ae0
+_md5_=17822483d4d5fd3dfed8981d01840572

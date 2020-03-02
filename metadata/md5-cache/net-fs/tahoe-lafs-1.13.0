@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Secure, decentralized, data store
+EAPI=7
+HOMEPAGE=https://tahoe-lafs.org/trac/tahoe-lafs
+IUSE=doc python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/characteristic-14.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/foolscap-0.12.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/nevow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/pyasn1-0.1.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyasn1-modules[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pycryptopp[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pycrypto[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/pyopenssl-0.14[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyutil[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pyyaml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/service_identity[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/simplejson[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/six[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/twisted-16.4.0[crypt,python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/zbase32[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/zfec[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/zope-interface[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] net-misc/magic-wormhole[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=https://github.com/tahoe-lafs/tahoe-lafs/archive/tahoe-lafs-1.13.0.tar.gz
+_eclasses_=distutils-r1	0d71c97a0c899f1f11ee4453ebeae2cd	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	4eed5e0c72d4544a2291ae46515f5d79	python-utils-r1	3523c14054afd2b17f0d277108d48aeb	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=f18d44a5adfabbd219128ab147127884
