@@ -40,30 +40,36 @@ app-office/gnucash:chipcard - Enable support for chipcard reading and processing
 app-office/gnucash:gui - Enable graphic interface (needs net-libs/webkit-gtk:4 and x11-libs/gtk+:3)
 app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 app-office/gnucash:register2 - Use the new register (Experimental)
-app-vim/youcompleteme:clang - Enable semantic support for C-family languages using sys-devel/clang
-app-vim/youcompleteme:rust - Enable semantic support for Rust
 dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
 dev-db/postgis:gtk - Build graphical interface for shp2pgsql (shp2pgsql-gui)
 dev-db/postgis:mapbox - Add capability to transform geometry into Mapbox Vector Tile
 dev-db/postgis:topology - Build topology spatial types and functions
-dev-lang/erlang:hipe - HIgh Performance Erlang extension
-dev-lang/erlang:kpoll - Enable kernel polling support
-dev-lang/erlang:pgo - Build erts with profile-guided optimizations
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
+dev-lang/php:bcmath - Add support for libbcmath
 dev-lang/php:cli - Enable CLI SAPI
+dev-lang/php:ctype - Enable ctype functions
 dev-lang/php:curlwrappers - Enable curl wrappers
 dev-lang/php:embed - Enable embed SAPI
 dev-lang/php:enchant - Add supports Enchant spelling library.
 dev-lang/php:fileinfo - Add fileinfo extension support
 dev-lang/php:filter - Add filter extension support
+dev-lang/php:flatfile - Add dbm support for flat files
 dev-lang/php:fpm - Enable the FastCGI Process Manager SAPI
 dev-lang/php:gd - Adds support for gd (bundled with PHP)
 dev-lang/php:hash - Enable the hash extension
+dev-lang/php:inifile - Add dbm support for .ini files
 dev-lang/php:intl - Enables the intl extension for extended internalization support
 dev-lang/php:json - Enable JSON support
 dev-lang/php:ldap-sasl - Add SASL support for the PHP LDAP extension
+dev-lang/php:pcntl - Add support for process creation functions
 dev-lang/php:pdo - Enable the bundled PDO extensions
 dev-lang/php:phar - Enables the phar extension to provide phar archive support
+dev-lang/php:sharedmem - Add support for shared memory use
+dev-lang/php:simplexml - Support for SimpleXML
+dev-lang/php:sybase-ct - Add support for Sybase-CT
+dev-lang/php:sysvipc - Support for System V-compatible inter-process communication
+dev-lang/php:tokenizer - Add support for the PHP file parser
+dev-lang/php:wddx - Add support for Web Distributed Data eXchange
 dev-lang/php:xmlreader - Enable XMLReader support
 dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
