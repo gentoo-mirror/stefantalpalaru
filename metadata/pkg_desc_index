@@ -184,7 +184,7 @@ dev-python/ip-associations-python-novaclient-ext 0.2: Disk Config extension for 
 dev-python/ipaddr 2.2.0-r1: Python IP address manipulation library
 dev-python/ipykernel 4.10.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 6.2.4: Interactive Parallel Computing with IPython
-dev-python/ipython 5.9.0: Advanced interactive shell for Python
+dev-python/ipython 5.9.0-r1: Advanced interactive shell for Python
 dev-python/ipython_genutils 0.2.0: Vestigial utilities from IPython
 dev-python/ipywidgets 7.4.2-r1: IPython HTML widgets for Jupyter
 dev-python/irman-python 0.1-r1: A minimal set of Python bindings for libirman
@@ -281,7 +281,7 @@ dev-python/pkipplib 0.07-r1: Pkipplib is a Python module which parses IPP reques
 dev-python/pp 1.6.5 1.6.6: Parallel and distributed programming for Python
 dev-python/pretty-yaml 19.12.0: PyYAML-based module to produce pretty and readable YAML-serialized data
 dev-python/prometheus_client 0.7.1-r1: Python client for the Prometheus monitoring system
-dev-python/prompt_toolkit 2.0.10: Building powerful interactive command lines in Python
+dev-python/prompt_toolkit 1.0.18 2.0.10: Building powerful interactive command lines in Python
 dev-python/py-amqp 1.4.9: Low-level AMQP client for Python (fork of amqplib)
 dev-python/py-notify 0.3.1-r1: Tools for implementing the Observer programming pattern in Python
 dev-python/py-smbpasswd 1.0.2: Module capable of generating both LANMAN and NT password hashes, for e.g. Samba
