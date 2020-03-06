@@ -40,6 +40,16 @@ app-office/gnucash:chipcard - Enable support for chipcard reading and processing
 app-office/gnucash:gui - Enable graphic interface (needs net-libs/webkit-gtk:4 and x11-libs/gtk+:3)
 app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 app-office/gnucash:register2 - Use the new register (Experimental)
+app-portage/layman:bazaar - Support dev-vcs/bzr based overlays
+app-portage/layman:cvs - Support dev-vcs/cvs based overlays
+app-portage/layman:darcs - Support dev-vcs/darcs based overlays
+app-portage/layman:g-sorcery - Support app-portage/g-sorcery based overlays
+app-portage/layman:git - Support dev-vcs/git based overlays
+app-portage/layman:gpg - Support app-crypt/gnupg signed overlays lists and manifests
+app-portage/layman:mercurial - Support dev-vcs/mercurial based overlays
+app-portage/layman:squashfs - Support mounting squashfs image overlays locally read-only
+app-portage/layman:subversion - Support dev-vcs/subversion based overlays
+app-portage/layman:sync-plugin-portage - Install the sys-apps/portage sync module
 dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
 dev-db/postgis:gtk - Build graphical interface for shp2pgsql (shp2pgsql-gui)
 dev-db/postgis:mapbox - Add capability to transform geometry into Mapbox Vector Tile
