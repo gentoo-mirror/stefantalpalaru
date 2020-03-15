@@ -33,7 +33,7 @@ app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 dev-db/postgis 2.5.2: Geographic Objects for PostgreSQL
 dev-lang/nim 0.19.6-r100 1.0.6-r100 9999-r10: compiled, garbage-collected systems programming language
-dev-lang/php 5.3.29-r2: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
+dev-lang/php 5.3.29-r3: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.33.2 9999-r6: Compiler for the Pony language
 dev-lang/python 2.7.17-r100: An interpreted, interactive, object-oriented programming language
 dev-lang/tauthon 2.8.1: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
