@@ -17,7 +17,7 @@ app-misc/hachoir-subfile 0.5.3-r1: Find subfile in any binary stream
 app-misc/hachoir-urwid 1.1-r1: Binary file explorer using Hachoir and urwid libraries
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
 app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
-app-office/gnucash 3.8b: A personal finance manager
+app-office/gnucash 3.8b-r1: A personal finance manager
 app-office/upwork 5.3.3.860: Project collaboration and tracking software for upwork.com
 app-portage/gentoopm 0.3.1-r1: A common interface to Gentoo package managers
 app-portage/layman 2.4.2-r3: Tool to manage Gentoo overlays
