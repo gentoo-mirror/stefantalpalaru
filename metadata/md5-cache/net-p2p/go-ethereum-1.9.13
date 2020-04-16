@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install
-DEPEND=dev-lang/go:= >=dev-lang/go-1.10
+DEPEND=>=dev-lang/go-1.13:= >=dev-lang/go-1.10
 DESCRIPTION=Official golang implementation of the Ethereum protocol
 EAPI=6
 HOMEPAGE=https://github.com/ethereum/go-ethereum
 IUSE=devtools
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+ LGPL-3+
-RDEPEND=dev-lang/go:=
+RDEPEND=>=dev-lang/go-1.13:=
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.9.12.tar.gz -> go-ethereum-1.9.12.tar.gz
+SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.9.13.tar.gz -> go-ethereum-1.9.13.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
-_md5_=8f8cd03c3224639306c36d618bcc2df7
+_md5_=82c2c746abe1b3d3d1ea7c9717e94825
