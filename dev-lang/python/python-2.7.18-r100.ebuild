@@ -6,13 +6,15 @@ WANT_LIBTOOL="none"
 
 inherit autotools eutils flag-o-matic multilib pax-utils python-utils-r1 toolchain-funcs multiprocessing
 
-DESCRIPTION="Python 2.7 fork with new syntax, builtins, and libraries backported from Python3"
-HOMEPAGE="https://github.com/naftaliharris/tauthon"
-SRC_URI="https://github.com/naftaliharris/tauthon/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+MY_P="Python-${PV}"
+
+DESCRIPTION="An interpreted, interactive, object-oriented programming language"
+HOMEPAGE="https://www.python.org/"
+SRC_URI="https://www.python.org/ftp/python/${PV}/${MY_P}.tar.xz"
 
 LICENSE="PSF-2"
-SLOT="2.8"
-KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86"
+SLOT="2.7"
+KEYWORDS="alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sparc x86"
 IUSE="-berkdb bluetooth build doc elibc_uclibc examples gdbm hardened ipv6 libressl +lto +ncurses +pgo +readline sqlite +ssl +threads tk +wide-unicode wininst +xml"
 
 # Do not add a dependency on dev-lang/python to this ebuild.
@@ -58,14 +60,15 @@ DEPEND="${RDEPEND}
 	>=sys-devel/autoconf-2.65
 	!sys-devel/gcc[libffi(-)]"
 RDEPEND+=" !build? ( app-misc/mime-types )
-		"
-	#doc? ( dev-python/python-docs:${SLOT} )"
+	doc? ( dev-python/python-docs:${SLOT} )"
 PDEPEND=">=app-eselect/eselect-python-20140125-r1"
+
+S="${WORKDIR}/${MY_P}"
 
 pkg_setup() {
 	if use berkdb; then
 		ewarn "'bsddb' module is out-of-date and no longer maintained inside"
-		ewarn "dev-lang/tauthon. 'bsddb' and 'dbhash' modules have been additionally"
+		ewarn "dev-lang/python. 'bsddb' and 'dbhash' modules have been additionally"
 		ewarn "removed in Python 3. A maintained alternative of 'bsddb3' module"
 		ewarn "is provided by dev-python/bsddb3."
 	else
@@ -93,6 +96,7 @@ src_prepare() {
 		"${FILESDIR}/python-2.7.9-ncurses-pkg-config.patch"
 		"${FILESDIR}/python-2.7.10-cross-compile-warn-test.patch"
 		"${FILESDIR}/python-2.7.10-system-libffi.patch"
+		"${FILESDIR}/python-2.7.15-PGO-r1.patch"
 	)
 
 	default
@@ -129,7 +133,7 @@ src_configure() {
 		export PYTHON_DISABLE_MODULES="${disable}"
 
 		if ! use xml; then
-			ewarn "You have configured Tauthon without XML support."
+			ewarn "You have configured Python without XML support."
 			ewarn "This is NOT a recommended configuration as you"
 			ewarn "may face problems parsing any XML documents."
 		fi
@@ -162,8 +166,8 @@ src_configure() {
 	# http://bugs.python.org/issue15506
 	export ac_cv_path_PKG_CONFIG=$(tc-getPKG_CONFIG)
 
-	# Set LDFLAGS so we link modules with -ltauthon correctly.
-	# Needed on FreeBSD unless Tauthon is already installed.
+	# Set LDFLAGS so we link modules with -lpython2.7 correctly.
+	# Needed on FreeBSD unless Python 2.7 is already installed.
 	# Please query BSD team before removing this!
 	append-ldflags "-L."
 
@@ -236,9 +240,9 @@ src_compile() {
 
 	# Work around bug 329499. See also bug 413751 and 457194.
 	if has_version dev-libs/libffi[pax_kernel]; then
-		pax-mark E tauthon
+		pax-mark E python
 	else
-		pax-mark m tauthon
+		pax-mark m python
 	fi
 }
 
@@ -280,7 +284,7 @@ src_test() {
 	done
 
 	elog "If you would like to run them, you may:"
-	elog "cd '${EPREFIX}/usr/$(get_libdir)/tauthon${SLOT}/test'"
+	elog "cd '${EPREFIX}/usr/$(get_libdir)/python${SLOT}/test'"
 	elog "and run the tests separately."
 
 	if [[ "${result}" -ne 0 ]]; then
@@ -289,16 +293,10 @@ src_test() {
 }
 
 src_install() {
-	local libdir=${ED}/usr/$(get_libdir)/tauthon${SLOT}
+	local libdir=${ED}/usr/$(get_libdir)/python${SLOT}
 
 	cd "${BUILD_DIR}" || die
 	emake DESTDIR="${D}" altinstall
-
-	# symlinks for autotools
-	ln -s tauthon${SLOT} "${ED}/usr/$(get_libdir)/python${SLOT}"
-	ln -s libtauthon${SLOT}.a "${ED}/usr/$(get_libdir)/libpython${SLOT}.a"
-	ln -s libtauthon${SLOT}.so "${ED}/usr/$(get_libdir)/libpython${SLOT}.so"
-	ln -s python${SLOT}-config "${ED}/usr/bin/tauthon${SLOT}-config"
 
 	sed -e "s/\(LDFLAGS=\).*/\1/" -i "${libdir}/config/Makefile" || die "sed failed"
 
@@ -316,7 +314,7 @@ src_install() {
 	use threads || rm -r "${libdir}/multiprocessing" || die
 	use wininst || rm -r "${libdir}/distutils/command/"wininst-*.exe || die
 
-	dodoc "${S}"/Misc/{ACKS,HISTORY}
+	dodoc "${S}"/Misc/{ACKS,HISTORY,NEWS}
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples
@@ -339,13 +337,13 @@ src_install() {
 
 	# if not using a cross-compiler, use the fresh binary
 	if ! tc-is-cross-compiler; then
-		local -x PYTHON=./tauthon
+		local -x PYTHON=./python
 		local -x LD_LIBRARY_PATH=${LD_LIBRARY_PATH+${LD_LIBRARY_PATH}:}${PWD}
 	else
 		vars=( PYTHON "${vars[@]}" )
 	fi
 
-	python_export "tauthon${SLOT}" "${vars[@]}"
+	python_export "python${SLOT}" "${vars[@]}"
 	echo "EPYTHON='${EPYTHON}'" > epython.py || die
 	python_domodule epython.py
 
@@ -353,24 +351,17 @@ src_install() {
 	local pymajor=${SLOT%.*}
 	mkdir -p "${D}${PYTHON_SCRIPTDIR}" || die
 	# python and pythonX
-	ln -s "../../../bin/tauthon${SLOT}" \
-		"${D}${PYTHON_SCRIPTDIR}/python${pymajor}" || die
-	ln -s "python${pymajor}" \
-		"${D}${PYTHON_SCRIPTDIR}/python" || die
+	ln -s "../../../bin/python${SLOT}" "${D}${PYTHON_SCRIPTDIR}/python${pymajor}" || die
+	ln -s "python${pymajor}" "${D}${PYTHON_SCRIPTDIR}/python" || die
 	# python-config and pythonX-config
-	ln -s "../../../bin/python${SLOT}-config" \
-		"${D}${PYTHON_SCRIPTDIR}/python${pymajor}-config" || die
-	ln -s "python${pymajor}-config" \
-		"${D}${PYTHON_SCRIPTDIR}/python-config" || die
+	ln -s "../../../bin/python${SLOT}-config" "${D}${PYTHON_SCRIPTDIR}/python${pymajor}-config" || die
+	ln -s "python${pymajor}-config" "${D}${PYTHON_SCRIPTDIR}/python-config" || die
 	# 2to3, pydoc, pyvenv
-	ln -s "../../../bin/2to3-${SLOT}" \
-		"${D}${PYTHON_SCRIPTDIR}/2to3" || die
-	ln -s "../../../bin/pydoc${SLOT}" \
-		"${D}${PYTHON_SCRIPTDIR}/pydoc" || die
+	ln -s "../../../bin/2to3-${SLOT}" "${D}${PYTHON_SCRIPTDIR}/2to3" || die
+	ln -s "../../../bin/pydoc${SLOT}" "${D}${PYTHON_SCRIPTDIR}/pydoc" || die
 	# idle
 	if use tk; then
-		ln -s "../../../bin/idle${SLOT}" \
-			"${D}${PYTHON_SCRIPTDIR}/idle" || die
+		ln -s "../../../bin/idle${SLOT}" "${D}${PYTHON_SCRIPTDIR}/idle" || die
 	fi
 }
 
