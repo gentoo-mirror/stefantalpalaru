@@ -21,7 +21,6 @@ app-admin/conky:weather-metar - Enable support for metar weather service
 app-admin/conky:webserver - Enable support to act as a webserver serving conkys output using net-libs/libmicrohttpd
 app-admin/conky:xmms2 - Enable monitoring of music played by media-sound/xmms2
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
-app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
 app-emulation/vmware-workstation:macos-guests - Support macOS guests.
 app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally.
 app-emulation/vmware-workstation:ovftool - Install OVF tool.
@@ -39,20 +38,6 @@ app-office/gnucash:aqbanking - Connect to some internet banks via AqBanking
 app-office/gnucash:gui - Enable graphic interface (needs net-libs/webkit-gtk:4 and x11-libs/gtk+:3)
 app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 app-office/gnucash:register2 - Use the new register (Experimental)
-app-portage/layman:bazaar - Support dev-vcs/bzr based overlays
-app-portage/layman:cvs - Support dev-vcs/cvs based overlays
-app-portage/layman:darcs - Support dev-vcs/darcs based overlays
-app-portage/layman:g-sorcery - Support app-portage/g-sorcery based overlays
-app-portage/layman:git - Support dev-vcs/git based overlays
-app-portage/layman:gpg - Support app-crypt/gnupg signed overlays lists and manifests
-app-portage/layman:mercurial - Support dev-vcs/mercurial based overlays
-app-portage/layman:squashfs - Support mounting squashfs image overlays locally read-only
-app-portage/layman:subversion - Support dev-vcs/subversion based overlays
-app-portage/layman:sync-plugin-portage - Install the sys-apps/portage sync module
-dev-db/postgis:address-standardizer - Normalize US and CA postal addresses
-dev-db/postgis:gtk - Build graphical interface for shp2pgsql (shp2pgsql-gui)
-dev-db/postgis:mapbox - Add capability to transform geometry into Mapbox Vector Tile
-dev-db/postgis:topology - Build topology spatial types and functions
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
 dev-lang/php:bcmath - Add support for libbcmath
 dev-lang/php:cli - Enable CLI SAPI
@@ -109,6 +94,7 @@ dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
 dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
+dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
@@ -119,6 +105,7 @@ dev-python/matplotlib-python2:excel - Pull dev-python/xlwt for the exceltools to
 dev-python/matplotlib-python2:gtk2 - Enable x11-libs/gtk+:2 support
 dev-python/matplotlib-python2:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/mpmath:matplotlib - Add support for dev-python/matplotlib
+dev-python/msgpack:native-extensions - Compiles native "C" extensions (speedups, instead of using python fallback code).
 dev-python/netaddr:cli - Enable netaddr shell with dev-python/ipython
 dev-python/networkx:extras - Provide graph drawing and graph layout algorithms along with shapefile format reading and writing
 dev-python/networkx:pandas - Provides a DataFrame, which is a tabular data structure with labeled axes
@@ -140,10 +127,7 @@ dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 dev-python/twisted-core:serial - include serial port support
 dev-python/vatnumber:vies - Enable VIES
-dev-util/ctags:json - Enable JSON output support
-dev-util/ctags:xml - Enable XML parsing support
-dev-util/ctags:yaml - Enable YAML parsing support
-dev-util/trace-cmd:udis86 - Enable support for dev-libs/udis86 disassembler library
+dev-vcs/bzr:sftp - Enable sftp support
 dev-vcs/rabbitvcs:caja - Enable extension for mate-base/caja
 dev-vcs/rabbitvcs:cli - Eanble console based frontend
 dev-vcs/rabbitvcs:diff - Use for diff command dev-util/meld
@@ -189,79 +173,18 @@ media-libs/opencv:opencl - Add support for OpenCL
 media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
-media-libs/openimageio:colorio - Use media-libs/opencolorio
-media-libs/openimageio:cpu_flags_x86_avx512f - SIMD Optimization
-media-libs/openimageio:cpu_flags_x86_f16c - SIMD Optimization
-media-libs/openimageio:field3d - Use media-libs/Field3D
-media-libs/openimageio:opencv - Use media-libs/opencv
-media-libs/openimageio:ptex - Use media-libs/ptex
 media-sound/jack-audio-connection-kit:classic - Enable building of jackd"
 media-sound/jack-audio-connection-kit:metadata - Enable metadata API
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
-media-sound/linuxsampler:lv2 - Add support for Ladspa V2
-media-sound/qsampler:libgig - Enable libgig support for loading Gigasampler files and DLS (Downloadable Sounds) Level 1/2 files
-media-sound/setbfree:convolution - enable experimental built-in convolution reverb used for leslie cabinet simulation
 media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 media-video/avidemux:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
-media-video/vlc:X - Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
-media-video/vlc:aom - Enable experimental support for AV1 codec
-media-video/vlc:archive - Enable support for libarchive stream extractor
-media-video/vlc:aribsub - Enable support for decoding ARIB STD-B24 subtitles
-media-video/vlc:bluray - Enable libbluray for Blu-ray disc support
-media-video/vlc:chromaprint - Enable libchromaprint for Chromaprint based audio fingerprinter support
-media-video/vlc:chromecast - Enable experimental support for Google Chromecast
-media-video/vlc:dc1394 - Enable IIDC cameras support
-media-video/vlc:directx - Enable Win32 DirectX, D3D11va and DxVA2 support
-media-video/vlc:dvbpsi - Enable support for Mpeg-TS files (.ts, .m2ts, .mts) via media-libs/libdvbpsi
-media-video/vlc:encode - Enable streaming-output support and videolan manager to control multiple streams from within one instance
-media-video/vlc:faad - Enable AAC audio decoding library support via media-libs/faad2
-media-video/vlc:fdk - Enable the Fraunhofer AAC codec library
-media-video/vlc:fluidsynth - Enable Fluidsynth MIDI software synthesis (with external sound fonts)
-media-video/vlc:gcrypt - Enable cryptography support via libgcrypt
-media-video/vlc:gme - Enable support for media-libs/game-music-emu for playing various video game music formats
-media-video/vlc:gstreamer - Enable GStreamer based decoding support (currently supports only video decoding)
-media-video/vlc:kate - Adds support for Ogg Kate subtitles via libkate
-media-video/vlc:libtar - Uses libtar instead of the built-in tar reader for reading custom skins
-media-video/vlc:libtiger - Enable Ogg Kate subtitles rendering using libtiger
-media-video/vlc:linsys - Enable support for Linux Linear Systems Ltd. SDI and HD-SDI input cards
-media-video/vlc:live - Enable live555 streaming media support (client support for rtsp)
-media-video/vlc:lua - Enable Lua scripting support, needed for including support for Jamendo (online music platform) and similar things
-media-video/vlc:macosx-notifications - Enable Mac OS X notifications module (formerly growl)
-media-video/vlc:macosx-qtkit - Enable Mac OS X qtkit module: qtcapture (video) and qtsound (audio) module
-media-video/vlc:matroska - Enable matroska support using reference libraries (fallback on other existing matroska support if disabled, i.e., matroska enabled FFmpeg)
-media-video/vlc:mpeg - Add libmpeg2 support for mpeg-1 and mpeg-2 video streams
-media-video/vlc:nfs - Enable support for nfs protocol via net-fs/libnfs
-media-video/vlc:omxil - Enable OpenMAX Integration Layer codec module
-media-video/vlc:opencv - Enable OpenCV (computer vision) filter module
-media-video/vlc:optimisememory - Enable optimisation for memory rather than performance
-media-video/vlc:postproc - Enable image post-processing via libpostproc (part of FFmpeg)
-media-video/vlc:projectm - Enable the projectM visualization plugin
-media-video/vlc:run-as-root - Allows vlc to start for root. Don't enable this unless you have a very specific (e.g. embedded) need for it!
-media-video/vlc:sdl-image - Enable sdl image video decoder (depends on sdl)
-media-video/vlc:sftp - Enable libssh2 to support SFTP file transfer
-media-video/vlc:shout - Enable libshout output
-media-video/vlc:sid - Adds support for playing C64 SID files through media-libs/libsidplay:2
-media-video/vlc:skins - Enable support for the skins2 interface
-media-video/vlc:soxr - Enable SoX Resampler support via media-libs/soxr
-media-video/vlc:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
-media-video/vlc:tremor - Enable tremor, a fixed-point version of the Ogg Vorbis decoder
-media-video/vlc:twolame - Enable twolame support (MPEG Audio Layer 2 encoder)
-media-video/vlc:upnp - Enable support for the Intel SDK stack based UPnP discovery module instead of CyberLink
-media-video/vlc:vpx - Enable the decoder(s) from the WebM VP8 / VP9 Codec SDK
-media-video/vlc:wma-fixed - Enable fixed point WMA decoder
-media-video/vlc:x265 - Support X265 Encoder
-media-video/vlc:zeroconf - Enable support for zero-configuration networking via avahi
-media-video/vlc:zvbi - Enable support for teletext subtitles via the zvbi library
 net-fs/s3fs:gnutls - Enable net-libs/gnutls crypto backend
 net-fs/s3fs:nettle - Use dev-libs/nettle network functions with GnuTLS.
 net-fs/s3fs:nss - Enable dev-libs/nss crypto backend
 net-fs/s3fs:openssl - Enable dev-libs/openssl crypto backend
-net-libs/libtorrent-rasterbar:dht - Enable DHT (distributed hash table) support
 net-p2p/amule:daemon - Enable amule daemon
 net-p2p/amule:remote - Enable remote controlling of the client
 net-p2p/amule:stats - Enable statistic reporting
-net-p2p/deluge:console - Enable default console UI
-net-p2p/deluge:webinterface - Install dependencies needed for the web interface
 net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
 net-p2p/pybitmessage:opencl - Enable dev-python/pyopencl for GPU acceleration
 net-p2p/pybitmessage:qrcode - Enable dev-python/qrcode for QR code support
@@ -272,7 +195,6 @@ net-wireless/cubicsdr:hackrf - Add support for hackrf hardware
 net-wireless/cubicsdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
 net-wireless/cubicsdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/cubicsdr:uhd - Add support for Ettus USRP hardware
-net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
 net-wireless/soapysdr:bladerf - Add support for bladerf hardware
 net-wireless/soapysdr:hackrf - Add support for hackrf hardware
 net-wireless/soapysdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
@@ -280,8 +202,6 @@ net-wireless/soapysdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/soapysdr:uhd - Add support for Ettus USRP hardware
 sci-astronomy/casacore:c++11 - Build casacore using the C++11 standard
 sci-astronomy/casacore:data - Installs measures and data (pulls sci-astronomy/casa-data)
-sci-libs/flann:cuda - Enable support for nVidia CUDA
-sci-libs/flann:octave - Add bindings for sci-mathematics/octave
 sci-libs/gdal:armadillo - Use sci-libs/armadillo for faster TPS transform computation
 sci-libs/gdal:aux-xml - Enable Portable Auxilliary Metadata generation
 sci-libs/gdal:fits - Enable support for NASA's sci-libs/cfitsio library
@@ -297,32 +217,6 @@ sci-libs/scikits_image:pyamg - Enable support for algebraic solvers via dev-pyth
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
-sys-devel/gcc:d - Build support for the D language
-sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
-sys-devel/gcc:go - Build the GCC Go language frontend.
-sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
-sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
-sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
-sys-devel/gcc:lto - Build using Link Time Optimizations (LTO)
-sys-devel/gcc:nptl - Enable support for Native POSIX Threads Library, the new threading module (requires linux-2.6 or better usually)
-sys-devel/gcc:objc - Build support for the Objective C code language
-sys-devel/gcc:objc++ - Build support for the Objective C++ language
-sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
-sys-devel/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
-sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
-sys-devel/gcc:systemtap - enable systemtap static probe points
-sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
 sys-power/cpupower:cpufreq_bench - Build and install the cpufreq_bench binary
-www-plugins/adobe-flash:nsplugin - Install the Netscape Flash API plugin (for Firefox and similar browsers)
-www-plugins/adobe-flash:ppapi - Install the Pepper Flash API plugin (for Chrome and similar browsers)
-www-servers/varnish:jemalloc - Use dev-libs/jemalloc for allocations
-x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
-x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
-x11-drivers/nvidia-drivers:driver - Install the kernel driver module
-x11-drivers/nvidia-drivers:gtk3 - Install nvidia-settings with support for GTK+ 3
-x11-drivers/nvidia-drivers:kms - Enable support for kernel mode setting (KMS)
-x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
-x11-drivers/nvidia-drivers:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
 x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
 x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
