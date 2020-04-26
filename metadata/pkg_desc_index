@@ -47,7 +47,7 @@ dev-nim/chan-nim 0.1_pre20170320 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.1.1 9999: portable dialogs for Nim
 dev-nim/einheit 0.1.7_p20170620: Nim unit test library
 dev-nim/golib-nim 0.0.1_pre20181005 9999: Nim bindings for golib
-dev-nim/gtk2-nim 1.1_pre20161106 9999: Nim bindings for GTK+ 2
+dev-nim/gtk2-nim 1.3 9999: Nim bindings for GTK+ 2
 dev-nim/irc 0.1.0_pre20170117 9999: IRC client module for Nim
 dev-nim/jester 0.1.1 9999: sinatra-like web framework for Nim
 dev-nim/lthread-nim 0.1_pre20150405 9999: Nim bindings for lthread
@@ -521,26 +521,18 @@ games-emulation/rpcs3 9999: PlayStation 3 emulator
 media-fonts/breeze-sans 20170821: a humanist sans-serif typeface designed by Dalton Maag for Samsung
 media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
-media-gfx/flam3 3.1.1 9999-r1: Tools and a library for creating fractal flames
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
 media-gfx/gmic 2.9.0-r100 9999-r14: GREYC's Magic Image Converter
-media-gfx/mcomix 1.2.1_p20190406-r1: A fork of comix, a GTK image viewer for comic book archives
-media-gfx/ufraw 0.22-r3: RAW Image format viewer and GIMP plugin
-media-gfx/wings 2.1.7-r101: Wings 3D is an advanced subdivision modeler
 media-gfx/zart 3.2.2_p20191126: G'MIC GUI for video streams
-media-libs/avidemux-core 2.7.3: Core libraries for simple video cutting, filtering and encoding tasks
-media-libs/avidemux-plugins 2.7.3: Plugins for the video editor media-video/avidemux
 media-libs/cimg 2.9.0-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/jasper 2.0.14-r1 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-libs/libkeyfinder 2.2.1: Musical key detection library for digital audio
-media-libs/liblscp 0.6.0: C++ library for the Linux Sampler control protocol
 media-libs/libmysofa 0.6: Reader for AES SOFA files to get better HRTFs
 media-libs/libspatialaudio 0.3.0-r2: Ambisonic encoding / decoding and binauralization library in C++
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 media-libs/qhull 2019.1: Geometry library
-media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
 media-radio/fmreceiver 0.9: SDR-J FM receiver for RTL2832-based USB sticks
@@ -549,20 +541,16 @@ media-radio/swreceiver 7.25_pre20170414: SDR-J SW receiver for RTL2832-based USB
 media-sound/bristol 0.60.11-r2: Synthesizer keyboard emulation package: Moog, Hammond and others
 media-sound/fmit 1.2.13: Free Music Instrument Tuner
 media-sound/jack-audio-connection-kit 1.9.14: Jackdmp jack implemention for multi-processor machine
-media-sound/jack_capture 0.9.73: Recording tool which default operation is to capture what goes out to the soundcard from JACK
 media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CLI)
 media-sound/setbfree 0.8.11 99999999-r1: MIDI controlled DSP tonewheel organ
 media-sound/tg 0.5.0-r1 9999-r1: a program for timing mechanical watches
 media-tv/dvb-firmware 9999-r1 20170329-r1: DVB firmware from the OpenELEC project
 media-tv/w_scan2 1.0.7 9999: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
-media-video/aegisub 3.2.2_p20160518-r3 9999-r1: Advanced subtitle editor
-media-video/avidemux 2.7.3: Video editor designed for simple cutting, filtering and encoding tasks
 media-video/subliminal 2.0.5-r3 9999: Python library to search and download subtitles
 media-video/vobsub2srt 1.0_pre20171219 9999-r1: Converts VobSub subtitles (.sub/.idx) to .srt text subtitles using tesseract
 net-analyzer/fail2ban 0.11.1-r102: scans log files and bans IPs that show malicious signs
 net-analyzer/namebench 1.3.1-r3: DNS Benchmark Utility
 net-analyzer/nethogs 0.8.5_p20181230: A small 'net top' tool, grouping bandwidth by process
-net-fs/s3fs 1.83: Amazon S3 mounting via fuse
 net-fs/tahoe-lafs 1.13.0: Secure, decentralized, data store
 net-im/status-bin 9999-r3: chat client using Whisper on the devp2p wire protocol
 net-libs/farstream 0.2.8-r3: Audio/video conferencing framework specifically designed for instant messengers
@@ -582,7 +570,6 @@ net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
 net-print/pykota 1.26-r1: Flexible print quota and accounting package for use with CUPS and lpd
 net-wireless/cubicsdr 0.2.5_p20191029: Cross-Platform Software-Defined Radio Application
-net-wireless/dump1090 3.7.2 9999-r2: simple Mode S decoder for RTLSDR devices
 net-wireless/soapysdr 0.7.1-r100 9999: vendor and platform neutral SDR support library
 perl-core/Digest-MD5 2.550.0: MD5 message digest algorithm
 sci-astronomy/astrometry 0.78-r1: Automated astrometric calibration programs and service
@@ -599,15 +586,12 @@ sci-mathematics/xmds 2.2.3-r1: XMDS - The eXtensible Multi-Dimensional Simulator
 sci-misc/openfst 1.6.3: Finite State Transducer tools by Google et al
 sci-misc/opengrm-ngram 1.3.2: Google's open source finite-state n-gram library
 sys-cluster/drbd-utils 9.12.2-r1: mirror/replicate block-devices across a network-connection
-sys-devel/bc 1.07.1-r3: Handy console-based calculator utility
 sys-devel/bison 2.7.1-r1: A general-purpose (yacc-compatible) parser generator
 sys-devel/flamegraph 1.0: stack trace visualizer
 sys-devel/pyflame 1.6.6: a ptracing profiler for Python
-sys-power/cpupower 5.2: Shows and sets processor power related values
 sys-power/phc-intel 0.3.2.12.31: Processor Hardware Control for Intel CPUs
 virtual/python-futures 1: A virtual for the Python concurrent.futures module
 www-apps/blohg-tumblelog 0.2 9999: A blohg extension with reStructuredText directives to run a tumblelog
-www-misc/profile-sync-daemon 5.75: Symlinks and syncs browser profile dirs to RAM
 www-servers/tornado 5.1.1: Python web framework and asynchronous networking library
 x11-libs/dotherside 0.6.3_p20190424: C language library for creating bindings for the Qt QML language
 x11-libs/wxGTK 3.1.3-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
