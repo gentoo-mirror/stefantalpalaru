@@ -547,7 +547,7 @@ media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CL
 media-sound/setbfree 0.8.11 99999999-r1: MIDI controlled DSP tonewheel organ
 media-sound/tg 0.5.0-r1 9999-r1: a program for timing mechanical watches
 media-tv/dvb-firmware 9999-r1 20170329-r1: DVB firmware from the OpenELEC project
-media-tv/w_scan2 1.0.7 9999: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
+media-tv/w_scan2 1.0.9 9999: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
 media-video/subliminal 2.1.0 9999-r1: Python library to search and download subtitles
 media-video/vobsub2srt 1.0_pre20171219 9999-r1: Converts VobSub subtitles (.sub/.idx) to .srt text subtitles using tesseract
 net-analyzer/fail2ban 0.11.1-r102: scans log files and bans IPs that show malicious signs
