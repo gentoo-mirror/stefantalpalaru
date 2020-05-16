@@ -515,6 +515,7 @@ dev-python/zfec 1.5.3: Fast erasure codec for the command-line, C, Python, or Ha
 dev-python/zict 0.1.4: Mutable mapping tools
 dev-util/gotags 1.4.1: ctags-compatible tag generator for Go
 dev-util/rebar3 3.6.1-r1: A sophisticated build-tool for Erlang projects that follows OTP principles
+dev-util/valgrind 3.15.0-r1: An open-source memory debugger for GNU/Linux
 dev-vcs/bzr 2.7.0 2.7.1_pre: Bazaar is a next generation distributed version control system
 dev-vcs/hg-fast-export 200213: mercurial to git converter using git-fast-import
 dev-vcs/rabbitvcs 0.16-r1: Integrated version control support for your desktop
