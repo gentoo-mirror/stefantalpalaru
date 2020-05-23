@@ -264,7 +264,6 @@ dev-python/nbval 0.9.5: A py.test plugin to validate Jupyter notebooks
 dev-python/netaddr 0.7.19: Network address representation and manipulation library
 dev-python/netifaces 0.10.9-r1: Portable network interface information
 dev-python/networkx 2.2: Python tools to manipulate graphs and complex networks
-dev-python/nevow 0.14.3: A web templating framework that provides LivePage, an automatic AJAX toolkit
 dev-python/newt_syrup 0.1.2-r2: Python framework for creating text-based applications
 dev-python/nose-cover3 0.1.0-r1: Coverage 3.x support for Nose
 dev-python/nose-exclude 0.5.0: Exclude specific directories from nosetests runs
@@ -488,10 +487,6 @@ dev-python/toolz 0.9.0: List processing tools and functional utilities
 dev-python/traitlets 4.3.3: A configuration system for Python applications
 dev-python/ttfquery 1.0.5-r2: Font metadata and glyph outline extraction utility library
 dev-python/turbolift 2.1.3: Openstack Swift sync/backup utility
-dev-python/twisted-core 15.2.1-r1: An asynchronous networking framework written in Python
-dev-python/twisted-names 15.2.1-r1: A Twisted DNS implementation
-dev-python/twisted-web 15.2.1-r1: Twisted web server, programmable in Python
-dev-python/twisted-words 15.2.1-r1: Twisted Words contains Instant Messaging implementations
 dev-python/ujson 1.35-r1: Ultra fast JSON encoder and decoder for Python
 dev-python/unidecode 1.1.1-r1: Module providing ASCII transliterations of Unicode text
 dev-python/ushlex 0.99.1: Replacement for shlex for Python 2.X
