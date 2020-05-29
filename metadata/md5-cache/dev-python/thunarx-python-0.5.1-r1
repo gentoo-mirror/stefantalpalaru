@@ -10,5 +10,5 @@ RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targ
 REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_6 )
 SLOT=0
 SRC_URI=https://archive.xfce.org/src/bindings/thunarx-python/0.5/thunarx-python-0.5.1.tar.bz2
-_eclasses_=multibuild	40fe59465edacd730c644ec2bc197809	multilib	0914eab919f4f11dd9e0407b92af4726	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	72117ffa028da64e22516a4d8bf7a57d	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_eclasses_=multibuild	40fe59465edacd730c644ec2bc197809	multilib	0914eab919f4f11dd9e0407b92af4726	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	20a0fa468e218e5bad101b0cdb735974	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
 _md5_=43407f8fbd46c6dd76ec3cdf49979599
