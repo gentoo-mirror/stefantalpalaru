@@ -179,13 +179,11 @@ dev-python/glueviz 0.10.4-r1: Python library to explore relationships within and
 dev-python/glymur 0.8.10: Python tools for accessing JPEG2000 files
 dev-python/gnome-python-base 2.28.1-r1: Provides the base files for the gnome-python bindings
 dev-python/gnome-python-extras-base 2.25.3-r1: Provides python the base files for the Gnome Python Desktop bindings
-dev-python/gnome-vfs-python 2.28.1-r1: Python bindings for the GnomeVFS library
 dev-python/google-api-core 1.17.0-r1: Core Library for Google Client Libraries
 dev-python/google-api-python-client 1.8.4: Google API Client for Python
 dev-python/google-auth 1.16.0: Google Authentication Library
 dev-python/googleapis-common-protos 1.51.0-r1: python classes generated from the common protos in the googleapis repository
 dev-python/graphy 1.0-r1: Simple Chart Library for Python
-dev-python/gtkspell-python 2.25.3-r1: GtkSpell bindings for Python
 dev-python/guessit 3.1.0: Python library for guessing information from video filenames
 dev-python/guppy 0.1.10-r1: Guppy-PE -- A Python Programming Environment
 dev-python/guzzle_sphinx_theme 0.7.11-r1: Sphinx theme used by Guzzle
