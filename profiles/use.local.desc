@@ -101,6 +101,9 @@ dev-python/ipython:notebook - Install requirements for the web notebook based on
 dev-python/kombu:amqplib - Enable amqplib support
 dev-python/kombu:msgpack - Enables MessagePack (de)serializer for Python
 dev-python/kombu:sqs - Enables Amazon SQS transport module for Kombu
+dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
+dev-python/matplotlib:gtk2 - Enable x11-libs/gtk+:2 support
+dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/matplotlib-python2:excel - Pull dev-python/xlwt for the exceltools toolkit
 dev-python/matplotlib-python2:gtk2 - Enable x11-libs/gtk+:2 support
 dev-python/matplotlib-python2:gtk3 - Enable x11-libs/gtk+:3 support
@@ -117,6 +120,8 @@ dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 dev-python/pybitmessage:opencl - Enable dev-python/pyopencl for GPU acceleration
 dev-python/pybitmessage:qrcode - Enable dev-python/qrcode for QR code support
+dev-python/pygame:midi - Enable midi support using media-libs/portmidi
+dev-python/pyglet:image - Enable support for image formats other than PNG and BMP
 dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
