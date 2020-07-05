@@ -21,6 +21,7 @@ app-admin/conky:weather-metar - Enable support for metar weather service
 app-admin/conky:webserver - Enable support to act as a webserver serving conkys output using net-libs/libmicrohttpd
 app-admin/conky:xmms2 - Enable monitoring of music played by media-sound/xmms2
 app-crypt/seahorse:ldap - Enable seahorse to manipulate GPG keys on a LDAP server.
+app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 app-emulation/vmware-workstation:macos-guests - Support macOS guests.
 app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally.
 app-emulation/vmware-workstation:ovftool - Install OVF tool.
