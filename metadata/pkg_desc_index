@@ -610,7 +610,7 @@ net-misc/streamtuner2 2.2.1: internet radio browser
 net-p2p/amule 2.3.2_p20200131: aMule, the all-platform eMule p2p client
 net-p2p/go-ethereum 1.9.16: Official golang implementation of the Ethereum protocol
 net-p2p/pybitmessage 0.6.3.2_p20180521-r1: Reference client for Bitmessage: a P2P communications protocol
-net-p2p/transmission 2.94_p20190624: A Fast, Easy and Free BitTorrent client
+net-p2p/transmission 3.00-r100: A fast, easy, and free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
 net-print/pykota 1.26-r1: Flexible print quota and accounting package for use with CUPS and lpd
 net-wireless/cubicsdr 0.2.5_p20191029: Cross-Platform Software-Defined Radio Application
