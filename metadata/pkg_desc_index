@@ -314,7 +314,7 @@ dev-python/oslo-sphinx 4.18.0: OpenStack Sphinx Extensions and Theme
 dev-python/oslo-utils 3.41.4: Oslo Utility library
 dev-python/oslotest 3.9.0: Oslo test framework
 dev-python/osprofiler 2.9.0: OpenStack Profiler Library
-dev-python/pandas 0.23.4-r1: Powerful data structures for data analysis and statistics
+dev-python/pandas 0.23.4-r2: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.4.2-r2: Utilities for writing pandoc filters in python
 dev-python/parameterized 0.7.4-r1: Parameterized testing with any Python test framework
 dev-python/parsedatetime 2.5: Parse human-readable date/time strings
