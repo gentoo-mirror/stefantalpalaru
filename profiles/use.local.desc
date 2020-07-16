@@ -140,7 +140,6 @@ dev-vcs/rabbitvcs:diff - Use for diff command dev-util/meld
 dev-vcs/rabbitvcs:gedit - Enable plugin for app-editors/gedit
 dev-vcs/rabbitvcs:nautilus - Enable extension for gnome-base/nautilus
 dev-vcs/rabbitvcs:thunar - Enable extension for xfce-base/thunar
-games-emulation/rpcs3:gdb - GDB debugging support
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Vulkan video output support
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
