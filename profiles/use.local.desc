@@ -172,6 +172,11 @@ media-libs/opencv:opencl - Add support for OpenCL
 media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
+media-sound/aqualung:ifp - Enable support for iRiver iFP portable audio players
+media-sound/aqualung:lua - Enable support for programmable title formatting with dev-lang/lua
+media-sound/aqualung:mac - Enable support for decoding Monkey's Audio files
+media-sound/aqualung:podcast - Enable podcast support
+media-sound/aqualung:systray - Enable system tray support
 media-sound/jack-audio-connection-kit:classic - Enable building of jackd"
 media-sound/jack-audio-connection-kit:metadata - Enable metadata API
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base

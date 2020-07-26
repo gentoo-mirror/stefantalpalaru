@@ -581,6 +581,7 @@ media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
 media-radio/fmreceiver 0.9: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/qt-dab 2.0: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
 media-radio/swreceiver 7.25_pre20170414: SDR-J SW receiver for RTL2832-based USB sticks
+media-sound/aqualung 1.0-r4: Music player for a wide range of formats designed for gapless playback
 media-sound/bristol 0.60.11-r2: Synthesizer keyboard emulation package: Moog, Hammond and others
 media-sound/fmit 1.2.13: Free Music Instrument Tuner
 media-sound/jack-audio-connection-kit 1.9.14: Jackdmp jack implemention for multi-processor machine
