@@ -30,6 +30,7 @@ app-vim/nim-syntax 1.2_pre20190426 9999: Nim language support
 app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 dev-db/metakit 2.4.9.7-r3: Embedded database library
+dev-db/rocksdb 5.18.3 6.11.4: A Persistent Key-Value Store for Flash and RAM Storage
 dev-lang/nim 1.2.4-r100 9999-r11: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r3: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.35.0 9999-r7: Compiler for the Pony language
@@ -620,6 +621,7 @@ perl-core/Digest-MD5 2.550.0: MD5 message digest algorithm
 sci-astronomy/astrometry 0.78-r1: Automated astrometric calibration programs and service
 sci-astronomy/casacore 3.2.1-r1: Core libraries for the Common Astronomy Software Applications
 sci-astronomy/kapteyn 2.3-r1: Collection of python tools for astronomy
+sci-astronomy/montage 5.0-r1: Toolkit for assembling FITS images into mosaics
 sci-geosciences/gpsprune-bin 19.2: An application for viewing, editing and converting GPS data.
 sci-geosciences/mkgmap-bin 3831: Tool to create garmin maps
 sci-geosciences/splitter-bin 580: Tile splitter for mkgmap
