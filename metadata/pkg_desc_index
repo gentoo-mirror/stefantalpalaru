@@ -33,7 +33,7 @@ dev-db/metakit 2.4.9.7-r3: Embedded database library
 dev-db/rocksdb 5.18.3 6.11.4: A Persistent Key-Value Store for Flash and RAM Storage
 dev-lang/nim 1.2.4-r100 9999-r11: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r3: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
-dev-lang/pony 0.35.0 9999-r7: Compiler for the Pony language
+dev-lang/pony 0.36.0 9999-r8: Compiler for the Pony language
 dev-lang/python 2.7.18-r100: An interpreted, interactive, object-oriented programming language
 dev-lang/tauthon 2.8.2: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
