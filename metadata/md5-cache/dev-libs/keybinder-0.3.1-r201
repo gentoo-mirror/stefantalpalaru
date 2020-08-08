@@ -10,5 +10,5 @@ RDEPEND=>=x11-libs/gtk+-2.20:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXren
 REQUIRED_USE=python? ( || ( python_targets_python2_7 ) )
 SLOT=0
 SRC_URI=https://github.com/engla/keybinder/releases/download/v0.3.1/keybinder-0.3.1.tar.gz
-_eclasses_=multibuild	b2c915190b051f55a23b9354b9849847	multilib	2477ebe553d3e4d2c606191fe6c33602	python-r1	8d03325e7e3cf3e1465d9c32031e2517	python-utils-r1	bab6e909b3646c0b03f3b7e855042c3b	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=multibuild	b2c915190b051f55a23b9354b9849847	multilib	2477ebe553d3e4d2c606191fe6c33602	python-r1	8d03325e7e3cf3e1465d9c32031e2517	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=5a29458d2b9fd316db3805dce18331e4
