@@ -68,7 +68,7 @@ dev-nim/zmq-nim 0.1_pre20161028 9999: Nim bindings for ZeroMQ
 dev-php/pecl-redis 4.2.0: PHP extension for interfacing with Redis
 dev-python/HeapDict 1.0.0-r1: Heap with decrease-key and increase-key operations
 dev-python/PyPDF2 1.26.0: Python library to work with pdf files
-dev-python/PyQt5 5.15.0-r2: Python bindings for the Qt framework
+dev-python/PyQt5 5.15.0-r3: Python bindings for the Qt framework
 dev-python/PyQt5-sip 4.19.23-r2: Private sip module for PyQt5
 dev-python/PySensors 0.0.3: Python bindings to libsensors (via ctypes)
 dev-python/PyZilla 0.1.0-r1: Python wrapper for the BugZilla XML-RPC API
