@@ -172,6 +172,7 @@ dev-python/et_xmlfile 1.0.1-r2: An implementation of lxml.xmlfile for the standa
 dev-python/eventlet 0.25.1-r1: Highly concurrent networking library
 dev-python/fabric 2.5.0: A simple pythonic tool for remote execution and deployment
 dev-python/fasteners 0.15-r1: Python package that provides useful locks
+dev-python/faulthandler 3.2: functions to dump Python tracebacks explicitly (on fault, user signal, timeout)
 dev-python/fields 5.0.0-r3: Container class boilerplate killer
 dev-python/figleaf 0.6.1-r1: Code coverage tool
 dev-python/fitsio 0.9.11: Python library to read from and write to FITS files
@@ -397,6 +398,7 @@ dev-python/pygame 1.9.6-r2: Python bindings for SDL multimedia library
 dev-python/pyglet 1.4.11: Cross-platform windowing and multimedia library for Python
 dev-python/pygraphviz 1.5: Python wrapper for the Graphviz Agraph data structure
 dev-python/pygresql 5.1: A Python interface for the PostgreSQL database
+dev-python/pygtk 2.24.0-r5: GTK+2 bindings for Python
 dev-python/pyhamcrest 1.10.1: Hamcrest framework for matcher objects
 dev-python/pyifp 0.2.2-r1: Python bindings for libifp library for accessing iRiver iFP devices
 dev-python/pylibmc 1.6.1-r1: Libmemcached wrapper written as a Python extension
@@ -624,6 +626,7 @@ games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
 games-emulation/rpcs3 9999-r2: PlayStation 3 emulator
 media-fonts/breeze-sans 20170821: a humanist sans-serif typeface designed by Dalton Maag for Samsung
 media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
+media-gfx/displaycal 3.8.9.3-r1: Display calibration and characterization powered by Argyll CMS
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
 media-gfx/gmic 2.9.1-r100 9999-r15: GREYC's Magic Image Converter
