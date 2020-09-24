@@ -19,7 +19,7 @@ app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with
 app-misc/piper 0.4: GTK configuration application for libratbag
 app-misc/yworklog 0.0.7: Stack based utility with CLI interface helping to monitor time spent on tasks
 app-office/gnucash 4.0: A personal finance manager
-app-office/upwork 5.4.5.1: Project collaboration and tracking software for upwork.com
+app-office/upwork 5.4.5.1-r1: Project collaboration and tracking software for upwork.com
 app-text/pdfshuffler 0.6.0-r1: GUI app that can merge or split pdfs and rotate, crop and rearrange their pages
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
