@@ -236,6 +236,7 @@ dev-python/humanize 1.0.0: Common humanization utilities
 dev-python/hyper-h2 3.2.0-r1: HTTP/2 State-Machine based protocol implementation
 dev-python/hyperframe 5.2.0-r1: HTTP/2 framing layer for Python
 dev-python/hyperlink 20.0.1: A featureful, correct URL for Python
+dev-python/idna 2.10-r1: Internationalized Domain Names in Applications (IDNA)
 dev-python/imagesize 1.1.0-r1: Getting image size from png/jpeg/jpeg2000/gif file
 dev-python/imexam 0.8.1: Simple interactive astronomical image examination and plotting
 dev-python/importlib_resources 1.0.2-r1: Read resources from Python packages
