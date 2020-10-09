@@ -126,6 +126,7 @@ dev-python/celery:redis - Enables redis support
 dev-python/celery:sqs - Enables Amazon SQS transport module for celery
 dev-python/celery:yaml - Enable support of yaml as a configuration file format
 dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
+dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
@@ -134,9 +135,6 @@ dev-python/ipython:notebook - Install requirements for the web notebook based on
 dev-python/kombu:amqplib - Enable amqplib support
 dev-python/kombu:msgpack - Enables MessagePack (de)serializer for Python
 dev-python/kombu:sqs - Enables Amazon SQS transport module for Kombu
-dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
-dev-python/matplotlib:gtk2 - Enable x11-libs/gtk+:2 support
-dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/matplotlib-python2:excel - Pull dev-python/xlwt for the exceltools toolkit
 dev-python/matplotlib-python2:gtk2 - Enable x11-libs/gtk+:2 support
 dev-python/matplotlib-python2:gtk3 - Enable x11-libs/gtk+:3 support
@@ -149,12 +147,14 @@ dev-python/networkx:scipy - Enables scipy backend
 dev-python/networkx:yaml - Provides YAML format reading and writing
 dev-python/numexpr:mkl - Enable support for Intel Vector Math Library, part of sci-libs/mkl.
 dev-python/pandas:full-support - Pull all packages to give pandas full support
+dev-python/paramiko:server - Enable server feature
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/py-amqp:extras - Install extra tools to generate initial Python mod from an AMQP XML file
 dev-python/pybitmessage:opencl - Enable dev-python/pyopencl for GPU acceleration
 dev-python/pybitmessage:qrcode - Enable dev-python/qrcode for QR code support
 dev-python/pygame:midi - Enable midi support using media-libs/portmidi
 dev-python/pyglet:image - Enable support for image formats other than PNG and BMP
+dev-python/scipy-python2:sparse - Adds support for sparse solving with sci-libs/umfpack
 dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
@@ -167,6 +167,7 @@ dev-python/twisted:conch - include Twisted SSHv2 implementation
 dev-python/twisted:http2 - include http2 support
 dev-python/twisted:serial - include serial port support
 dev-python/twisted-core:serial - include serial port support
+dev-python/urllib3:brotli - Enable support for brotli compression
 dev-python/vatnumber:vies - Enable VIES
 dev-vcs/bzr:sftp - Enable sftp support
 dev-vcs/rabbitvcs:caja - Enable extension for mate-base/caja
@@ -245,7 +246,6 @@ sci-libs/gdal:spatialite - Enable Spatial DBMS over sqlite dev-db/spatialite
 sci-libs/gdal:xls - Add the dev-libs/freexl library for xls import support
 sci-libs/scikits_image:freeimage - Enable support for image i/o via media-libs/freeimage
 sci-libs/scikits_image:pyamg - Enable support for algebraic solvers via dev-python/pyamg
-sci-libs/scipy-python2:sparse - Adds support for sparse solving with sci-libs/umfpack
 sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
