@@ -87,6 +87,13 @@ dev-lang/tauthon:pgo - Build with profile guided optimizations (PGO)
 dev-lang/tauthon:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 dev-lang/tauthon:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 dev-lang/tauthon:wininst - Install Windows executables required to create an executable installer for MS Windows.
+dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
+dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
+dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
+dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
+dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
+dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-libs/libpeas:glade - Install the glade catalog
 dev-libs/libpeas:python - Build support for loading dev-lang/python plugins
 dev-php/pecl-redis:igbinary - Enables igbinary serialisation support
@@ -129,6 +136,7 @@ dev-python/celery:zeromq - Enable logging and deployment via ZeroMQ
 dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
+dev-python/gmpy:mpir - Use sci-libs/mpir as gmp implementation
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
@@ -154,6 +162,7 @@ dev-python/pybitmessage:opencl - Enable dev-python/pyopencl for GPU acceleration
 dev-python/pybitmessage:qrcode - Enable dev-python/qrcode for QR code support
 dev-python/pygame:midi - Enable midi support using media-libs/portmidi
 dev-python/pyglet:image - Enable support for image formats other than PNG and BMP
+dev-python/rfc3986:idna - enable support for the IDNA specification (RFC 5891)
 dev-python/scipy-python2:sparse - Adds support for sparse solving with sci-libs/umfpack
 dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
@@ -163,6 +172,7 @@ dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
 dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
+dev-python/tappy:yaml - Pull dependencies needed to support YAML blocks associated with test results.
 dev-python/twisted:conch - include Twisted SSHv2 implementation
 dev-python/twisted:http2 - include http2 support
 dev-python/twisted:serial - include serial port support
