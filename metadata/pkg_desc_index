@@ -579,7 +579,7 @@ dev-python/python-oembed 0.2.4: A Python library that implements an OEmbed consu
 dev-python/python-openid 2.2.5-r2: OpenID support for servers and consumers
 dev-python/python-openstackclient 4.0.0-r2: A client for the OpenStack APIs
 dev-python/python-pam 0.1.4: A python interface to the PAM library on linux using ctypes
-dev-python/python-pluginloader 1.0.0: Library to manage python plugins/extensions
+dev-python/python-pluginloader 1.0.0-r1: Library to manage python plugins/extensions
 dev-python/python-poppler 0.12.1-r4: Python bindings to the Poppler PDF library
 dev-python/python-prctl 1.6.1: Control process attributes through prctl
 dev-python/python-recaptcha 2.0.0 2.0.1 2.0.1-r1: A plugin for reCAPTCHA and reCAPTCHA Mailhide
@@ -779,7 +779,7 @@ dev-util/gotags 1.4.1: ctags-compatible tag generator for Go
 dev-util/rebar3 3.6.1-r1: A sophisticated build-tool for Erlang projects that follows OTP principles
 dev-util/valgrind 3.15.0-r1: An open-source memory debugger for GNU/Linux
 dev-vcs/bzr 2.7.0 2.7.1_pre: Bazaar is a next generation distributed version control system
-dev-vcs/hg-fast-export 200213: mercurial to git converter using git-fast-import
+dev-vcs/hg-fast-export 200213_p20201010: mercurial to git converter using git-fast-import
 dev-vcs/rabbitvcs 0.16-r1: Integrated version control support for your desktop
 games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
 games-emulation/rpcs3 9999-r2: PlayStation 3 emulator
