@@ -815,6 +815,7 @@ media-sound/tg 0.5.0-r1 9999-r1: a program for timing mechanical watches
 media-sound/yoshimi 1.7.1-r1: Software synthesizer based on ZynAddSubFX
 media-tv/dvb-firmware 9999-r1 20170329-r1: DVB firmware from the OpenELEC project
 media-tv/w_scan2 1.0.9 9999: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
+media-video/mkvtoolnix 51.0.0: Tools to create, alter, and inspect Matroska files
 media-video/subliminal 2.1.0-r1 9999-r2: Python library to search and download subtitles
 media-video/vobsub2srt 1.0_pre20171219 9999-r1: Converts VobSub subtitles (.sub/.idx) to .srt text subtitles using tesseract
 net-analyzer/fail2ban 0.11.1-r103: scans log files and bans IPs that show malicious signs
