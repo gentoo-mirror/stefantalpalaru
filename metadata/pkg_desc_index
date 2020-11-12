@@ -31,6 +31,7 @@ app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 dev-db/metakit 2.4.9.7-r3: Embedded database library
 dev-db/rocksdb 5.18.3 6.11.4: A Persistent Key-Value Store for Flash and RAM Storage
+dev-lang/go 1.15.5: A concurrent garbage collected and typesafe programming language
 dev-lang/nim 1.0.10-r100 1.2.6-r100 1.2.8-r100 1.4.0-r100 9999-r11: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r3: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.36.0 9999-r8: Compiler for the Pony language
@@ -836,7 +837,7 @@ net-misc/s3cmd 2.1.0: Command line client for Amazon S3
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.1: internet radio browser
 net-p2p/amule 2.3.2_p20201016: aMule, the all-platform eMule p2p client
-net-p2p/go-ethereum 1.9.20: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.9.24: Official golang implementation of the Ethereum protocol
 net-p2p/nimbus-eth2 9999-r5: Nim implementation of the Ethereum 2.0 blockchain
 net-p2p/pybitmessage 0.6.3.2_p20180521-r1: Reference client for Bitmessage: a P2P communications protocol
 net-p2p/transmission 3.00-r100: A fast, easy, and free BitTorrent client
