@@ -247,7 +247,6 @@ dev-python/ginga 2.7.2-r2: Astronomical image toolkit for Python
 dev-python/git-python 2.1.15-r2: Library used to interact with Git repositories
 dev-python/gitdb2 2.0.6-r2: GitDB is a pure-Python git object database
 dev-python/glue-vispy-viewers 0.7.2-r2: Vispy-based viewers for Glue
-dev-python/glueviz 0.10.4-r2: Python library to explore relationships within and among related datasets
 dev-python/glymur 0.8.10: Python tools for accessing JPEG2000 files
 dev-python/gmpy 2.0.8-r3: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/gnome-python-base 2.28.1-r1: Provides the base files for the gnome-python bindings
