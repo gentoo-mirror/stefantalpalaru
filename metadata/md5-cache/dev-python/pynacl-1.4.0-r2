@@ -11,5 +11,5 @@ RDEPEND=dev-python/six[python_targets_python2_7(-)?,python_targets_python3_6(-)?
 REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
 SLOT=0
 SRC_URI=https://github.com/pyca/pynacl/archive/1.4.0.tar.gz -> pynacl-1.4.0.tar.gz
-_eclasses_=distutils-r1	6a128a9211d714bf9dfb5c0c9e72558e	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	f1d4277b3ad100890cbd62e137f0a769	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=distutils-r1	6a128a9211d714bf9dfb5c0c9e72558e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	f1d4277b3ad100890cbd62e137f0a769	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=aee0f53478a9e0959b2aef8c4c592b79
