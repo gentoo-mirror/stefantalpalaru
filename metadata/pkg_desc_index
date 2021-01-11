@@ -840,7 +840,7 @@ net-p2p/transmission 3.00-r100: A fast, easy, and free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
 net-print/pkpgcounter 3.50-r3: Generic PDL (Page Description Language) parser in Python
 net-print/pykota 1.26-r1: Flexible print quota and accounting package for use with CUPS and lpd
-net-wireless/cubicsdr 0.2.5_p20191029: Cross-Platform Software-Defined Radio Application
+net-wireless/cubicsdr 0.2.5_p20210102: Cross-Platform Software-Defined Radio Application
 net-wireless/soapysdr 0.7.1-r101 9999: vendor and platform neutral SDR support library
 perl-core/Digest-MD5 2.550.0: MD5 message digest algorithm
 sci-astronomy/astrometry 0.78-r1: Automated astrometric calibration programs and service

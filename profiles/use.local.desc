@@ -236,6 +236,7 @@ net-p2p/transmission:lightweight - Optimize transmission for low-resource system
 net-p2p/transmission:mbedtls - Use mbed TLS instead of OpenSSL
 net-wireless/cubicsdr:bladerf - Add support for bladerf hardware
 net-wireless/cubicsdr:hackrf - Add support for hackrf hardware
+net-wireless/cubicsdr:hamlib - Add support for the Hamlib amateur radio rig control library
 net-wireless/cubicsdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
 net-wireless/cubicsdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/cubicsdr:uhd - Add support for Ettus USRP hardware
