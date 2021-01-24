@@ -878,7 +878,7 @@ x11-libs/dotherside 0.6.5: C language library for creating bindings for the Qt Q
 x11-libs/gtkglext 1.2.0-r4: GL extensions for Gtk+ 2.0
 x11-libs/pangox-compat 0.0.2-r2: PangoX compatibility library
 x11-libs/wxGTK 3.1.4-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
-x11-misc/electricsheep 3.0.2_p20180714-r3 9999-r3: realize the collective dream of sleeping computers from all over the internet
+x11-misc/electricsheep 3.0.2_p20180714-r4 9999-r4: realize the collective dream of sleeping computers from all over the internet
 x11-misc/magick-rotation 1.6.2-r2: Application that rotates tablet pc's screen automatically, based on orientation
 x11-misc/obmenu 1.0-r2: Menu editor designed for openbox
 x11-themes/numix-solarized 9999-r1: solarized version of Numix
