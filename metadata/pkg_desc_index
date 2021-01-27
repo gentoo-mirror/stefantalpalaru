@@ -792,6 +792,7 @@ media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powere
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
 media-gfx/gmic 2.9.1-r100 9999-r15: GREYC's Magic Image Converter
+media-gfx/zart 3.2.2_p20191126-r1: G'MIC GUI for video streams
 media-libs/cimg 2.9.1-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
@@ -803,9 +804,12 @@ media-libs/opencv 4.1.2-r4: A collection of algorithms and sample code for vario
 media-libs/qhull 2019.1: Geometry library
 media-plugins/gimp-refocus 0.9.0: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0: Refocus-It plugin for The Gimp
+media-radio/fmreceiver 0.9-r1: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/qt-dab 3.7: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
+media-radio/swreceiver 7.25_pre20170414-r2: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/aqualung 1.0-r4: Music player for a wide range of formats designed for gapless playback
 media-sound/bristol 0.60.11-r2: Synthesizer keyboard emulation package: Moog, Hammond and others
+media-sound/fmit 1.2.13-r1: Free Music Instrument Tuner
 media-sound/jack-audio-connection-kit 1.9.16: Jackdmp jack implemention for multi-processor machine
 media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CLI)
 media-sound/setbfree 0.8.11 99999999-r1: MIDI controlled DSP tonewheel organ
