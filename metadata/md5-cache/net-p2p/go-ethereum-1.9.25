@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/go-1.15.5:=
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.9.25.tar.gz -> go-ethereum-1.9.25.tar.gz
-_eclasses_=golang-base	027b7c82ab637d596b1a18ffcefa0ae4
+_eclasses_=golang-base	904cd4c642d6923795b9bd99b6fe0e74
 _md5_=8c2f53ace82e462b8399228c4dad5558
