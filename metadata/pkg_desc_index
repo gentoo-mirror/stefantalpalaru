@@ -30,7 +30,6 @@ app-vim/nim-syntax 1.2_pre20190426 9999: Nim language support
 app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
 dev-db/metakit 2.4.9.7-r3: Embedded database library
-dev-db/rocksdb 5.18.3 6.11.4: A Persistent Key-Value Store for Flash and RAM Storage
 dev-lang/go 1.15.5: A concurrent garbage collected and typesafe programming language
 dev-lang/nim 1.0.10-r100 1.2.10-r100 1.4.4-r100 9999-r11: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r3: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
@@ -796,7 +795,6 @@ media-gfx/zart 3.2.2_p20191126-r1: G'MIC GUI for video streams
 media-libs/cimg 2.9.1-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
-media-libs/jasper 2.0.14-r1 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-libs/libkeyfinder 2.2.3: Musical key detection library for digital audio
 media-libs/libmysofa 0.6: Reader for AES SOFA files to get better HRTFs
 media-libs/libspatialaudio 0.3.0-r2: Ambisonic encoding / decoding and binauralization library in C++
