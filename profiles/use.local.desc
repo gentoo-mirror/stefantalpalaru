@@ -39,14 +39,6 @@ app-office/gnucash:aqbanking - Connect to some internet banks via AqBanking
 app-office/gnucash:gui - Enable graphic interface (needs net-libs/webkit-gtk:4 and x11-libs/gtk+:3)
 app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 app-office/gnucash:register2 - Use the new register (Experimental)
-dev-db/rocksdb:bzip2 - Add support for bzip2 compression
-dev-db/rocksdb:gflags - Add support for gflags
-dev-db/rocksdb:lz4 - Add support for lz4 compression
-dev-db/rocksdb:minimal - Build RocksDBLite, a small and minimal version of RocksDB instead of the regular library
-dev-db/rocksdb:snappy - Add support for snappy compression
-dev-db/rocksdb:tbb - Add support for Intels Thread Building Blocks library
-dev-db/rocksdb:tools - Build RocksDB CLI tools
-dev-db/rocksdb:zstd - Add support for zstd compression
 dev-lang/nim:boehm-gc - Enable Hans Boehm's garbage collector (dev-libs/boehm-gc).
 dev-lang/php:bcmath - Add support for libbcmath
 dev-lang/php:cli - Enable CLI SAPI
