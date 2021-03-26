@@ -785,7 +785,6 @@ dev-vcs/rabbitvcs 0.16-r1: Integrated version control support for your desktop
 games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
 games-emulation/rpcs3 9999-r4: PlayStation 3 emulator
 gnome-base/libgnome-keyring 3.12.0-r2: Compatibility library for accessing secrets
-media-fonts/breeze-sans 20170821: a humanist sans-serif typeface designed by Dalton Maag for Samsung
 media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
 media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powered by Argyll CMS
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
