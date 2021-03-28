@@ -10,4 +10,4 @@ LICENSE=Apache-2.0
 SLOT=0
 SRC_URI=https://review.tizen.org/git/?p=platform/core/graphics/default-fonts-sdk.git;a=snapshot;h=efd8b8a5d8e88e3122037fa126831c5a938736a7;sf=tgz -> breeze-sans-20170821.tar.gz
 _eclasses_=font	0667878c2b594871023dd1833d05996f
-_md5_=5dd8899e4113333f40420b0b848a4137
+_md5_=ae8df38a192cff2230ea0b48e595345b
