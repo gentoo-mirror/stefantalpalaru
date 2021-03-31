@@ -3,6 +3,7 @@ DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 DESCRIPTION=Nim language support
 EAPI=6
 HOMEPAGE=https://github.com/zah/nim.vim
+INHERIT=vim-plugin
 KEYWORDS=~amd64 ~x86
 LICENSE=vim
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
