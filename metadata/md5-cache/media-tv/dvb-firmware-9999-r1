@@ -3,8 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=DVB firmware from the OpenELEC project
 EAPI=6
 HOMEPAGE=https://github.com/OpenELEC/dvb-firmware
+INHERIT=git-r3
 LICENSE=all-rights-reserved freedist ISC
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=50a0b780864d01a4a84233cfb271acf1

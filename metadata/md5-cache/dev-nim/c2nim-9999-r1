@@ -3,10 +3,11 @@ DEPEND=>=dev-lang/nim-0.18.0 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=a tool to translate ANSI C code to Nim
 EAPI=6
 HOMEPAGE=https://github.com/nim-lang/c2nim
+INHERIT=git-r3
 IUSE=doc test
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=dev-lang/nim-0.18.0
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=b91a25e523d2e5df1c9d948f4d0fa423

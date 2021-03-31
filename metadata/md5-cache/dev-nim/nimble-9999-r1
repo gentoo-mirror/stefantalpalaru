@@ -3,9 +3,10 @@ DEPEND=>=dev-lang/nim-0.13.0 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Nim package manager
 EAPI=6
 HOMEPAGE=https://github.com/nim-lang/nimble
+INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=bc769a5c9009af0a290feb09983d610c
