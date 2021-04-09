@@ -11,4 +11,4 @@ PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=9b02c91db5aae2480e1f85667ed1b4fb
+_md5_=4557fdd073a82623fb964189befa2960
