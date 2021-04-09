@@ -11,5 +11,5 @@ RDEPEND=python_single_target_python3_6? ( dev-lang/python:3.6[threads(+)] >=dev-
 REQUIRED_USE=^^ ( python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8 ) || ( classic dbus )
 SLOT=2
 SRC_URI=https://github.com/jackaudio/jack2/archive/v1.9.16.tar.gz -> jack-audio-connection-kit-1.9.16.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-single-r1	c7de0087e87a282f2faec351822e097c	multiprocessing	cac3169468f893670dac3e7cb940e045	waf-utils	0a6e492cdcbd52b1304cfcd9eba5abc6	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib-build	ac696f0bea6c503f5980bfd5a0f312e5	multilib-minimal	8bddda43703ba94d8341f4e247f97566
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	multiprocessing	cac3169468f893670dac3e7cb940e045	waf-utils	0a6e492cdcbd52b1304cfcd9eba5abc6	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib-build	ac696f0bea6c503f5980bfd5a0f312e5	multilib-minimal	8bddda43703ba94d8341f4e247f97566
 _md5_=8975c0f9205cd2de9156b8c521740be1
