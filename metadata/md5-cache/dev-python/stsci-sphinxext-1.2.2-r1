@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/matplotlib-python2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( dev-python/numpydoc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) >=dev-python/d2to1-0.2.9[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/stsci-distutils-0.3.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Tools and templates to customize Sphinx for STScI projects
+EAPI=7
+HOMEPAGE=http://www.stsci.edu/resources/software_hardware/stsci_python
+INHERIT=distutils-r1
+IUSE=python_targets_python2_7
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=dev-python/matplotlib-python2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( dev-python/numpydoc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=https://github.com/spacetelescope/stsci.sphinxext/archive/1.2.2.tar.gz -> stsci-sphinxext-1.2.2.tar.gz
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	6ae0b2e1e4f4e08cf3cc2c5811873798
+_md5_=0a1e7f07bfc2c03aec7da0e23f50f29e

@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-python/requests[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/beautifulsoup:4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] test? ( dev-python/mock[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )
+DESCRIPTION=Python library for oEmbed with auto-discovered and manually added providers
+EAPI=7
+HOMEPAGE=https://github.com/rafaelmartins/pyoembed
+INHERIT=distutils-r1 git-r3
+IUSE=test python_targets_python2_7
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-python/requests[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/beautifulsoup:4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	6ae0b2e1e4f4e08cf3cc2c5811873798	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=c794210e34c755478ff3e327674af35a

@@ -1,0 +1,15 @@
+BDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python2_7? ( >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)] )
+DEFINED_PHASES=compile configure install prepare setup test
+DESCRIPTION=Simple and fast Python full-text indexer (aka search engine) using Metakit as its back-end
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/pyndex/
+INHERIT=distutils-r1
+IUSE=+python_single_target_python2_7
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-db/metakit-2.4.9.2[python] python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] )
+REQUIRED_USE=^^ ( python_single_target_python2_7 )
+SLOT=0
+SRC_URI=mirror://sourceforge/pyndex/Pyndex-0.3.2a.tar.gz
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	distutils-r1	6ae0b2e1e4f4e08cf3cc2c5811873798
+_md5_=c79a90a965afa3f1429e1981fb5a89a1

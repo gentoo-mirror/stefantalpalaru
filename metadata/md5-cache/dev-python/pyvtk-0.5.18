@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Tools for manipulating VTK files in Python
+EAPI=7
+HOMEPAGE=http://cens.ioc.ee/projects/pyvtk/
+INHERIT=distutils-r1
+IUSE=python_targets_python2_7 python_targets_python3_7 python_targets_python3_8 python_targets_python3_9
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/6a/dc/d5ffc2cc50bdd7a2e7b435655ee5931d614f7c118624dd20c51440c79337/PyVTK-0.5.18.tar.gz
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	a48ab165f2a2eb911acc0e008fc40227	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	6ae0b2e1e4f4e08cf3cc2c5811873798
+_md5_=cc48d6d819cce469170b0cd389764ac8
