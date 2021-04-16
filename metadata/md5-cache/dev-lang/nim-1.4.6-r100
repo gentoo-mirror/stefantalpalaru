@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
-SRC_URI=https://nim-lang.org/download/nim-1.2.10.tar.xz
+SRC_URI=https://nim-lang.org/download/nim-1.4.6.tar.xz
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	bash-completion-r1	8e7c071081c68c2c398b77fe3a1d6908	multiprocessing	cac3169468f893670dac3e7cb940e045
 _md5_=41966b88f4319faddef0ee82fa93f2d1
