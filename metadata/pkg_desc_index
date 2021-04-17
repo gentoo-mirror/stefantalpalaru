@@ -826,7 +826,7 @@ net-p2p/transmission 3.00-r100: A fast, easy, and free BitTorrent client
 net-print/gutenprint 5.3.3-r1: Ghostscript and cups printer drivers
 net-print/pkpgcounter 3.50-r3: Generic PDL (Page Description Language) parser in Python
 net-print/pykota 1.26-r1: Flexible print quota and accounting package for use with CUPS and lpd
-net-wireless/cubicsdr 0.2.5_p20210102: Cross-Platform Software-Defined Radio Application
+net-wireless/cubicsdr 0.2.5_p20210321: Cross-Platform Software-Defined Radio Application
 net-wireless/soapysdr 0.7.1-r101 9999: vendor and platform neutral SDR support library
 sci-astronomy/astrometry 0.78-r1: Automated astrometric calibration programs and service
 sci-astronomy/casacore 3.2.1-r1: Core libraries for the Common Astronomy Software Applications
@@ -862,7 +862,7 @@ x11-drivers/nvidia-drivers 390.138-r101: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.5: C language library for creating bindings for the Qt QML language
 x11-libs/gtkglext 1.2.0-r4: GL extensions for Gtk+ 2.0
 x11-libs/pangox-compat 0.0.2-r2: PangoX compatibility library
-x11-libs/wxGTK 3.1.4-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
+x11-libs/wxGTK 3.1.5-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/electricsheep 3.0.2_p20180714-r4 9999-r4: realize the collective dream of sleeping computers from all over the internet
 x11-misc/magick-rotation 1.6.2-r3: Application that rotates tablet pc's screen automatically, based on orientation
 x11-misc/obmenu 1.0-r3: Menu editor designed for openbox
