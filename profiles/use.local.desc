@@ -172,6 +172,7 @@ dev-python/twisted:serial - include serial port support
 dev-python/twisted-core:serial - include serial port support
 dev-python/urllib3:brotli - Enable support for brotli compression
 dev-python/vatnumber:vies - Enable VIES
+dev-util/valgrind:lto - Build with link time optimization (LTO)
 dev-vcs/bzr:sftp - Enable sftp support
 dev-vcs/rabbitvcs:caja - Enable extension for mate-base/caja
 dev-vcs/rabbitvcs:cli - Eanble console based frontend
