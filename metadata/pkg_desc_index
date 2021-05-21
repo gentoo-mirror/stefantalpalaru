@@ -858,7 +858,6 @@ virtual/python-pathlib 1.0-r1: A virtual for Python pathlib module
 virtual/python-typing 0-r2: A virtual for the Python typing module
 www-apps/blohg-tumblelog 0.2-r1 9999-r1: A blohg extension with reStructuredText directives to run a tumblelog
 www-servers/tornado 5.1.1-r1: Python web framework and asynchronous networking library
-x11-drivers/nvidia-drivers 390.138-r101: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.5: C language library for creating bindings for the Qt QML language
 x11-libs/gtkglext 1.2.0-r4: GL extensions for Gtk+ 2.0
 x11-libs/pangox-compat 0.0.2-r2: PangoX compatibility library
