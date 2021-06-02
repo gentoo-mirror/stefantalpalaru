@@ -10,8 +10,8 @@ app-editors/gedit 3.32.2-r1: A text editor for the GNOME desktop
 app-emacs/pymacs 0.26-r1: A tool that allows both-side communication beetween Python and Emacs Lisp
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-emulation/vagrant-bin 2.0.3: Tool for building and distributing virtual machines
-app-emulation/vmware-modules 15.5.7-r4 16.1.1: VMware kernel modules
-app-emulation/vmware-workstation 15.5.7.17171714-r1 16.1.1.17801498-r1: Emulate a complete PC without the performance overhead of most emulators
+app-emulation/vmware-modules 16.1.2: VMware kernel modules
+app-emulation/vmware-workstation 16.1.2.17966106: Emulate a complete PC without the performance overhead of most emulators
 app-misc/iccloader 0.5 9999: systray widget used to load ICC color profiles with different color temperatures
 app-misc/piper 0.5.1: GTK configuration application for libratbag
 app-misc/yworklog 0.0.7-r1: Stack based utility with CLI interface helping to monitor time spent on tasks
