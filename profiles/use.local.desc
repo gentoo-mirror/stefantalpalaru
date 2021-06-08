@@ -233,6 +233,8 @@ net-wireless/cubicsdr:hamlib - Add support for the Hamlib amateur radio rig cont
 net-wireless/cubicsdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
 net-wireless/cubicsdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/cubicsdr:uhd - Add support for Ettus USRP hardware
+net-wireless/rtl_433:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
+net-wireless/rtl_433:soapysdr - Build with SoapySDR support
 net-wireless/soapysdr:bladerf - Add support for bladerf hardware
 net-wireless/soapysdr:hackrf - Add support for hackrf hardware
 net-wireless/soapysdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
