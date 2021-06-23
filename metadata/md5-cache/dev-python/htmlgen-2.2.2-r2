@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst prepare
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?] dev-python/pillow[python_targets_python2_7(-)?]
 DESCRIPTION=HTMLgen - Python modules for the generation of HTML documents
 EAPI=7
 HOMEPAGE=http://soc.if.usp.br/manual/python-htmlgen/html/main.html
@@ -7,9 +7,9 @@ INHERIT=eutils python-r1
 IUSE=doc python_targets_python2_7
 KEYWORDS=amd64 ia64 ppc x86
 LICENSE=BSD
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?] dev-python/pillow[python_targets_python2_7(-)?]
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://starship.python.net/crew/friedrich/HTMLgen.tgz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	118325ca9c61c4543e8b0c7c10aca959	python-r1	26e4ad0a4190b14f70973dc253e86535
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	multibuild	05a584848db4901c97fcd94ae7cc3a97	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	118325ca9c61c4543e8b0c7c10aca959	python-r1	e20b80360497e6215aed0dd4ca7d6bad
 _md5_=d76325c46521542479308bdefbb715e4
