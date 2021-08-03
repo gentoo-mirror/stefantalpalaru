@@ -30,7 +30,7 @@ app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux ke
 dev-lang/go 1.15.5: A concurrent garbage collected and typesafe programming language
 dev-lang/nim 1.0.10-r100 1.2.12-r100 1.4.8-r100 9999-r12: compiled, garbage-collected systems programming language
 dev-lang/php 5.3.29-r4: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
-dev-lang/pony 0.43.0 9999-r8: Compiler for the Pony language
+dev-lang/pony 0.43.1 9999-r8: Compiler for the Pony language
 dev-lang/python 2.7.18_p103: An interpreted, interactive, object-oriented programming language
 dev-lang/tauthon 2.8.3-r1: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-libs/boost 1.74.0-r2: Boost Libraries for C++
