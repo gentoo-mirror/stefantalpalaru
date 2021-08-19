@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?] test? ( <dev-python/kombu-3.1:python2[python_targets_python2_7(-)?] >=dev-python/kombu-3.0.37:python2[python_targets_python2_7(-)?] >=dev-python/anyjson-0.3.3[python_targets_python2_7(-)?] >=dev-python/billiard-3.3.0.23:python2[python_targets_python2_7(-)?] <dev-python/billiard-3.4:python2[python_targets_python2_7(-)?] dev-python/pytz:python2[python_targets_python2_7(-)?] dev-python/greenlet:python2[python_targets_python2_7(-)?] !<dev-python/celery-3.1.25-r200[python_targets_python2_7(-)?] dev-python/gevent[python_targets_python2_7(-)?] >=dev-python/mock-1.0.1[python_targets_python2_7(-)?] dev-python/nose-cover3[python_targets_python2_7(-)?] >=dev-python/pymongo-2.6.2[python_targets_python2_7(-)?] dev-python/pyopenssl[python_targets_python2_7(-)?] >=dev-python/python-dateutil-2.1[python_targets_python2_7(-)?] dev-python/sqlalchemy[python_targets_python2_7(-)?] dev-python/redis-py[python_targets_python2_7(-)?] >=dev-db/redis-2.8.0 >=dev-python/boto-2.13.3[python_targets_python2_7(-)?] >=dev-python/pyzmq-13.1.0[python_targets_python2_7(-)?] >=dev-python/pyyaml-3.10[python_targets_python2_7(-)?] ) doc? ( dev-python/docutils[python_targets_python2_7(-)?] dev-python/sphinx[python_targets_python2_7(-)?] dev-python/jinja[python_targets_python2_7(-)?] dev-python/sqlalchemy[python_targets_python2_7(-)?] )
+DESCRIPTION=Asynchronous task queue/job queue based on distributed message passing
+EAPI=7
+HOMEPAGE=http://celeryproject.org/ https://pypi.python.org/pypi/celery
+INHERIT=distutils-r1 bash-completion-r1
+IUSE=doc examples redis sqs test yaml zeromq python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=<dev-python/kombu-3.1:python2[python_targets_python2_7(-)?] >=dev-python/kombu-3.0.37:python2[python_targets_python2_7(-)?] >=dev-python/anyjson-0.3.3[python_targets_python2_7(-)?] >=dev-python/billiard-3.3.0.23:python2[python_targets_python2_7(-)?] <dev-python/billiard-3.4:python2[python_targets_python2_7(-)?] dev-python/pytz:python2[python_targets_python2_7(-)?] dev-python/greenlet:python2[python_targets_python2_7(-)?] !<dev-python/celery-3.1.25-r200[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=python2
+SRC_URI=mirror://pypi/c/celery/celery-3.1.25.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	be7716b9e6dd17d66a03227c260cbd98	bash-completion-r1	d3a60385655d9b402be765a6de333245
+_md5_=301b58b6ca4a0b1ceb659b45da54d51e

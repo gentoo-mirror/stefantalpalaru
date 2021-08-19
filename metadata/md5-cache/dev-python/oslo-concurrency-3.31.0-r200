@@ -1,0 +1,17 @@
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?] test? ( >=dev-python/oslotest-3.2.0[python_targets_python2_7(-)?] >=dev-python/coverage-4.0[python_targets_python2_7(-)?] !~dev-python/coverage-4.4[python_targets_python2_7(-)?] virtual/python-futures[python_targets_python2_7(-)?] >=dev-python/fixtures-3.0.0[python_targets_python2_7(-)?] >=dev-python/stestr-2.0.0[python_targets_python2_7(-)?] >=dev-python/sphinx-1.6.2[python_targets_python2_7(-)?] !~dev-python/sphinx-1.6.6[python_targets_python2_7(-)?] !~dev-python/sphinx-1.6.7[python_targets_python2_7(-)?] >=dev-python/openstackdocstheme-1.18.1[python_targets_python2_7(-)?] >=dev-python/reno-2.5.0[python_targets_python2_7(-)?] >=dev-python/eventlet-0.18.4[python_targets_python2_7(-)?] !~dev-python/eventlet-0.20.1[python_targets_python2_7(-)?] >=dev-python/bandit-1.1.0[python_targets_python2_7(-)?] )
+DESCRIPTION=library for running multi-thread, multi-process applications
+EAPI=7
+HOMEPAGE=https://pypi.org/project/oslo.concurrency/ https://github.com/openstack/oslo.concurrency
+INHERIT=distutils-r1
+IUSE=test python_targets_python2_7
+KEYWORDS=amd64 ~arm64 x86
+LICENSE=Apache-2.0
+RDEPEND=virtual/python-enum34[python_targets_python2_7(-)?] >=dev-python/oslo-config-5.2.0[python_targets_python2_7(-)?] >=dev-python/oslo-i18n-3.15.3[python_targets_python2_7(-)?] >=dev-python/oslo-utils-3.33.0[python_targets_python2_7(-)?] >=dev-python/six-1.10.0[python_targets_python2_7(-)?] >=dev-python/fasteners-0.7.0[python_targets_python2_7(-)?] !<dev-python/oslo-concurrency-3.31.0-r200[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+RESTRICT=!test? ( test )
+SLOT=python2
+SRC_URI=mirror://pypi/o/oslo.concurrency/oslo.concurrency-3.31.0.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_md5_=47dfcd6ac04f53f99eed53ffd5cc582e
