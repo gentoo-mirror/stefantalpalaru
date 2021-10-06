@@ -816,7 +816,7 @@ media-radio/swreceiver 7.25_pre20170414-r2: SDR-J SW receiver for RTL2832-based 
 media-sound/fmit 1.2.13-r1: Free Music Instrument Tuner
 media-sound/jack-audio-connection-kit 1.9.19: Jackdmp jack implemention for multi-processor machine
 media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CLI)
-media-sound/setbfree 0.8.11 99999999-r1: MIDI controlled DSP tonewheel organ
+media-sound/setbfree 0.8.11-r1 99999999-r2: MIDI controlled DSP tonewheel organ
 media-sound/tg 0.5.0-r1 9999-r1: a program for timing mechanical watches
 media-tv/dvb-firmware 9999-r2 20170329-r2: DVB firmware from the OpenELEC project
 media-tv/w_scan2 1.0.12 9999: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
