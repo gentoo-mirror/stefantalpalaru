@@ -808,6 +808,8 @@ media-libs/jasper 2.0.14-r2 9999-r1: Implementation of the codec specified in th
 media-libs/libmysofa 0.6-r1: Reader for AES SOFA files to get better HRTFs
 media-libs/libspatialaudio 0.3.0-r3: Ambisonic encoding / decoding and binauralization library in C++
 media-libs/vigra 1.11.1-r4: C++ computer vision library emphasizing customizable algorithms and structures
+media-plugins/deadbeef-bs2b 9999-r1: bs2b DSP plugin for DeaDBeeF, using libbs2b.
+media-plugins/deadbeef-jack 9999-r1: JACK output plugin for DeaDBeeF.
 media-plugins/gimp-refocus 0.9.0-r1: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0-r1: Refocus-It plugin for The Gimp
 media-radio/fmreceiver 0.9-r1: SDR-J FM receiver for RTL2832-based USB sticks
