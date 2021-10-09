@@ -799,9 +799,9 @@ media-gfx/GTS 2.5.0: scanning tool developed by Studio Ghibli
 media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powered by Argyll CMS
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
-media-gfx/gmic 2.9.8-r100 9999-r15: GREYC's Magic Image Converter
+media-gfx/gmic 2.9.9-r100 9999-r15: GREYC's Magic Image Converter
 media-gfx/zart 3.2.2_p20210208: G'MIC GUI for video streams
-media-libs/cimg 2.9.8-r100 9999: C++ template image processing toolkit
+media-libs/cimg 2.9.9-r100 9999: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/jasper 2.0.14-r2 9999-r1: Implementation of the codec specified in the JPEG-2000 Part-1 standard
