@@ -837,7 +837,7 @@ net-misc/magic-wormhole-transit-relay 0.2.1-r200: Transit Relay server for Magic
 net-misc/pycnb 0.0.4-r200: Access cnb.cz daily rates with the comfort of your command line
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.1-r200: internet radio browser
-net-p2p/go-ethereum 1.10.11: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.10.12: Official golang implementation of the Ethereum protocol
 net-p2p/nimbus-eth2 1.5.2 9999-r12: Nim implementation of the Ethereum 2.0 blockchain
 net-p2p/pybitmessage 0.6.3.2_p20180521-r2: Reference client for Bitmessage: a P2P communications protocol
 net-p2p/transmission 3.00-r101: A fast, easy, and free BitTorrent client
@@ -873,6 +873,7 @@ virtual/python-ipaddress 1.0-r2: A virtual for Python ipaddress module
 virtual/python-pathlib 1.0-r1: A virtual for Python pathlib module
 virtual/python-typing 0-r2: A virtual for the Python typing module
 www-servers/tornado 4.5.3-r200 5.1.1-r200: Python web framework and asynchronous networking library
+x11-drivers/nvidia-drivers 390.144-r1: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.5-r1: C language library for creating bindings for the Qt QML language
 x11-libs/pangox-compat 0.0.2-r4: PangoX compatibility library
 x11-libs/wxGTK 3.1.5-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
