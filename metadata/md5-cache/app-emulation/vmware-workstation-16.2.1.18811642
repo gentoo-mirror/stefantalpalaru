@@ -1,6 +1,6 @@
 BDEPEND=app-admin/chrpath virtual/pkgconfig
 DEFINED_PHASES=config install postinst postrm prepare setup unpack
-DEPEND=|| ( dev-lang/python:3.10 dev-lang/python:3.9 dev-lang/python:3.8 ) >=dev-util/patchelf-0.9 modules? ( ~app-emulation/vmware-modules-16.2.0 )
+DEPEND=|| ( dev-lang/python:3.10 dev-lang/python:3.9 dev-lang/python:3.8 ) >=dev-util/patchelf-0.9 modules? ( ~app-emulation/vmware-modules-16.2.1 )
 DESCRIPTION=Emulate a complete PC without the performance overhead of most emulators
 EAPI=7
 HOMEPAGE=http://www.vmware.com/products/workstation/
@@ -12,6 +12,6 @@ RDEPEND=app-arch/bzip2 app-arch/unzip app-shells/bash dev-db/sqlite:3 dev-libs/d
 REQUIRED_USE=vmware-tools-darwin? ( macos-guests ) vmware-tools-darwinPre15? ( macos-guests )
 RESTRICT=mirror preserve-libs strip
 SLOT=0
-SRC_URI=https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-16.2.0-18760230.x86_64.bundle macos-guests? ( https://github.com/paolo-projects/unlocker/archive/3.0.3.tar.gz -> unlocker-3.0.3.tar.gz vmware-tools-darwinPre15? ( https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/12.2.0/18760249/x86/core/com.vmware.fusion.zip.tar -> com.vmware.fusion-16.2.0.18760230.zip.tar ) vmware-tools-darwin? ( https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/12.2.0/18760249/x86/core/com.vmware.fusion.zip.tar -> com.vmware.fusion-16.2.0.18760230.zip.tar ) ) systemd? ( https://github.com/akhuettel/systemd-vmware/archive/gentoo-02.tar.gz -> vmware-systemd-gentoo-02.tgz )
+SRC_URI=https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-16.2.1-18811642.x86_64.bundle macos-guests? ( https://github.com/paolo-projects/unlocker/archive/3.0.3.tar.gz -> unlocker-3.0.3.tar.gz vmware-tools-darwinPre15? ( https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/12.2.1/18811640/x86/core/com.vmware.fusion.zip.tar -> com.vmware.fusion-16.2.1.18811642.zip.tar ) vmware-tools-darwin? ( https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/12.2.1/18811640/x86/core/com.vmware.fusion.zip.tar -> com.vmware.fusion-16.2.1.18811642.zip.tar ) ) systemd? ( https://github.com/akhuettel/systemd-vmware/archive/gentoo-02.tar.gz -> vmware-systemd-gentoo-02.tgz )
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	readme.gentoo-r1	c9646d622541c023f5159b86a14e930c	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	pam	41ce39f668e11d31ff4734f3b5794f7d	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-any-r1	13f6d423c5c5bc519a9b552654cc745f	systemd	2736b403a83f194b59b767f3b344c2c1	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
-_md5_=a448d850965decdab817281d68d32e3a
+_md5_=32839189e28085737a3f8d4031b33c00
