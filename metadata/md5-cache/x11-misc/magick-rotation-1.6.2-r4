@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=compile install postinst prepare setup
-DEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] >=dev-lang/python-exec-2:=[python_targets_python2_7] ) x11-libs/libX11 x11-libs/libXrandr
+DEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) x11-libs/libX11 x11-libs/libXrandr
 DESCRIPTION=Application that rotates tablet pc's screen automatically, based on orientation
 EAPI=7
 HOMEPAGE=https://launchpad.net/magick-rotation
@@ -8,10 +8,10 @@ INHERIT=desktop eutils python-single-r1 toolchain-funcs udev user
 IUSE=+python_single_target_python2_7
 KEYWORDS=-* ~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] >=dev-lang/python-exec-2:=[python_targets_python2_7] ) x11-libs/libX11 x11-libs/libXrandr python_single_target_python2_7? ( dev-python/pygobject:2[python_targets_python2_7(-)] dev-python/pygtk:2[python_targets_python2_7(-)] dev-python/py-notify[python_targets_python2_7(-)] ) x11-apps/xinput
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) x11-libs/libX11 x11-libs/libXrandr python_single_target_python2_7? ( dev-python/pygobject:2[python_targets_python2_7(-)] dev-python/pygtk:2[python_targets_python2_7(-)] dev-python/py-notify[python_targets_python2_7(-)] ) x11-apps/xinput
 REQUIRED_USE=^^ ( python_single_target_python2_7 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://launchpad.net/magick-rotation/trunk/1.6/+download/magick-rotation-1.6.2.tar.bz2
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-single-r1	d46c125afba8be02eb1cd7104bac6e9c	udev	2d229ad4bfa09058e0184b1ca900db32	user-info	2e75eaea3582b052ec16d9d5aa74ced3	user	1033b6bed7cf367c4507ea9a3ff503d0
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-single-r1	9783802d3840cbbd78c02b313df760cc	udev	2d229ad4bfa09058e0184b1ca900db32	user-info	2e75eaea3582b052ec16d9d5aa74ced3	user	1033b6bed7cf367c4507ea9a3ff503d0
 _md5_=daac50791018bbca7df657fbfdb5936d

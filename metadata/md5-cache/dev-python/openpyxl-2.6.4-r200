@@ -1,4 +1,4 @@
-BDEPEND=dev-python/setuptools[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
+BDEPEND=dev-python/setuptools[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=test? ( dev-python/jdcal:python2[python_targets_python2_7(-)?] dev-python/et_xmlfile:python2[python_targets_python2_7(-)?] !<dev-python/openpyxl-2.6.4-r4[python_targets_python2_7(-)?] dev-python/pytest[python_targets_python2_7(-)?] dev-python/lxml[python_targets_python2_7(-)?] dev-python/pillow[python_targets_python2_7(-)?,tiff,jpeg] )
 DESCRIPTION=Pure python reader and writer of Excel OpenXML files
@@ -8,10 +8,10 @@ INHERIT=distutils-r1 vcs-snapshot
 IUSE=test python_targets_python2_7
 KEYWORDS=amd64 ~arm x86
 LICENSE=MIT
-RDEPEND=dev-python/jdcal:python2[python_targets_python2_7(-)?] dev-python/et_xmlfile:python2[python_targets_python2_7(-)?] !<dev-python/openpyxl-2.6.4-r4[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?]
+RDEPEND=dev-python/jdcal:python2[python_targets_python2_7(-)?] dev-python/et_xmlfile:python2[python_targets_python2_7(-)?] !<dev-python/openpyxl-2.6.4-r4[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 )
 REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=!test? ( test )
 SLOT=python2
 SRC_URI=https://foss.heptapod.net/openpyxl/openpyxl/-/archive/2.6.4/openpyxl-2.6.4.tar.bz2 -> openpyxl-2.6.4-2.tar.bz2
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-r1	e574a3642f886323f18f867ecc4d91c4	distutils-r1	be7716b9e6dd17d66a03227c260cbd98	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	b3d1b76b0b3d648a89fb48c6f81418b8	python-r1	4c008ab1e6c02cbead059dfe8b864c26	distutils-r1	be7716b9e6dd17d66a03227c260cbd98	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=94c67d189815f52906a7d3f349d5945c
