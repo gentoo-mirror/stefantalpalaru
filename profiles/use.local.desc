@@ -172,10 +172,22 @@ media-gfx/gmic:gimp - Build the Qt5 GIMP plugin
 media-gfx/gmic:gui - Build the standalone Qt5 GUI
 media-gfx/gmic:krita - Build the Krita plugin
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
+media-libs/avidemux-core:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
+media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
+media-libs/avidemux-plugins:aften - Enable A/52 (AC-3) audio encoder support.
+media-libs/avidemux-plugins:amr - Enable Adaptive Multi-Rate format support via media-libs/opencore-amr.
+media-libs/avidemux-plugins:dcaenc - Enable DTS Coherent Acoustics audio encoder support via media-sound/dcaenc.
+media-libs/avidemux-plugins:fdk - Adds support for encoding AAC using media-libs/fdk-aac.
+media-libs/avidemux-plugins:fribidi - Enable unicode bidirectional algorithm support via dev-libs/fribidi.
+media-libs/avidemux-plugins:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
+media-libs/avidemux-plugins:twolame - Enable TwoLAME support via media-sound/twolame, an optimised MPEG Audio Layer 2 (MP2) encoder.
+media-libs/avidemux-plugins:vpx - Enable WebM VP8 Codec SDK support via media-libs/libvpx.
+media-libs/avidemux-plugins:x265 - Enables HEVC support with media-libs/x265.
 media-libs/vigra:valgrind - Enable valgrind in make check
 media-sound/jack-audio-connection-kit:classic - Enable building of jackd"
 media-sound/jack-audio-connection-kit:metadata - Enable metadata API
 media-sound/jack-audio-connection-kit:pam - Add basic realtime configuration via sys-auth/realtime-base
+media-video/avidemux:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
 net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
 net-p2p/nimbus-eth2:lto - Enable Link Time Optimization (LTO)
 net-p2p/pybitmessage:opencl - Enable dev-python/pyopencl for GPU acceleration
