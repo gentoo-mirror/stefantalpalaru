@@ -5,10 +5,10 @@ DESCRIPTION=compiled, garbage-collected systems programming language
 EAPI=7
 HOMEPAGE=https://nim-lang.org/
 INHERIT=bash-completion-r1 git-r3 multiprocessing
-IUSE=bash-completion boehm-gc doc +readline test
+IUSE=bash-completion boehm-gc +readline test
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	bash-completion-r1	d3a60385655d9b402be765a6de333245	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
-_md5_=e9f0e4d8770c61489ea7aa062577a3d0
+_md5_=6b2547653e5a84302c7ac660fcc46af3
