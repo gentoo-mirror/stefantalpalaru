@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=!test? ( test )
 SLOT=python2
 SRC_URI=https://github.com/pypa/pip/archive/20.3.4.tar.gz -> pip-20.3.4.tar.gz test? ( https://files.pythonhosted.org/packages/py2.py3/s/setuptools/setuptools-44.0.0-py2.py3-none-any.whl https://files.pythonhosted.org/packages/py2.py3/w/wheel/wheel-0.34.2-py2.py3-none-any.whl )
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	bash-completion-r1	d3a60385655d9b402be765a6de333245	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	multibuild	d79bd5b4bc4edcb1f5bc19591f8d4714	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-r1	bcd408f1e4a9669198ef4dfcd5ab8696	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	bash-completion-r1	d3a60385655d9b402be765a6de333245	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
 _md5_=c62bfa841460e5e570b376c932f96296
