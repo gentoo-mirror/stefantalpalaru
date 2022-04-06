@@ -9,5 +9,5 @@ LICENSE=vim
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
 SRC_URI=https://github.com/zah/nim.vim/archive/88f5e708a739fb26be6364ab2fabadf9fffb8d7b.zip -> nim-syntax-1.2_pre20190426.zip
-_eclasses_=vim-doc	76675474e2c64e01f41faabd9b3ab580	vim-plugin	1f214c929abd959ab2312ed512f624dc
+_eclasses_=vim-doc	e063cddf18e5d2f2cfb21388252579ec	vim-plugin	a7b5f19bc94a311ca1cf7127c8b84c41
 _md5_=876c03024eb7c0a8ecdaa536bcba129a
