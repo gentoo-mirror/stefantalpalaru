@@ -1,9 +1,0 @@
-DEFINED_PHASES=install prepare
-DESCRIPTION=DVB firmware from the OpenELEC project
-EAPI=7
-HOMEPAGE=https://github.com/OpenELEC/dvb-firmware
-KEYWORDS=~amd64 ~x86
-LICENSE=all-rights-reserved freedist ISC
-SLOT=0
-SRC_URI=https://github.com/OpenELEC/dvb-firmware/archive/3fef04a4a4bfeba88ae3b20aff9d3a1fabf1c159.zip -> dvb-firmware-20170329.zip
-_md5_=7aece015e2978e7a2aaa379f295d7faf
