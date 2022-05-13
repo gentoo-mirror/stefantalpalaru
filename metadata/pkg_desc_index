@@ -792,7 +792,7 @@ dev-ruby/mustache 0.99.8: Mustache is a framework-agnostic way to render logic-f
 dev-ruby/pleaserun 0.0.30: tool to generate startup scripts and service definitions
 dev-ruby/stud 0.0.23: Common software patterns
 dev-util/gotags 1.4.1: ctags-compatible tag generator for Go
-dev-util/valgrind 3.18.1-r100: An open-source memory debugger for GNU/Linux
+dev-util/valgrind 3.19.0-r100: An open-source memory debugger for GNU/Linux
 dev-vcs/bzr 2.7.1_pre-r2: Bazaar is a next generation distributed version control system
 dev-vcs/hg-fast-export 200213_p20201010-r1: mercurial to git converter using git-fast-import
 games-emulation/dbgl-bin 0.81: DOSBox Game Launcher
