@@ -27,7 +27,7 @@ dev-lang/nim 1.0.10-r100 1.2.18-r100 1.4.8-r100 1.6.6-r100 9999-r13: compiled, g
 dev-lang/php 5.3.29-r4: The PHP language runtime engine: CLI, CGI, FPM/FastCGI, Apache2 and embed SAPIs
 dev-lang/pony 0.50.0 9999-r8: Compiler for the Pony language
 dev-lang/python 2.7.18_p106: An interpreted, interactive, object-oriented programming language
-dev-lang/python-exec 2.4.8-r200: Python script wrapper
+dev-lang/python-exec 2.4.9-r200: Python script wrapper
 dev-lang/tauthon 2.8.3-r4: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
 dev-libs/boost 1.78.0-r200: Boost Libraries for C++
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
@@ -476,7 +476,7 @@ dev-python/pychecker 0.8.19-r3: Python source code checking tool
 dev-python/pychef 0.2.3-r1: A Python API for interacting with a Chef server
 dev-python/pyclamav 0.4.1-r3: Python binding for libclamav
 dev-python/pycodestyle 2.5.0-r200 2.6.0-r200: Python style guide checker (fka pep8)
-dev-python/pycparser 2.20-r200: C parser and AST generator written in Python
+dev-python/pycparser 2.20-r201: C parser and AST generator written in Python
 dev-python/pycrypto 2.6.1-r200: Python Cryptography Toolkit
 dev-python/pycryptodome 3.9.8-r200: A self-contained cryptographic library for Python
 dev-python/pycryptopp 0.7.1-r2: Python wrappers for a few algorithms from the Crypto++ library
