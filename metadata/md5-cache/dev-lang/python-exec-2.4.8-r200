@@ -9,5 +9,5 @@ LICENSE=BSD-2
 RDEPEND=!<=dev-lang/python-2.7.18-r3:2.7
 SLOT=2
 SRC_URI=https://github.com/mgorny/python-exec/releases/download/v2.4.8/python-exec-2.4.8.tar.bz2
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb
 _md5_=845eca643453e500d550466f5ceb948f

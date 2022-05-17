@@ -12,5 +12,5 @@ RDEPEND=!<dev-python/py-amqp-1.4.9-r2[python_targets_python2_7(-)?] python_targe
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=python2
 SRC_URI=mirror://pypi/a/amqp/amqp-1.4.9.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
 _md5_=8f947a5b173eea66d55e043675478632
