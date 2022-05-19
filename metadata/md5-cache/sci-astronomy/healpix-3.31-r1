@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install preinst prepare pretend setup test
+DEPEND=>=sci-libs/cfitsio-3 idl? ( dev-lang/gdl sci-astronomy/idlastro ) java? ( >=virtual/jre-1.6:* ) virtual/pkgconfig java? ( >=virtual/jdk-1.6:* test? ( dev-java/ant-junit4:0 ) ) java? ( >=dev-java/java-config-2.2.0-r3 ) java? ( >=dev-java/ant-core-1.8.2:0 dev-java/javatoolkit )
+DESCRIPTION=Hierarchical Equal Area isoLatitude Pixelization of a sphere
+EAPI=7
+HOMEPAGE=http://healpix.sourceforge.net/
+INHERIT=autotools toolchain-funcs eutils java-pkg-opt-2 java-ant-2
+IUSE=cxx doc idl java openmp static-libs test java
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=>=sci-libs/cfitsio-3 idl? ( dev-lang/gdl sci-astronomy/idlastro ) java? ( >=virtual/jre-1.6:* ) java? ( >=dev-java/java-config-2.2.0-r3 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://sourceforge/healpix/Healpix_3.31/Healpix_3.31_2016Aug26.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	java-utils-2	e38ea02d8ed864a74078ecf46aa06f30	java-pkg-opt-2	a71433e535af8faae0c0f6c861a32054	java-ant-2	5cf479aa9e0ac9cc55899f2762c2aaa0
+_md5_=a617f7ecadcab8cfba31bf9fe31e05ad

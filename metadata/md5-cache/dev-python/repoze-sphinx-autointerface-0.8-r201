@@ -1,6 +1,6 @@
 BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/namespace-repoze[python_targets_python2_7(-)?] dev-python/sphinx:python2[python_targets_python2_7(-)?] dev-python/zope-interface:python2[python_targets_python2_7(-)?] !<dev-python/repoze-sphinx-autointerface-0.8-r2[python_targets_python2_7(-)?]
+DEPEND=dev-python/sphinx:python2[python_targets_python2_7(-)?] dev-python/zope-interface:python2[python_targets_python2_7(-)?] !<dev-python/repoze-sphinx-autointerface-0.8-r2[python_targets_python2_7(-)?]
 DESCRIPTION=Sphinx extension: auto-generates API docs from Zope interfaces
 EAPI=7
 HOMEPAGE=https://pypi.org/project/repoze.sphinx.autointerface/
@@ -8,9 +8,9 @@ INHERIT=distutils-r1
 IUSE=python_targets_python2_7
 KEYWORDS=~amd64 ~arm64 ~x86
 LICENSE=repoze
-RDEPEND=dev-python/namespace-repoze[python_targets_python2_7(-)?] dev-python/sphinx:python2[python_targets_python2_7(-)?] dev-python/zope-interface:python2[python_targets_python2_7(-)?] !<dev-python/repoze-sphinx-autointerface-0.8-r2[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 )
+RDEPEND=dev-python/sphinx:python2[python_targets_python2_7(-)?] dev-python/zope-interface:python2[python_targets_python2_7(-)?] !<dev-python/repoze-sphinx-autointerface-0.8-r2[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 )
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=python2
 SRC_URI=mirror://pypi/r/repoze.sphinx.autointerface/repoze.sphinx.autointerface-0.8.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
-_md5_=e0a50fb10ce05cb2b1b4a90280cd8853
+_md5_=63e2c9420d5dabacca4a453b2c2ce5ff
