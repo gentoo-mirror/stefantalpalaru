@@ -11,5 +11,5 @@ RDEPEND=python_single_target_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8[ipv
 REQUIRED_USE=^^ ( python_single_target_python3_8 python_single_target_python3_9 )
 SLOT=0
 SRC_URI=https://download.calibre-ebook.com/5.26.0/calibre-5.26.0.tar.xz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	c0d27bf73aa08ca05b663dbd31fbef28	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	2df708950f5b0f4a386cf1fc388a80bb	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	c0d27bf73aa08ca05b663dbd31fbef28	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
 _md5_=c1b6d95f86d187d1dc5365f9ec17b208
