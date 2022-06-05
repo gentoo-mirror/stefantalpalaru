@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure install pretend
 DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtxml:5 media-gfx/gmic[fftw,opencv,openmp] >=media-libs/opencv-4 sci-libs/fftw:3.0[threads] sys-libs/zlib media-libs/cimg
 DESCRIPTION=G'MIC GUI for video streams
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/c-koi/zart
 INHERIT=flag-o-matic qmake-utils
 KEYWORDS=~amd64 ~x86
@@ -9,5 +9,5 @@ LICENSE=CeCILL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtxml:5 media-gfx/gmic[fftw,opencv,openmp] >=media-libs/opencv-4 sci-libs/fftw:3.0[threads] sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/c-koi/zart/archive/939cf381c5871e506aabd066037acf2b55143c1d.zip -> zart-3.2.2_p20210208.zip
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	qmake-utils	59420c906278d16deaaa629f9d115707
-_md5_=34f1b3bfbe351c5f8bc6b227cb85f263
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	qmake-utils	59420c906278d16deaaa629f9d115707
+_md5_=04f38ad39d53ca4ec070cc3982902ba5

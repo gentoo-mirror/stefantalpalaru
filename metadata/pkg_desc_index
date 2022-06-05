@@ -29,7 +29,7 @@ dev-lang/pony 0.51.0 9999-r9: Compiler for the Pony language
 dev-lang/python 2.7.18_p107: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.9-r200: Python script wrapper
 dev-lang/tauthon 2.8.3-r5: Python 2.7 fork with new syntax, builtins, and libraries backported from Python3
-dev-libs/boost 1.78.0-r200: Boost Libraries for C++
+dev-libs/boost 1.78.0-r201 1.79.0-r200: Boost Libraries for C++
 dev-libs/chan 0.0.4 9999: pure C implementation of Go channels
 dev-libs/golib 0.0.1_pre20180515 9999: a library exposing Go's channels and goroutines to plain C
 dev-libs/keybinder 0.3.1-r201: A library for registering global keyboard shortcuts
@@ -802,11 +802,11 @@ media-gfx/darktable 3.6.1-r1: A virtual lighttable and darkroom for photographer
 media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powered by Argyll CMS
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
-media-gfx/gmic 3.0.0-r100 9999-r15: GREYC's Magic Image Converter
-media-gfx/zart 3.2.2_p20210208: G'MIC GUI for video streams
+media-gfx/gmic 3.1.2-r100: GREYC's Magic Image Converter
+media-gfx/zart 3.2.2_p20210208-r1: G'MIC GUI for video streams
 media-libs/avidemux-core 2.8.0: Core libraries for simple video cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.8.0: Plugins for the video editor media-video/avidemux
-media-libs/cimg 3.0.0-r100 9999: C++ template image processing toolkit
+media-libs/cimg 3.1.2-r100: C++ template image processing toolkit
 media-libs/glee 5.4.0: OpenGL Easy Extension library
 media-libs/hydrogen-drumkits 0.5: free drumkits for hydrogen
 media-libs/jasper 2.0.14-r2 9999-r1: Implementation of the codec specified in the JPEG-2000 Part-1 standard
