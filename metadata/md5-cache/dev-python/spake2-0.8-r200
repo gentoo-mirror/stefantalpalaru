@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( python_targets_python2_7 ) || ( python_targets_python2_7 )
 RESTRICT=test
 SLOT=python2
 SRC_URI=https://github.com/warner/python-spake2/archive/v0.8.tar.gz -> spake2-0.8.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
 _md5_=b37e2d7cdeffdfb61bb3b06ca4429769
