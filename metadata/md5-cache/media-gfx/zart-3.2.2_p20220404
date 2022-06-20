@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=CeCILL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtxml:5 media-gfx/gmic[fftw,opencv,openmp] >=media-libs/opencv-4 sci-libs/fftw:3.0[threads] sys-libs/zlib
 SLOT=0
-SRC_URI=https://github.com/c-koi/zart/archive/939cf381c5871e506aabd066037acf2b55143c1d.zip -> zart-3.2.2_p20210208.zip
+SRC_URI=https://github.com/c-koi/zart/archive/ac29dcbcaba778060053480f3e5e7692e42a5338.zip -> zart-3.2.2_p20220404.zip
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	qmake-utils	59420c906278d16deaaa629f9d115707
-_md5_=04f38ad39d53ca4ec070cc3982902ba5
+_md5_=e350b119e7d22d47327e8a5107e6c681

@@ -803,7 +803,7 @@ media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powere
 media-gfx/fbcat 0.5: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
 media-gfx/gmic 3.1.2-r100: GREYC's Magic Image Converter
-media-gfx/zart 3.2.2_p20210208-r1: G'MIC GUI for video streams
+media-gfx/zart 3.2.2_p20220404: G'MIC GUI for video streams
 media-libs/avidemux-core 2.8.0: Core libraries for simple video cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.8.0: Plugins for the video editor media-video/avidemux
 media-libs/cimg 3.1.2-r100: C++ template image processing toolkit
