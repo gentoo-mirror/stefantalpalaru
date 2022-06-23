@@ -879,6 +879,7 @@ virtual/python-ipaddress 1.0-r2: A virtual for Python ipaddress module
 virtual/python-pathlib 1.0-r1: A virtual for Python pathlib module
 virtual/python-typing 0-r2: A virtual for the Python typing module
 www-servers/tornado 4.5.3-r200 5.1.1-r200: Python web framework and asynchronous networking library
+www-servers/uwsgi 2.0.19.1-r200: uWSGI server for Python web applications
 x11-drivers/nvidia-drivers 390.144-r2: NVIDIA Accelerated Graphics Driver
 x11-libs/dotherside 0.6.5-r1: C language library for creating bindings for the Qt QML language
 x11-libs/pangox-compat 0.0.2-r4: PangoX compatibility library
