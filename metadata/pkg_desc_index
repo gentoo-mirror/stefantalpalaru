@@ -15,7 +15,7 @@ app-office/upwork 5.6.8.0: Project collaboration and tracking software for upwor
 app-text/pinfo 0.6.13-r1: Hypertext info and man viewer based on (n)curses
 app-text/wiki2text 0.2.1: Extract a plain text corpus from MediaWiki XML dumps, such as Wikipedia.
 app-text/xlsx2csv 9999: Convert MS Office xlsx files to CSV
-app-text/zettlr-bin 2.2.3: A Markdown Editor for the 21st century.
+app-text/zettlr-bin 2.3.0: A Markdown Editor for the 21st century.
 app-vim/ale 2.4.0 99999999-r1: Asynchronous Lint Engine for vim
 app-vim/neocomplete 9999: vim plugin: Next generation completion framework after neocomplcache
 app-vim/nim-syntax 1.2_pre20190426 9999: Nim language support

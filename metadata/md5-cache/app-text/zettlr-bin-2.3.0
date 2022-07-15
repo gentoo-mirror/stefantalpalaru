@@ -1,13 +1,13 @@
 DEFINED_PHASES=install postinst postrm unpack
 DESCRIPTION=A Markdown Editor for the 21st century.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.zettlr.com/
 INHERIT=unpacker xdg-utils
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-libs/expat net-libs/gnutls:0/30 dev-libs/nspr dev-libs/nss gnome-base/gconf media-libs/alsa-lib media-libs/freetype sys-apps/dbus x11-libs/gtk+:3[cups]
+RDEPEND=dev-libs/expat net-libs/gnutls:0 dev-libs/nspr dev-libs/nss gnome-base/gconf media-libs/alsa-lib media-libs/freetype sys-apps/dbus x11-libs/gtk+:3[cups]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Zettlr/Zettlr/releases/download/v2.2.3/Zettlr-2.2.3-amd64.deb
+SRC_URI=https://github.com/Zettlr/Zettlr/releases/download/v2.3.0/Zettlr-2.3.0-amd64.deb
 _eclasses_=toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	unpacker	697382d119fd3d195f110b7979184285	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
-_md5_=8c76a812e12e2c05b39bde6dee962ad0
+_md5_=78d9db9492e459a7fa96187166953027
