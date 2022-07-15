@@ -170,7 +170,6 @@ media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mim
 media-gfx/gmic:cli - Build the CLI interface
 media-gfx/gmic:gimp - Build the Qt5 GIMP plugin
 media-gfx/gmic:gui - Build the standalone Qt5 GUI
-media-gfx/gmic:krita - Build the Krita plugin
 media-gfx/gmic:opencv - Enable support for webcams using the OpenCV library
 media-libs/avidemux-core:nvenc - Adds support for NVIDIA Encoder (NVENC) API for hardware accelerated encoding on NVIDIA cards.
 media-libs/avidemux-core:system-ffmpeg - Use the ffmpeg provided by the system.
