@@ -158,14 +158,6 @@ dev-util/valgrind:lto - Build with link time optimization (LTO)
 dev-vcs/bzr:sftp - Enable sftp support
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Vulkan video output support
-media-gfx/darktable:avif - Support importing and exporting AVIF images
-media-gfx/darktable:flickr - Add support for uploading photos to flickr
-media-gfx/darktable:geolocation - Enable geotagging support
-media-gfx/darktable:gmic - Use the G'MIC image-processing framework (media-gfx/gmic), e.g. to support Colour LUTs compressed using their compression scheme
-media-gfx/darktable:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
-media-gfx/darktable:lto - Enable link-time optimisations in the RawSpeed library
-media-gfx/darktable:opencl - Enable opencl support
-media-gfx/darktable:tools - Install tools for generating base curves and noise profiles
 media-gfx/fbcat:fbgrab - Install a 'fbgrab' wrapper script around fbcat that mimics media-gfx/fbgrab
 media-gfx/gmic:cli - Build the CLI interface
 media-gfx/gmic:gimp - Build the Qt5 GIMP plugin
