@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 media-libs/faad2 media-libs/libsamplerate media-libs/libsndfile media-libs/portaudio net-wireless/rtl-sdr sci-libs/fftw:3.0 media-video/ffmpeg virtual/libusb:1 x11-libs/qwt:6
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	6f9a4727973fc1e368f52777d871e769	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
 _md5_=82bad302345d4d65c4029e3ad6c303dc
