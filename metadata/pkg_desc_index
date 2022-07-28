@@ -816,7 +816,7 @@ media-plugins/gimp-refocus 0.9.0-r1: refocus images using FIR Wiener filtering
 media-plugins/refocus-it 2.0.0-r1: Refocus-It plugin for The Gimp
 media-radio/fmreceiver 2.1: SDR-J FM receiver for RTL2832-based USB sticks
 media-radio/qt-dab 4.4.2: software DAB decoder for use with a dabstick, airspy or sdrplay for RPI and PC
-media-radio/swreceiver 7.25_pre20170414-r2: SDR-J SW receiver for RTL2832-based USB sticks
+media-radio/swreceiver 7.25_pre20170414-r3: SDR-J SW receiver for RTL2832-based USB sticks
 media-sound/fmit 1.2.14: Free Music Instrument Tuner
 media-sound/jack-audio-connection-kit 1.9.19-r1: Jackdmp jack implemention for multi-processor machine
 media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CLI)
