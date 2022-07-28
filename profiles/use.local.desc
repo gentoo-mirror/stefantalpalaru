@@ -192,6 +192,10 @@ net-wireless/cubicsdr:hamlib - Add support for the Hamlib amateur radio rig cont
 net-wireless/cubicsdr:plutosdr - Add support for Analog Devices ADALM-PLUTO hardware
 net-wireless/cubicsdr:rtlsdr - Add support for rtlsdr hardware
 net-wireless/cubicsdr:uhd - Add support for Ettus USRP hardware
+net-wireless/dump1090:bladerf - Build with Nuand BladeRF support
+net-wireless/dump1090:hackrf - Build with Great Scott Gadgets HackRF support
+net-wireless/dump1090:minimal - Exclude all HTML/webserver extras for a tiny build, e.g. to export data only
+net-wireless/dump1090:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
 sci-astronomy/casacore:data - Installs measures and data (pulls sci-astronomy/casa-data)
 sci-astronomy/healpix:idl - Install healpix IDL/GDL routines
 sci-libs/gdal:armadillo - Use sci-libs/armadillo for faster TPS transform computation
