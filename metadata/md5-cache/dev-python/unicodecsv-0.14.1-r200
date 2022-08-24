@@ -11,5 +11,5 @@ RDEPEND=!<dev-python/unicodecsv-0.14.1-r200[python_targets_python2_7(-)?] python
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=python2
 SRC_URI=mirror://pypi/u/unicodecsv/unicodecsv-0.14.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	7b65c41111cd80a4d4a0921e8d4a310c	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
 _md5_=495e045a1098c5ef74c219cf9323bf2a
