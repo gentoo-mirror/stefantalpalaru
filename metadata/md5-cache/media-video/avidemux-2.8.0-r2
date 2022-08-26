@@ -1,0 +1,17 @@
+BDEPEND=dev-lang/yasm qt5? ( dev-qt/linguist-tools:5 ) sys-devel/make >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=~media-libs/avidemux-core-2.8.0:2.7[nls?,sdl?,vaapi?,vdpau?,xv?,nvenc?] nvenc? ( amd64? ( media-video/nvidia-video-codec:0 ) ) opengl? ( virtual/opengl:0 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 ) vaapi? ( x11-libs/libva:0= )
+DESCRIPTION=Video editor designed for simple cutting, filtering and encoding tasks
+EAPI=8
+HOMEPAGE=http://fixounet.free.fr/avidemux
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake desktop flag-o-matic qmake-utils xdg
+IUSE=debug nls nvenc opengl qt5 sdl vaapi vdpau xv
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-1 GPL-2 LGPL-2.1 MIT OFL-1.1 PSF-2 public-domain
+PDEPEND=~media-libs/avidemux-plugins-2.8.0:2.7[opengl?,qt5?]
+RDEPEND=~media-libs/avidemux-core-2.8.0:2.7[nls?,sdl?,vaapi?,vdpau?,xv?,nvenc?] nvenc? ( amd64? ( media-video/nvidia-video-codec:0 ) ) opengl? ( virtual/opengl:0 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 ) vaapi? ( x11-libs/libva:0= ) nls? ( virtual/libintl:0 ) !<media-video/avidemux-2.8.0
+SLOT=2.7
+SRC_URI=https://github.com/mean00/avidemux2/archive/refs/tags/2.8.0.tar.gz -> avidemux-2.8.0.tar.gz https://github.com/mean00/avidemux2_i18n/archive/refs/tags/2.7.8.tar.gz -> avidemux-i18n-2.7.8.tar.gz
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	desktop	22952d8f27cac191d75529d4c38e6bfa	qmake-utils	59420c906278d16deaaa629f9d115707	xdg	6024fbc93167fad782e2032933654857
+_md5_=a6b313249e1db3c998508a2a6a266f77
