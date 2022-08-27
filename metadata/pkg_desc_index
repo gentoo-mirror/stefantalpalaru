@@ -1,3 +1,4 @@
+app-arch/libzim 8.0.0: reference implementation for the ZIM archive format
 app-crypt/acme 1.8.0-r200: An implementation of the ACME protocol
 app-crypt/certbot 1.8.0-r200: Let's encrypt client to automate deployment of X.509 certificates
 app-crypt/certbot-dns-linode 1.2.0-r3 1.29.0: Linode DNS Authenticator plugin for Certbot
@@ -20,6 +21,7 @@ app-vim/neocomplete 9999: vim plugin: Next generation completion framework after
 app-vim/nim-syntax 1.2_pre20190426 9999: Nim language support
 app-vim/pony-syntax 0.1_pre20160123 9999: vim plugin: Pony language support
 app-vim/vim-linux-coding-style 0.4_p20161012: Vim plugin to respect the Linux kernel coding style
+dev-cpp/mustache 4.1: Mustache implementation for modern C++
 dev-db/metakit 2.4.9.7_p20110819: Embedded database library
 dev-java/java-service-wrapper 3.5.50-r1: A wrapper that makes it possible to install a Java Application as daemon
 dev-lang/nim 1.0.10-r100 1.2.18-r100 1.4.8-r100 1.6.6-r100 9999-r13: compiled, garbage-collected systems programming language
@@ -875,6 +877,9 @@ virtual/python-greenlet 1.0-r4: A virtual for Python greenlet module
 virtual/python-ipaddress 1.0-r2: A virtual for Python ipaddress module
 virtual/python-pathlib 1.0-r1: A virtual for Python pathlib module
 virtual/python-typing 0-r2: A virtual for the Python typing module
+www-misc/kiwix-desktop 2.2.2_p20220811: cross-platform viewer/manager for ZIM archives
+www-misc/kiwix-lib 11.0.0: Kiwix software suite core: code shared by all Kiwix ports
+www-misc/kiwix-tools 3.3.0: collection of Kiwix related command line tools
 www-servers/tornado 4.5.3-r200 5.1.1-r200: Python web framework and asynchronous networking library
 www-servers/uwsgi 2.0.19.1-r200: uWSGI server for Python web applications
 x11-libs/dotherside 0.6.5-r1: C language library for creating bindings for the Qt QML language

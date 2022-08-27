@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtimageformats:5 dev-qt/qtsvg:5 dev-qt/qtwebengine:5 www-misc/kiwix-lib
+DESCRIPTION=cross-platform viewer/manager for ZIM archives
+EAPI=8
+HOMEPAGE=https://kiwix.org/
+INHERIT=qmake-utils
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/kiwix/kiwix-desktop/archive/7d8b26368d28955235dafe0bf23c6243f6ea4ae8.zip -> kiwix-desktop-2.2.2_p20220811.zip
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
+_md5_=972b273b0cca9fe423252904edf7b80a
