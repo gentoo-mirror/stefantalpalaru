@@ -877,7 +877,7 @@ virtual/python-greenlet 1.0-r4: A virtual for Python greenlet module
 virtual/python-ipaddress 1.0-r2: A virtual for Python ipaddress module
 virtual/python-pathlib 1.0-r1: A virtual for Python pathlib module
 virtual/python-typing 0-r2: A virtual for the Python typing module
-www-misc/kiwix-desktop 2.2.2_p20220811: cross-platform viewer/manager for ZIM archives
+www-misc/kiwix-desktop 2.3.0: cross-platform viewer/manager for ZIM archives
 www-misc/kiwix-lib 11.0.0: Kiwix software suite core: code shared by all Kiwix ports
 www-misc/kiwix-tools 3.3.0: collection of Kiwix related command line tools
 www-servers/tornado 4.5.3-r200 5.1.1-r200: Python web framework and asynchronous networking library
