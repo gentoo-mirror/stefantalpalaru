@@ -1,12 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
-DEPEND=>=dev-lang/nim-0.13.0 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=>=dev-lang/nim-0.13.0
 DESCRIPTION=Nim package manager
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/nim-lang/nimble
 INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
 PROPERTIES=live
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=bc769a5c9009af0a290feb09983d610c
+_md5_=44c1be516ff15768691e4f5a6f9a7709

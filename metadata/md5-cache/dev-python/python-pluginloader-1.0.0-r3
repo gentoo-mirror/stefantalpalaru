@@ -1,0 +1,17 @@
+BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+DESCRIPTION=Library to manage python plugins/extensions
+EAPI=8
+HOMEPAGE=https://github.com/magmax/python-pluginloader
+INHERIT=distutils-r1 python-r1
+IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 python_targets_python3_11
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=!<dev-python/python-pluginloader-1.0.0-r2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 python_targets_python3_11 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/magmax/python-pluginloader/archive/1.0.0.tar.gz -> python-pluginloader-1.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	multibuild	d26d81f242cb193d899a72bca423d0bd	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	be7716b9e6dd17d66a03227c260cbd98
+_md5_=63fd7577e5d72b8548c851083e983607
