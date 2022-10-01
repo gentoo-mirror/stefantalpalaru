@@ -1,0 +1,14 @@
+BDEPEND=app-arch/rpm2targz
+DEFINED_PHASES=install postinst postrm prepare unpack
+DESCRIPTION=Project collaboration and tracking software for upwork.com
+EAPI=8
+HOMEPAGE=https://www.upwork.com/
+INHERIT=desktop pax-utils rpm xdg-utils
+KEYWORDS=~amd64 ~x86
+LICENSE=ODESK
+RDEPEND=dev-libs/expat dev-libs/nspr dev-libs/nss media-libs/alsa-lib media-libs/freetype sys-apps/dbus sys-libs/libcap x11-libs/gtk+:3[cups] x11-libs/libXinerama x11-libs/libXScrnSaver x11-libs/libXtst
+RESTRICT=mirror fetch
+SLOT=0
+SRC_URI=amd64? ( https://upwork-usw2-desktopapp.upwork.com/binaries/v5_6_10_13_3c485d1dd2af4f61/upwork-5.6.10.13-1fc24.x86_64.rpm ) x86? ( https://upwork-usw2-desktopapp.upwork.com/binaries/v5_6_10_13_3c485d1dd2af4f61/upwork-5.6.10.13-1fc24.i386.rpm )
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	pax-utils	91d47e5d20627c717aa878b9167c62a8	estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=6b972bdd7c6ad5a8393d54650fd3e0c5
