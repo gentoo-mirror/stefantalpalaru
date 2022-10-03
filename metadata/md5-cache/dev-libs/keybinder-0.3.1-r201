@@ -1,6 +1,6 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install setup
-DEPEND=>=x11-libs/gtk+-2.20:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXrender introspection? ( dev-libs/gobject-introspection ) lua? ( lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-python/pygobject-2.15.3:2[python_targets_python2_7(-)?] >=dev-python/pygtk-2.12[python_targets_python2_7(-)?] ) virtual/pkgconfig
+DEPEND=>=x11-libs/gtk+-2.20:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXrender introspection? ( dev-libs/gobject-introspection ) lua? ( lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) >=dev-python/pygobject-2.15.3:2[python_targets_python2_7(-)?] >=dev-python/pygtk-2.12[python_targets_python2_7(-)?] ) virtual/pkgconfig
 DESCRIPTION=A library for registering global keyboard shortcuts
 EAPI=7
 HOMEPAGE=https://github.com/engla/keybinder
@@ -8,9 +8,9 @@ INHERIT=autotools lua-single python-r1
 IUSE=+introspection lua python +lua_single_target_lua5-1 python_targets_python2_7
 KEYWORDS=~alpha amd64 arm ~arm64 ~hppa ~ia64 ~mips ppc ppc64 x86
 LICENSE=GPL-2
-RDEPEND=>=x11-libs/gtk+-2.20:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXrender introspection? ( dev-libs/gobject-introspection ) lua? ( lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-python/pygobject-2.15.3:2[python_targets_python2_7(-)?] >=dev-python/pygtk-2.12[python_targets_python2_7(-)?] )
+RDEPEND=>=x11-libs/gtk+-2.20:2 x11-libs/libX11 x11-libs/libXext x11-libs/libXrender introspection? ( dev-libs/gobject-introspection ) lua? ( lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) >=dev-python/pygobject-2.15.3:2[python_targets_python2_7(-)?] >=dev-python/pygtk-2.12[python_targets_python2_7(-)?] )
 REQUIRED_USE=python? ( || ( python_targets_python2_7 ) )
 SLOT=0
 SRC_URI=https://github.com/engla/keybinder/releases/download/v0.3.1/keybinder-0.3.1.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	38f02edefbf382b7156de63c35b4661e	python-r1	2d51fd03931e743811ce30d198e4dcfd
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd
 _md5_=f7d02a780d1900c39cc8976936d47e81
