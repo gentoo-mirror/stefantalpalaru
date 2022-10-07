@@ -1,0 +1,10 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install
+DESCRIPTION=Fast Base64 encoding/decoding routines
+EAPI=7
+HOMEPAGE=https://github.com/libb64/libb64/
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc ~ppc64 ~x86
+LICENSE=CC-PD
+SLOT=0/2.0.0.1-r1
+SRC_URI=https://github.com/libb64/libb64/archive/v2.0.0.1.tar.gz -> libb64-2.0.0.1.tar.gz
+_md5_=9e5df690ca573a8aa234de265ced4446

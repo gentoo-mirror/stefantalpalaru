@@ -1,0 +1,17 @@
+BDEPEND=acct-group/transmission acct-user/transmission virtual/pkgconfig nls? ( gtk? ( dev-util/intltool sys-devel/gettext ) qt5? ( dev-qt/linguist-tools:5 ) ) >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=>=app-arch/libdeflate-1.10 >=dev-libs/libevent-2.1.0:= !mbedtls? ( dev-libs/openssl:0= ) mbedtls? ( net-libs/mbedtls:0= ) dev-libs/libb64 net-libs/libnatpmp >=net-libs/libpsl-0.21.1 >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.28.0[ssl] sys-libs/zlib:= nls? ( virtual/libintl ) gtk? ( >=dev-cpp/glibmm-2.60.0:2 >=dev-cpp/gtkmm-3.24.0:3.0 appindicator? ( >=dev-libs/libappindicator-0.4.90:3 ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) systemd? ( >=sys-apps/systemd-209:= ) nls? ( virtual/libintl gtk? ( dev-util/intltool sys-devel/gettext ) qt5? ( dev-qt/linguist-tools:5 ) )
+DESCRIPTION=A fast, easy, and free BitTorrent client
+EAPI=8
+HOMEPAGE=https://transmissionbt.com/
+INHERIT=cmake systemd xdg-utils
+IUSE=appindicator cli doc gtk lightweight nls mbedtls qt5 systemd test
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc ~ppc64 ~x86 ~amd64-linux
+LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
+RDEPEND=>=app-arch/libdeflate-1.10 >=dev-libs/libevent-2.1.0:= !mbedtls? ( dev-libs/openssl:0= ) mbedtls? ( net-libs/mbedtls:0= ) dev-libs/libb64 net-libs/libnatpmp >=net-libs/libpsl-0.21.1 >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.28.0[ssl] sys-libs/zlib:= nls? ( virtual/libintl ) gtk? ( >=dev-cpp/glibmm-2.60.0:2 >=dev-cpp/gtkmm-3.24.0:3.0 appindicator? ( >=dev-libs/libappindicator-0.4.90:3 ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) systemd? ( >=sys-apps/systemd-209:= ) acct-group/transmission acct-user/transmission
+REQUIRED_USE=appindicator? ( gtk )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/transmission/transmission/releases/download/4.0.0-beta.1/transmission-4.0.0-beta.1+r98cf7d9b3c.tar.xz
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	44afbf15c35884f7c840470f1cf05d0d	systemd	2736b403a83f194b59b767f3b344c2c1
+_md5_=25ac0aecafb2a52ae4d50aa522ff731e
