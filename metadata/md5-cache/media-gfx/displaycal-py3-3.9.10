@@ -1,4 +1,4 @@
-BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 ) >=dev-python/gpep517-8[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-62.6.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/wheel[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
 DEPEND=media-gfx/argyllcms dev-python/build[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/certifi:0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/distro:0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pillow:0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pychromecast[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/send2trash:0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/wxpython-4.1.1[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/python-zeroconf[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=x11-libs/libX11-1.3.3 >=x11-apps/xrandr-1.3.2 >=x11-libs/libXxf86vm-1.1.0 >=x11-libs/libXinerama-1.1 !!media-gfx/displaycal
 DESCRIPTION=Display calibration and characterization powered by Argyll CMS - Python3 fork
@@ -13,6 +13,6 @@ RDEPEND=media-gfx/argyllcms dev-python/build[python_targets_python3_8(-)?,python
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/eoyilmaz/displaycal-py3/releases/download/3.9.9/DisplayCAL-3.9.9.tar.gz
+SRC_URI=https://github.com/eoyilmaz/displaycal-py3/releases/download/3.9.10/DisplayCAL-3.9.10.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
-_md5_=e32908b90c592896aa542c3a01bba7b7
+_md5_=0883dce6e5847116110cb12bc695ab67
