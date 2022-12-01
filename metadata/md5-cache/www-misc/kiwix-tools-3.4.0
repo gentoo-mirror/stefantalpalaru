@@ -1,14 +1,14 @@
 BDEPEND=>=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 DEFINED_PHASES=compile configure install test
-DEPEND=>=app-arch/libzim-7.2.0 >=dev-cpp/mustache-4.1 dev-libs/icu dev-libs/pugixml net-libs/libmicrohttpd net-misc/curl sys-libs/zlib
-DESCRIPTION=Kiwix software suite core: code shared by all Kiwix ports
+DEPEND=>=www-misc/kiwix-lib-12.0.0
+DESCRIPTION=collection of Kiwix related command line tools
 EAPI=8
 HOMEPAGE=https://kiwix.org/
 INHERIT=meson
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=net-misc/aria2[bittorrent,metalink,xmlrpc]
+RDEPEND=>=www-misc/kiwix-lib-12.0.0
 SLOT=0
-SRC_URI=https://github.com/kiwix/kiwix-lib/archive/11.0.0.tar.gz -> kiwix-lib-11.0.0.tar.gz
+SRC_URI=https://github.com/kiwix/kiwix-tools/archive/3.4.0.tar.gz -> kiwix-tools-3.4.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	meson	1994a5aef5d4f5798b92f64d6f9a6003
-_md5_=57158d3bbd489dd571692bf6ae21d333
+_md5_=609d9ce49678048911048b14f1bf26bd
