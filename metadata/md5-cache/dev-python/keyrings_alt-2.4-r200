@@ -12,5 +12,5 @@ RDEPEND=dev-python/six:python2[python_targets_python2_7(-)?] !<dev-python/keyrin
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=python2
 SRC_URI=mirror://pypi/k/keyrings.alt/keyrings.alt-2.4.tar.gz
-_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
+_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
 _md5_=1e6f9873ce4485fead6794d7e7d0e96f
