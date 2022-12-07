@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig nls? ( sys-devel/gettext ) !system-ffmpeg? ( dev-lang/yasm[nls=] ) sys-devel/make >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-db/sqlite:3 nvenc? ( media-video/nvidia-video-codec ) sdl? ( media-libs/libsdl:0 ) system-ffmpeg? ( >=media-video/ffmpeg-9:0[mp3,theora] ) vaapi? ( x11-libs/libva:0= ) vdpau? ( x11-libs/libvdpau:0 ) xv? ( x11-libs/libXv:0 )
+DEPEND=dev-db/sqlite:3 nvenc? ( media-libs/nv-codec-headers ) sdl? ( media-libs/libsdl:0 ) system-ffmpeg? ( >=media-video/ffmpeg-9:0[mp3,theora] ) vaapi? ( media-libs/libva:0= ) vdpau? ( x11-libs/libvdpau:0 ) xv? ( x11-libs/libXv:0 )
 DESCRIPTION=Core libraries for simple video cutting, filtering and encoding tasks
 EAPI=8
 HOMEPAGE=http://fixounet.free.fr/avidemux
@@ -8,8 +8,8 @@ INHERIT=cmake flag-o-matic toolchain-funcs
 IUSE=debug nls nvenc sdl system-ffmpeg vaapi vdpau xv
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-1 GPL-2 LGPL-2.1 MIT OFL-1.1 PSF-2 public-domain
-RDEPEND=dev-db/sqlite:3 nvenc? ( media-video/nvidia-video-codec ) sdl? ( media-libs/libsdl:0 ) system-ffmpeg? ( >=media-video/ffmpeg-9:0[mp3,theora] ) vaapi? ( x11-libs/libva:0= ) vdpau? ( x11-libs/libvdpau:0 ) xv? ( x11-libs/libXv:0 ) !<media-libs/avidemux-core-2.8.1 !<media-video/avidemux-2.8.1 nls? ( virtual/libintl:0 )
+RDEPEND=dev-db/sqlite:3 nvenc? ( media-libs/nv-codec-headers ) sdl? ( media-libs/libsdl:0 ) system-ffmpeg? ( >=media-video/ffmpeg-9:0[mp3,theora] ) vaapi? ( media-libs/libva:0= ) vdpau? ( x11-libs/libvdpau:0 ) xv? ( x11-libs/libXv:0 ) !<media-libs/avidemux-core-2.8.1 !<media-video/avidemux-2.8.1 nls? ( virtual/libintl:0 )
 SLOT=2.7
 SRC_URI=https://github.com/mean00/avidemux2/archive/2.8.1.tar.gz -> avidemux-2.8.1.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	44afbf15c35884f7c840470f1cf05d0d
-_md5_=48f1bb90a11c0dced10944821340df35
+_md5_=467b959976758e950027d6a6c1c566a8
