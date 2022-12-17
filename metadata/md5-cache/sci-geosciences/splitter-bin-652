@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst prepare setup
+DEPEND=>=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Tile splitter for mkgmap
+EAPI=8
+HOMEPAGE=http://www.mkgmap.org.uk/page/tile-splitter
+INHERIT=java-pkg-2
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=virtual/jre-1.8 >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=http://www.mkgmap.org.uk/download/splitter-r652.tar.gz
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd
+_md5_=7671c43859b6c095df4fa811efc48d91
