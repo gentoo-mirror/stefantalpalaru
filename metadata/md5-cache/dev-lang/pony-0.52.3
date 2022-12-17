@@ -1,15 +1,16 @@
-BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=sys-devel/binutils[gold] sys-devel/clang virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=sys-libs/zlib vim-syntax? ( app-vim/pony-syntax ) sys-devel/clang virtual/pkgconfig
+DEPEND=sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 DESCRIPTION=Compiler for the Pony language
 EAPI=8
 HOMEPAGE=http://www.ponylang.org/
 INHERIT=cmake git-r3
 IUSE=test vim-syntax
+KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 PROPERTIES=live
 RDEPEND=sys-libs/zlib vim-syntax? ( app-vim/pony-syntax )
 RESTRICT=strip network-sandbox !test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=140a7e5d556c9a708e6aa67092a65671
+_md5_=ddc0bcd347e57f180214a0a6445ee827
