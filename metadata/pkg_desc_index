@@ -551,7 +551,6 @@ dev-python/pytest-timeout 1.4.2-r200: py.test plugin to abort hanging tests
 dev-python/pytest-xdist 1.34.0-r200: Distributed testing and loop-on-failing modes
 dev-python/pytest-xprocess 0.14.0-r200: Manage external processes across test runs
 dev-python/python-biggles 1.6.6-r3: A Python module for creating publication-quality 2D scientific plots
-dev-python/python-caja 1.22.1: Python bindings for the Caja file manager
 dev-python/python-catcher 0.1.7-r200: Beautiful stack traces for Python
 dev-python/python-cdb 0.34-r2: A Python extension module for cdb
 dev-python/python-cinderclient 5.0.0-r200: A client for the OpenStack Cinder API
