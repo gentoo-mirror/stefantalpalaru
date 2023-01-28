@@ -745,6 +745,7 @@ dev-python/vatnumber 1.1-r200: Module to validate VAT numbers
 dev-python/versioneer 0.18-r200: Easy VCS-based management of project version strings
 dev-python/versiontools 1.9.1-r200: Smart replacement for plain tuple used in __version__
 dev-python/virtualenv 20.0.33-r201: Virtual Python Environment builder
+dev-python/virtualenv-tauthon 0.0.2: external Virtualenv plugin that adds Tauthon support
 dev-python/voluptuous 0.12.0-r200: A Python data validation library.
 dev-python/waitress 1.4.4-r200: A pure-Python WSGI server
 dev-python/warlock 1.3.3-r200: Python object model built on JSON schema and JSON patch
