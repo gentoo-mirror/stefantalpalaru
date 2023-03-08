@@ -2,7 +2,7 @@ app-arch/libdeflate 1.14: Heavily optimized DEFLATE/zlib/gzip (de)compression
 app-arch/libzim 8.1.0: reference implementation for the ZIM archive format
 app-crypt/acme 1.8.0-r200: An implementation of the ACME protocol
 app-crypt/certbot 1.8.0-r201: Let's encrypt client to automate deployment of X.509 certificates
-app-crypt/certbot-dns-linode 1.2.0-r5 2.2.0: Linode DNS Authenticator plugin for Certbot
+app-crypt/certbot-dns-linode 1.2.0-r5 2.3.0: Linode DNS Authenticator plugin for Certbot
 app-crypt/certbot-s3front 0.4.2_p20201118: S3/CloudFront plugin for Let's Encrypt client
 app-editors/gedit 3.32.2-r3: A text editor for the GNOME desktop
 app-emacs/pymacs 0.26-r200: A tool that allows both-side communication beetween Python and Emacs Lisp
@@ -15,7 +15,7 @@ app-misc/openrgb 0.8: Open source RGB lighting control that doesn't depend on ma
 app-misc/yworklog 0.0.7-r200: Stack based utility with CLI interface helping to monitor time spent on tasks
 app-office/upwork 5.8.0.24: Project collaboration and tracking software for upwork.com
 app-text/pinfo 0.6.13-r2: Hypertext info and man viewer based on (n)curses
-app-text/zettlr-bin 2.3.0: A Markdown Editor for the 21st century.
+app-text/zettlr-bin 2.3.0-r1: A Markdown Editor for the 21st century.
 app-vim/airline 9999-r1: vim plugin: lean & mean statusline for vim that's light as air
 app-vim/ale 3.3.0 99999999-r1: Asynchronous Lint Engine for vim
 app-vim/neocomplete 9999: vim plugin: Next generation completion framework after neocomplcache
