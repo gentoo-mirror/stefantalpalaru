@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
+_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	c57c50c922e121043788de0b40ada60a	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
 _md5_=905f4cbffbd6109356d5c84d75861e79

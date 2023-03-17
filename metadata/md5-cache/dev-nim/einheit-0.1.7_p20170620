@@ -10,5 +10,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=dev-lang/nim-0.11.3
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
 _md5_=94a828545a0d1a3eff3547efa2799df7

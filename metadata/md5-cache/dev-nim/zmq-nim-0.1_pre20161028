@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
 _md5_=a7c3a6ae191b2a3ae6073639834ca91a
