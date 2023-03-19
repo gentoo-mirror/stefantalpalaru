@@ -1,0 +1,17 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install prepare setup
+DEPEND=sys-cluster/cluster-glue dev-libs/glib:2 virtual/ssh net-libs/gnutls snmp? ( net-analyzer/net-snmp ) python_single_target_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) virtual/pkgconfig dev-lang/swig doc? ( dev-libs/libxslt app-text/docbook-xsl-stylesheets )
+DESCRIPTION=Heartbeat high availability cluster manager
+EAPI=8
+HOMEPAGE=http://www.linux-ha.org/wiki/Heartbeat
+INHERIT=autotools python-single-r1
+IUSE=doc snmp static-libs +python_single_target_python2_7
+KEYWORDS=~amd64 ~hppa ~x86
+LICENSE=GPL-2
+PDEPEND=sys-cluster/resource-agents
+RDEPEND=sys-cluster/cluster-glue dev-libs/glib:2 virtual/ssh net-libs/gnutls snmp? ( net-analyzer/net-snmp ) python_single_target_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 )
+REQUIRED_USE=^^ ( python_single_target_python2_7 )
+SLOT=0
+SRC_URI=http://hg.linux-ha.org/heartbeat-STABLE_3_0/archive/STABLE-3.0.6.tar.bz2 -> heartbeat-3.0.6.tar.bz2
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	b5529dc611971a61a30153916014f616	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_md5_=b5ecccb5593969b0168b6e31ad8bc47c

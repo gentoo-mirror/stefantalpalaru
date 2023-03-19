@@ -2,9 +2,9 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/
 DEFINED_PHASES=compile configure install preinst prepare pretend setup test
 DEPEND=>=sci-libs/cfitsio-3 idl? ( dev-lang/gdl sci-astronomy/idlastro ) java? ( >=virtual/jre-1.6:* ) virtual/pkgconfig java? ( >=virtual/jdk-1.6:* test? ( dev-java/ant-junit4:0 ) ) java? ( >=dev-java/java-config-2.2.0-r3 ) java? ( >=dev-java/ant-core-1.8.2:0 dev-java/javatoolkit )
 DESCRIPTION=Hierarchical Equal Area isoLatitude Pixelization of a sphere
-EAPI=7
+EAPI=8
 HOMEPAGE=http://healpix.sourceforge.net/
-INHERIT=autotools toolchain-funcs eutils java-pkg-opt-2 java-ant-2
+INHERIT=autotools toolchain-funcs java-pkg-opt-2 java-ant-2
 IUSE=cxx doc idl java openmp static-libs test java
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=GPL-2
@@ -12,5 +12,5 @@ RDEPEND=>=sci-libs/cfitsio-3 idl? ( dev-lang/gdl sci-astronomy/idlastro ) java? 
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/healpix/Healpix_3.31/Healpix_3.31_2016Aug26.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	b5529dc611971a61a30153916014f616	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-opt-2	4d26f2efd4c5ec82b66d1e8816f421b2	java-ant-2	f9b70c3474c0b326c8102814719dc554
-_md5_=a617f7ecadcab8cfba31bf9fe31e05ad
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	b5529dc611971a61a30153916014f616	java-utils-2	eefed04ac580a259ecda1fbd966640b7	java-pkg-opt-2	4d26f2efd4c5ec82b66d1e8816f421b2	java-ant-2	f9b70c3474c0b326c8102814719dc554
+_md5_=d3548fa981fe64d019874541fc87f87f
