@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=app-arch/xz-utils app-arch/zstd dev-libs/icu dev-libs/xapian
 SLOT=0
-SRC_URI=https://github.com/openzim/libzim/archive/8.1.1.tar.gz -> libzim-8.1.1.tar.gz
+SRC_URI=https://github.com/openzim/libzim/archive/8.2.0.tar.gz -> libzim-8.2.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	meson	915ec7c25e08d7886558215e6809ca1e
 _md5_=c6f35aab2ee7ad393184cbf9b7ed1145
