@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=python2
 SRC_URI=mirror://pypi/s/stevedore/stevedore-1.32.0.tar.gz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	eapi8-dosym	741bfa77afb2a9321261501aca58c208	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	741bfa77afb2a9321261501aca58c208	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
 _md5_=737731f11a1e473abb4b9db4e3de7c3d

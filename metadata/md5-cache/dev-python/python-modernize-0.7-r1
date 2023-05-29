@@ -13,5 +13,5 @@ REQUIRED_USE=^^ ( python_single_target_python2_7 python_single_target_python3_8 
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/PyCQA/modernize/archive/refs/tags/0.7.tar.gz -> python-modernize-0.7.tar.gz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	eapi8-dosym	741bfa77afb2a9321261501aca58c208	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	741bfa77afb2a9321261501aca58c208	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
 _md5_=1488aa4c40f2157c481df6b43b7b4000
