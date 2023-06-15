@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install pretend setup
+DEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,widgets] dev-qt/qtmultimedia:6 )
+DESCRIPTION=Magic Lantern Video (MLV) processing suite
+EAPI=8
+HOMEPAGE=https://github.com/ilia3101/MLV-App
+INHERIT=qmake-utils toolchain-funcs
+IUSE=+qt5 qt6
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,widgets] dev-qt/qtmultimedia:6 ) media-video/ffmpeg
+REQUIRED_USE=^^ ( qt5 qt6 )
+SLOT=0
+SRC_URI=https://github.com/ilia3101/MLV-App/archive/refs/tags/QTv1.14.tar.gz -> mlvapp-1.14.tar.gz
+_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_md5_=ef2f5cd7e5c5a2d7202854a53e3bcd20
