@@ -1,4 +1,4 @@
-BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7[sqlite] ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
+BDEPEND=python_targets_python2_7? ( dev-lang/python:2.7[sqlite] ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=>=dev-python/jsonschema-2.4.0:python2[python_targets_python2_7(-)?] dev-python/ipython_genutils:python2[python_targets_python2_7(-)?] >=dev-python/traitlets-4.1:python2[python_targets_python2_7(-)?] dev-python/jupyter_core:python2[python_targets_python2_7(-)?] !<dev-python/nbformat-4.4.0-r4[python_targets_python2_7(-)?] doc? ( dev-python/sphinx[python_targets_python2_7(-)?] dev-python/numpydoc[python_targets_python2_7(-)?] ) test? ( dev-python/testpath[python_targets_python2_7(-)?] dev-python/pytest[python_targets_python2_7(-)?] )
 DESCRIPTION=Reference implementation of the Jupyter Notebook format
@@ -8,10 +8,10 @@ INHERIT=distutils-r1
 IUSE=doc test python_targets_python2_7
 KEYWORDS=amd64 ~arm64 x86
 LICENSE=BSD
-RDEPEND=>=dev-python/jsonschema-2.4.0:python2[python_targets_python2_7(-)?] dev-python/ipython_genutils:python2[python_targets_python2_7(-)?] >=dev-python/traitlets-4.1:python2[python_targets_python2_7(-)?] dev-python/jupyter_core:python2[python_targets_python2_7(-)?] !<dev-python/nbformat-4.4.0-r4[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7[sqlite] )
+RDEPEND=>=dev-python/jsonschema-2.4.0:python2[python_targets_python2_7(-)?] dev-python/ipython_genutils:python2[python_targets_python2_7(-)?] >=dev-python/traitlets-4.1:python2[python_targets_python2_7(-)?] dev-python/jupyter_core:python2[python_targets_python2_7(-)?] !<dev-python/nbformat-4.4.0-r4[python_targets_python2_7(-)?] python_targets_python2_7? ( dev-lang/python:2.7[sqlite] )
 REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=!test? ( test )
 SLOT=python2
 SRC_URI=mirror://pypi/n/nbformat/nbformat-4.4.0.tar.gz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc
 _md5_=174855921d4df71d1304a7d3e2229b77

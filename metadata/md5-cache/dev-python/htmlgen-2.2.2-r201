@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst prepare
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) dev-python/pillow:python2[python_targets_python2_7(-)?] !<dev-python/htmlgen-2.2.2-r200[python_targets_python2_7(-)?]
+DEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) dev-python/pillow:python2[python_targets_python2_7(-)?] !<dev-python/htmlgen-2.2.2-r200[python_targets_python2_7(-)?]
 DESCRIPTION=HTMLgen - Python modules for the generation of HTML documents
 EAPI=8
 HOMEPAGE=http://soc.if.usp.br/manual/python-htmlgen/html/main.html
@@ -7,9 +7,9 @@ INHERIT=python-r1
 IUSE=doc python_targets_python2_7
 KEYWORDS=amd64 ia64 ppc x86
 LICENSE=BSD
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) dev-python/pillow:python2[python_targets_python2_7(-)?] !<dev-python/htmlgen-2.2.2-r200[python_targets_python2_7(-)?]
+RDEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) dev-python/pillow:python2[python_targets_python2_7(-)?] !<dev-python/htmlgen-2.2.2-r200[python_targets_python2_7(-)?]
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://ftp.jaist.ac.jp/pub/pkgsrc/distfiles/py-HTMLgen-2.2.2/HTMLgen.tgz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd
 _md5_=05c16781aca8b2d53b4c901693f72dd3

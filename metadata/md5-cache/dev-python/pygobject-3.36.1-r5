@@ -1,0 +1,18 @@
+BDEPEND=virtual/pkgconfig app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-libs/glib-2.48:2 >=dev-libs/gobject-introspection-1.54:= dev-libs/libffi:= cairo? ( python_targets_python2_7? ( >=dev-python/pycairo-1.11.1:python2 ) python_targets_python3_10? ( >=dev-python/pycairo-1.11.1:0 ) x11-libs/cairo[glib] )
+DESCRIPTION=Python bindings for GObject Introspection
+EAPI=8
+HOMEPAGE=https://pygobject.readthedocs.io/ https://gitlab.gnome.org/GNOME/pygobject
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=gnome.org meson python-r1 xdg
+IUSE=+cairo examples python_targets_python2_7 python_targets_python3_10
+KEYWORDS=~alpha amd64 arm arm64 ~hppa ~ia64 ~mips ppc ppc64 ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE=LGPL-2.1+
+RDEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-libs/glib-2.48:2 >=dev-libs/gobject-introspection-1.54:= dev-libs/libffi:= cairo? ( python_targets_python2_7? ( >=dev-python/pycairo-1.11.1:python2 ) python_targets_python3_10? ( >=dev-python/pycairo-1.11.1:0 ) x11-libs/cairo[glib] )
+REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_10 )
+RESTRICT=test
+SLOT=3
+SRC_URI=mirror://gnome/sources/pygobject/3.36/pygobject-3.36.1.tar.xz
+_eclasses_=gnome.org	6b39404f1491c60a2d32e3c693a683fe	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	meson	08b7183c3f4811568ee93eb0f79a89fe	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	python-r1	2d51fd03931e743811ce30d198e4dcfd	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=67358ca9ede084c5af0292bfcb8bb32c

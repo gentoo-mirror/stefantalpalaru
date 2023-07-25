@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python2_7? ( dev-lang/python:2.7[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) python_targets_python3_11? ( dev-lang/python:3.11[threads(+)] ) python_targets_python3_12? ( dev-lang/python:3.12[threads(+)] )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=python_targets_python2_7? ( dev-lang/python:2.7[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) python_targets_python3_11? ( dev-lang/python:3.11[threads(+)] ) python_targets_python3_12? ( dev-lang/python:3.12[threads(+)] ) python_targets_python2_7? ( dev-python/notebook:python2[python_targets_python2_7(-)?] ) python_targets_python3_10? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_11? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_12? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] )
+DESCRIPTION=IPython HTML widgets for Jupyter
+EAPI=8
+HOMEPAGE=http://ipython.org
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python2_7 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=python_targets_python2_7? ( dev-lang/python:2.7[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) python_targets_python3_11? ( dev-lang/python:3.11[threads(+)] ) python_targets_python3_12? ( dev-lang/python:3.12[threads(+)] ) python_targets_python2_7? ( dev-python/notebook:python2[python_targets_python2_7(-)?] ) python_targets_python3_10? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_11? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_12? ( dev-python/notebook:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python2_7? ( dev-lang/python:2.7[threads(+)] ) python_targets_python3_10? ( dev-lang/python:3.10[threads(+)] ) python_targets_python3_11? ( dev-lang/python:3.11[threads(+)] ) python_targets_python3_12? ( dev-lang/python:3.12[threads(+)] )
+REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/source/w/widgetsnbextension/widgetsnbextension-3.5.1.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	pypi	2eecb475512bc76e5ea9192a681b9e6b
+_md5_=132e6445e93c3f99e38288a2b8b918f7

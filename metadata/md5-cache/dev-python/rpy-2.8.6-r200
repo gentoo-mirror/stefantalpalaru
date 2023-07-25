@@ -1,4 +1,4 @@
-BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7[sqlite] ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+BDEPEND=python_targets_python2_7? ( dev-lang/python:2.7[sqlite] ) >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=>=dev-lang/R-3.2 dev-python/numpy-python2[python_targets_python2_7(-)?] >=dev-python/pandas-0.13.1:python2[python_targets_python2_7(-)?] dev-python/six:python2[python_targets_python2_7(-)?] !<dev-python/rpy-2.8.6-r2[python_targets_python2_7(-)?] test? ( >=dev-lang/R-3.2[X,png] ) dev-python/setuptools[python_targets_python2_7(-)?]
 DESCRIPTION=Python interface to the R Programming Language
@@ -9,10 +9,10 @@ IUSE=test python_targets_python2_7 test
 KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
 LICENSE=AGPL-3 GPL-2 LGPL-2.1 MPL-1.1
 PDEPEND=dev-python/ipython[python_targets_python2_7(-)?]
-RDEPEND=>=dev-lang/R-3.2 dev-python/numpy-python2[python_targets_python2_7(-)?] >=dev-python/pandas-0.13.1:python2[python_targets_python2_7(-)?] dev-python/six:python2[python_targets_python2_7(-)?] !<dev-python/rpy-2.8.6-r2[python_targets_python2_7(-)?] python_targets_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7[sqlite] )
+RDEPEND=>=dev-lang/R-3.2 dev-python/numpy-python2[python_targets_python2_7(-)?] >=dev-python/pandas-0.13.1:python2[python_targets_python2_7(-)?] dev-python/six:python2[python_targets_python2_7(-)?] !<dev-python/rpy-2.8.6-r2[python_targets_python2_7(-)?] python_targets_python2_7? ( dev-lang/python:2.7[sqlite] )
 REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=test
 SLOT=python2
 SRC_URI=mirror://pypi/r/rpy2/rpy2-2.8.6.tar.gz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	dfa61cb85ef26aeca1e19801d53f12f9	flag-o-matic	ad475baa777c9978fa035216c8264a10	virtualx	817571665ee28575da44ee08135089e5
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	flag-o-matic	ad475baa777c9978fa035216c8264a10	virtualx	817571665ee28575da44ee08135089e5
 _md5_=e2e9cb88696f908cc554a90f92908cbd

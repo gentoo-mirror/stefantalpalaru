@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Helpers for Astropy and Affiliated packages
+EAPI=8
+HOMEPAGE=https://github.com/astropy/astropy-helpers
+INHERIT=distutils-r1 pypi xdg-utils
+IUSE=python_targets_python2_7 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python2_7 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/source/a/astropy-helpers/astropy-helpers-2.0.10.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	pypi	2eecb475512bc76e5ea9192a681b9e6b	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=31135227e92f10135e23161bc7b17eb2

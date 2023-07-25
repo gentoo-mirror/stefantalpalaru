@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install setup
-DEPEND=python? ( python_single_target_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) ) tcl? ( >=dev-lang/tcl-8.6:0= )
+DEPEND=python? ( python_single_target_python2_7? ( dev-lang/python:2.7 ) ) tcl? ( >=dev-lang/tcl-8.6:0= )
 DESCRIPTION=Embedded database library
 EAPI=7
 HOMEPAGE=http://www.equi4.com/metakit/ https://github.com/jnorthrup/metakit
@@ -7,10 +7,10 @@ INHERIT=eutils flag-o-matic multilib python-single-r1 toolchain-funcs
 IUSE=python static tcl +python_single_target_python2_7
 KEYWORDS=amd64 ppc x86
 LICENSE=MIT
-RDEPEND=python? ( python_single_target_python2_7? ( >=dev-lang/python-2.7.10_p15:2.7 ) ) tcl? ( >=dev-lang/tcl-8.6:0= )
+RDEPEND=python? ( python_single_target_python2_7? ( dev-lang/python:2.7 ) ) tcl? ( >=dev-lang/tcl-8.6:0= )
 REQUIRED_USE=python? ( ^^ ( python_single_target_python2_7 ) )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/jnorthrup/metakit/archive/ab38c5340d8bb6f88fd0339b65cf33a66c4b9400.zip -> metakit-2.4.9.7_p20110819.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	49acf1980daf165f16677c0e8eccaa73	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
 _md5_=937a0622052a5e6d04a0ef75d11c5f2c
