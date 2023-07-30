@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=readline? ( sys-libs/readline:= ) sys-libs/zlib boehm-gc? ( dev-libs/boehm-gc )
 SLOT=0
 SRC_URI=https://nim-lang.org/download/nim-1.2.18.tar.xz
-_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
+_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
 _md5_=41966b88f4319faddef0ee82fa93f2d1

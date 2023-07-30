@@ -13,5 +13,5 @@ REQUIRED_USE=^^ ( python_single_target_python3_10 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/pytorch/vision/archive/v0.15.2.tar.gz -> torchvision-0.15.2.tar.gz
-_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	cuda	13d76baf0dc95e560610c6b7dfa79db4	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc
+_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	cuda	13d76baf0dc95e560610c6b7dfa79db4	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc
 _md5_=5db634dfb8bf0697ca742d283098a56e
