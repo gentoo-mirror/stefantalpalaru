@@ -1,0 +1,17 @@
+BDEPEND=acct-group/transmission acct-user/transmission virtual/pkgconfig nls? ( gtk? ( dev-util/intltool sys-devel/gettext ) qt5? ( dev-qt/linguist-tools:5 ) ) virtual/pkgconfig
+DEFINED_PHASES=configure install postinst postrm
+DEPEND=>=dev-libs/libevent-2.0.10:= !mbedtls? ( dev-libs/openssl:0= ) mbedtls? ( net-libs/mbedtls:0= ) dev-libs/dht dev-libs/libb64 net-libs/libnatpmp net-libs/libutp >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.15.4[ssl] sys-libs/zlib:= nls? ( virtual/libintl ) gtk? ( >=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.32:2 >=x11-libs/gtk+-3.4:3 appindicator? ( >=dev-libs/libappindicator-0.4.90:3 ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) systemd? ( >=sys-apps/systemd-209:= ) nls? ( virtual/libintl gtk? ( dev-util/intltool sys-devel/gettext ) qt5? ( dev-qt/linguist-tools:5 ) )
+DESCRIPTION=Transmission 3.00 fork (BitTorrent client)
+EAPI=8
+HOMEPAGE=https://github.com/stefantalpalaru/transmission-og
+INHERIT=flag-o-matic systemd xdg-utils
+IUSE=appindicator doc gtk lightweight nls mbedtls qt5 static-libs systemd test
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
+RDEPEND=>=dev-libs/libevent-2.0.10:= !mbedtls? ( dev-libs/openssl:0= ) mbedtls? ( net-libs/mbedtls:0= ) dev-libs/dht dev-libs/libb64 net-libs/libnatpmp net-libs/libutp >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.15.4[ssl] sys-libs/zlib:= nls? ( virtual/libintl ) gtk? ( >=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.32:2 >=x11-libs/gtk+-3.4:3 appindicator? ( >=dev-libs/libappindicator-0.4.90:3 ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) systemd? ( >=sys-apps/systemd-209:= ) acct-group/transmission acct-user/transmission
+REQUIRED_USE=appindicator? ( gtk )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/stefantalpalaru/transmission-og/releases/download/3.01/transmission-og-3.01.tar.xz
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	systemd	5f4bb0758df2e483babf68cd517078ca	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=a6987d236fae668c69f5834221887a9c
