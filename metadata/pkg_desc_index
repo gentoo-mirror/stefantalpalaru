@@ -854,6 +854,7 @@ net-print/pkpgcounter 3.50-r200: Generic PDL (Page Description Language) parser 
 net-print/pykota 1.26-r200: Flexible print quota and accounting package for use with CUPS and lpd
 net-wireless/cubicsdr 0.2.7-r1: Cross-Platform Software-Defined Radio Application
 net-wireless/dump1090 7.2: simple Mode S decoder for RTLSDR devices
+net-wireless/sdrpp 1.1.0_pre20230907: a cross-platform SDR software with the aim of being bloat free and simple to use
 sci-astronomy/astrometry 0.78-r2: Automated astrometric calibration programs and service
 sci-astronomy/casacore 3.4.0: Core libraries for the Common Astronomy Software Applications
 sci-astronomy/healpix 3.31-r2: Hierarchical Equal Area isoLatitude Pixelization of a sphere
