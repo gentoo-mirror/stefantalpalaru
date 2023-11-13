@@ -12,5 +12,5 @@ RDEPEND=sci-libs/hdf5:0/1.10.5[mpi=,hl(+)] dev-python/numpy-python2[python_targe
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=python2
 SRC_URI=mirror://pypi/h/h5py/h5py-2.10.0.tar.gz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	flag-o-matic	baa4d385108ac87993edac956a916a36
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	flag-o-matic	baa4d385108ac87993edac956a916a36
 _md5_=f58ba1c5c5b1542e70b9df98e33045e2

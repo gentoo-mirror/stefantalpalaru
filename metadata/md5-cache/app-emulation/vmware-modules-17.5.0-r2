@@ -12,5 +12,5 @@ RDEPEND=kernel_linux? ( sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mkubecek/vmware-host-modules/archive/4c2a103fd2d71f2084f1fe7ceacb816b9832ffa2.tar.gz -> vmware-modules-17.5.0-4c2a103fd2d71f2084f1fe7ceacb816b9832ffa2.tar.gz
-_eclasses_=toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	linux-mod	65030ccb60b8a236bc29c8caa76e3815	user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	0ec54d23727bb1aad391d4ea2183b0be	udev	eec0bbab06977f1cfc5597269c1fa152
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	linux-mod	65030ccb60b8a236bc29c8caa76e3815	user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	0ec54d23727bb1aad391d4ea2183b0be	udev	eec0bbab06977f1cfc5597269c1fa152
 _md5_=eb39bcc2956dde4bd2e6b1a3a2cce242

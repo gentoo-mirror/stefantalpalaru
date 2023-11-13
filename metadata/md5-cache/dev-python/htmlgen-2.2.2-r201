@@ -11,5 +11,5 @@ RDEPEND=python_targets_python2_7? ( dev-lang/python:2.7 ) dev-python/pillow:pyth
 REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://ftp.jaist.ac.jp/pub/pkgsrc/distfiles/py-HTMLgen-2.2.2/HTMLgen.tgz
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd
 _md5_=05c16781aca8b2d53b4c901693f72dd3
