@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-libs/pugixml-1.11 >=dev-qt/qtbase-6.5.2[dbus,gui,widgets] >=dev-qt/qtdeclarative-6.5.2:6 >=dev-qt/qtmultimedia-6.5.2:6 >=dev-qt/qtsvg-6.5.2:6 alsa? ( media-libs/alsa-lib ) dev-libs/flatbuffers dev-libs/libusb dev-libs/xxhash joystick? ( dev-libs/libevdev ) media-libs/glew:0 media-libs/libpng:* media-libs/openal pulseaudio? ( media-libs/libpulse ) sys-devel/gdb sys-libs/zlib virtual/opengl vulkan? ( media-libs/vulkan-loader ) x11-libs/libX11 >=sys-devel/gcc-9
+DESCRIPTION=PlayStation 3 emulator
+EAPI=8
+HOMEPAGE=https://rpcs3.net/
+INHERIT=cmake git-r3 python-single-r1
+IUSE=alsa joystick +llvm pulseaudio sdl vulkan python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-libs/pugixml-1.11 >=dev-qt/qtbase-6.5.2[dbus,gui,widgets] >=dev-qt/qtdeclarative-6.5.2:6 >=dev-qt/qtmultimedia-6.5.2:6 >=dev-qt/qtsvg-6.5.2:6 alsa? ( media-libs/alsa-lib ) dev-libs/flatbuffers dev-libs/libusb dev-libs/xxhash joystick? ( dev-libs/libevdev ) media-libs/glew:0 media-libs/libpng:* media-libs/openal pulseaudio? ( media-libs/libpulse ) sys-devel/gdb sys-libs/zlib virtual/opengl vulkan? ( media-libs/vulkan-loader ) x11-libs/libX11
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
+RESTRICT=network-sandbox
+SLOT=0
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	6b3c606c5de2531072ffd36eca06a5a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271	git-r3	5133e393e8717a3a093660f990801dc1	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_md5_=5d7ea8055f3562d79b749ad668037be0
