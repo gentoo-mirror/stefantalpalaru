@@ -7,10 +7,10 @@ INHERIT=distutils-r1
 IUSE=python_targets_python3_10 python_targets_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=>=app-crypt/acme-2.7.0:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=app-crypt/certbot-2.7.0:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/dns-lexicon-3.2.1:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+RDEPEND=>=app-crypt/acme-2.8.0:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=app-crypt/certbot-2.8.0:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/dns-lexicon-3.2.1:0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/certbot/certbot/archive/v2.7.0.tar.gz -> certbot-2.7.0.tar.gz
+SRC_URI=https://github.com/certbot/certbot/archive/v2.8.0.tar.gz -> certbot-2.8.0.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc
-_md5_=1f1931cf758767f06d8a3705bf17a168
+_md5_=9ebf307149d1265b2e8a9aef6924985f
