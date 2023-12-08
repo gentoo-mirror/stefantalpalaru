@@ -10,5 +10,5 @@ RDEPEND=dev-libs/expat dev-libs/nspr dev-libs/nss media-libs/alsa-lib media-libs
 RESTRICT=mirror fetch
 SLOT=0
 SRC_URI=amd64? ( https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_25_e119f6b95355474f/upwork-5.8.0.25-1fc24.x86_64.rpm ) x86? ( https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_25_e119f6b95355474f/upwork-5.8.0.25-1fc24.i386.rpm )
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	pax-utils	91d47e5d20627c717aa878b9167c62a8	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	745ef34afb8c31915d9d42a6aca23a35	xdg-utils	baea6080dd821f5562d715887954c9d3
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	pax-utils	91d47e5d20627c717aa878b9167c62a8	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	528663355249513309c74d7775936940	xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=6dd6e8c1395c0e6408a2d63f723c478d
