@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://bazaar.launchpad.net/~bzr-pqm/bzr/2.7/tarball/6622?start_revid=6622 -> bzr-2.7.1_pre.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	plocale	950fbaec7deeba41b5bcc0572cca99b9
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	flag-o-matic	b2b07efa51009704f88173b2c7feab47	plocale	950fbaec7deeba41b5bcc0572cca99b9
 _md5_=bb496879ac2e9a7c2733b50086201e07
