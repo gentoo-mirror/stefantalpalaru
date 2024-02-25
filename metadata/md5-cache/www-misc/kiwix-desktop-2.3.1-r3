@@ -1,6 +1,6 @@
 BDEPEND=app-arch/unzip
 DEFINED_PHASES=compile install
-DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtimageformats:5 dev-qt/qtsvg:5 dev-qt/qtwebengine:5 >=www-misc/kiwix-lib-12.0.0:=
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtimageformats:5 dev-qt/qtsvg:5 dev-qt/qtwebengine:5 www-misc/kiwix-lib:0/12
 DESCRIPTION=cross-platform viewer/manager for ZIM archives
 EAPI=8
 HOMEPAGE=https://kiwix.org/
@@ -10,4 +10,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/kiwix/kiwix-desktop/archive/2.3.1.tar.gz -> kiwix-desktop-2.3.1.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
-_md5_=4f3bb26e7579b5cc56454f56dafd37c3
+_md5_=57f5e56ab41eb52c179576e04cef1b9a
