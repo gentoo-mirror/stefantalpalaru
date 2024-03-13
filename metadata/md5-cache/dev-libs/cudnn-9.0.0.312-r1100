@@ -6,6 +6,6 @@ KEYWORDS=~amd64 ~amd64-linux
 LICENSE=NVIDIA-cuDNN
 RDEPEND==dev-util/nvidia-cuda-toolkit-11*
 RESTRICT=mirror
-SLOT=0/8
-SRC_URI=https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-x86_64/cudnn-linux-x86_64-8.9.5.29_cuda11-archive.tar.xz
-_md5_=8348fce5a37bedad972476bd54490257
+SLOT=0/9
+SRC_URI=https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-x86_64/cudnn-linux-x86_64-9.0.0.312_cuda11-archive.tar.xz
+_md5_=02dcabf7aaa5585b962ff327c96d2010
