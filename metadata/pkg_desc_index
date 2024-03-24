@@ -18,7 +18,7 @@ app-i18n/transifex-client 1.6.10: The Transifex command-line client
 app-misc/iccloader 0.5-r1 9999-r1: systray widget used to load ICC color profiles with different color temperatures
 app-misc/openrgb 0.9: Open source RGB lighting control that doesn't depend on manufacturer software
 app-misc/yworklog 0.0.7-r200: Stack based utility with CLI interface helping to monitor time spent on tasks
-app-office/upwork 5.8.0.25: Project collaboration and tracking software for upwork.com
+app-office/upwork 5.8.0.33: Project collaboration and tracking software for upwork.com
 app-text/pinfo 0.6.13-r2: Hypertext info and man viewer based on (n)curses
 app-text/zettlr-bin 3.0.5: A Markdown Editor for the 21st century.
 app-vim/airline 9999-r1: vim plugin: lean & mean statusline for vim that's light as air
@@ -52,7 +52,7 @@ dev-libs/lthread 1.0_pre20150617-r2 9999-r2: multicore enabled coroutine library
 dev-libs/openssl 1.1.1w: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/protobuf 3.13.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-nim/bcrypt-nim 0.2.1_pre20150221 9999: Nim bindings for bcrypt
-dev-nim/c2nim 0.9.14_p20191215 9999-r1: a tool to translate ANSI C code to Nim
+dev-nim/c2nim 0.9.19 9999-r2: a tool to translate ANSI C code to Nim
 dev-nim/cairo-nim 1.0_pre20161029 9999: Nim bindings for cairo
 dev-nim/chan-nim 0.1_pre20170320 9999: Nim bindings for dev-libs/chan
 dev-nim/dialogs 1.1.1 9999: portable dialogs for Nim
