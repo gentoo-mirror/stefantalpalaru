@@ -861,7 +861,7 @@ net-misc/pycnb 0.0.4-r200: Access cnb.cz daily rates with the comfort of your co
 net-misc/ssvnc 1.0.29-r3: VNC viewer that adds encryption security to VNC connections
 net-misc/streamtuner2 2.2.2-r1: Internet radio browser
 net-p2p/go-ethereum 1.14.2: Official golang implementation of the Ethereum protocol
-net-p2p/nicotine+ 9999: A fork of nicotine, a Soulseek client in Python
+net-p2p/nicotine+ 3.3.4 9999: A fork of nicotine, a Soulseek client in Python
 net-p2p/nimbus-eth2 24.4.0 9999-r18: Nim implementation of the Ethereum 2.0 blockchain
 net-p2p/pybitmessage 0.6.3.2_p20180521-r2: Reference client for Bitmessage: a P2P communications protocol
 net-p2p/retroshare 0.6.7: Decentralized, private and secure communication and sharing platform
@@ -881,7 +881,7 @@ sci-astronomy/montage 5.0-r1: Toolkit for assembling FITS images into mosaics
 sci-geosciences/mkgmap-bin 4918: Tool to create garmin maps
 sci-geosciences/qgis 3.36.2: User friendly Geographic Information System
 sci-geosciences/splitter-bin 653: Tile splitter for mkgmap
-sci-libs/caffe2 2.3.0-r1: A deep learning framework
+sci-libs/caffe2 2.3.0-r2: A deep learning framework
 sci-libs/cfitsio 3.410-r1: C and Fortran library for manipulating FITS files
 sci-libs/cholmod 3.0.14-r1: Sparse Cholesky factorization and update/downdate library
 sci-libs/gdal 3.0.4-r203: Translator library for raster geospatial data formats (includes OGR support)
