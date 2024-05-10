@@ -11,5 +11,5 @@ RDEPEND=python_single_target_python3_10? ( dev-python/pillow:0[python_targets_py
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
 SLOT=0
 SRC_URI=mirror://sourceforge/streamtuner2/streamtuner2-2.2.2.src.txz -> streamtuner2-2.2.2.tar.xz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	b24c23a99f98c30dd8e68ec73ece42ef	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
 _md5_=da6dd65ab29a695be2b9bb86306ddd09

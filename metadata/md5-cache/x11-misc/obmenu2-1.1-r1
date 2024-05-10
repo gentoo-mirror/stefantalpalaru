@@ -10,5 +10,5 @@ RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
 SLOT=0
 SRC_URI=https://github.com/0x10/obmenu2/archive/refs/tags/Version1_1.tar.gz -> obmenu2-1.1.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	109b15cf88494e126fc40a1b6ccebaa2	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	b24c23a99f98c30dd8e68ec73ece42ef	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
 _md5_=1c6f8b89bd9361ce02b7108996f38415
