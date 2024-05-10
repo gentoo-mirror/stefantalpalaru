@@ -1,0 +1,18 @@
+BDEPEND=test? ( python_targets_python3_10? ( dev-lang/python:3.10[gdbm] ) python_targets_python3_11? ( dev-lang/python:3.11[gdbm] ) python_targets_python3_12? ( dev-lang/python:3.12[gdbm] ) dev-python/pygobject:3[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] x11-libs/gtk+:3[introspection] >=dev-python/pytest-7.1.2[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10[gdbm] ) python_targets_python3_11? ( dev-lang/python:3.11[gdbm] ) python_targets_python3_12? ( dev-lang/python:3.12[gdbm] ) >=dev-python/gpep517-8[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/setuptools-62.6.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/wheel[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=python_targets_python3_10? ( dev-lang/python:3.10[gdbm] ) python_targets_python3_11? ( dev-lang/python:3.11[gdbm] ) python_targets_python3_12? ( dev-lang/python:3.12[gdbm] ) dev-python/pygobject:3[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] x11-libs/gtk+:3[introspection]
+DESCRIPTION=A fork of nicotine, a Soulseek client in Python
+EAPI=8
+HOMEPAGE=https://github.com/Nicotine-Plus/nicotine-plus
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=distutils-r1 xdg
+IUSE=test python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-3 LGPL-3
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10[gdbm] ) python_targets_python3_11? ( dev-lang/python:3.11[gdbm] ) python_targets_python3_12? ( dev-lang/python:3.12[gdbm] ) dev-python/pygobject:3[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] x11-libs/gtk+:3[introspection] python_targets_python3_10? ( dev-lang/python:3.10[gdbm] ) python_targets_python3_11? ( dev-lang/python:3.11[gdbm] ) python_targets_python3_12? ( dev-lang/python:3.12[gdbm] )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/Nicotine-Plus/nicotine-plus/archive/3.3.4.tar.gz -> nicotine+-3.3.4.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	b24c23a99f98c30dd8e68ec73ece42ef	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e58d3ed262e4b32d6d1966bd66e941cc	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=8e01559c1242fe536ff5ba3912adba97
