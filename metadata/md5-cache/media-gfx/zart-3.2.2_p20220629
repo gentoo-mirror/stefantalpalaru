@@ -9,5 +9,5 @@ LICENSE=CeCILL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtxml:5 media-gfx/gmic[fftw,opencv,openmp] >=media-libs/opencv-4 sci-libs/fftw:3.0[threads] sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/c-koi/zart/archive/34ebf6cce0bafb98abe57cec83c4a02cd1abeca0.tar.gz -> zart-3.2.2_p20220629.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
 _md5_=ba0e9e0f40b999c52d10de4c7b49b1a4
