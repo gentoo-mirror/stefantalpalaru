@@ -771,7 +771,6 @@ dev-python/wrapt 1.12.1-r200: Module for decorators, wrappers and monkey patchin
 dev-python/wsaccel 0.6.3-r200: Accelerator for ws4py, autobahn and tornado
 dev-python/wstools 0.4.8-r200: WSDL parsing services package for Web Services for Python
 dev-python/wtforms 2.3.3-r200: Flexible forms validation and rendering library for python web development
-dev-python/wxpython 3.0.2.0-r5 4.2.1-r3: A blending of the wxWindows C++ class library with Python
 dev-python/xarray 0.11.3-r4: N-D labeled arrays and datasets in Python
 dev-python/xcffib 0.10.1-r200: A drop in replacement for xpyb, an XCB python binding
 dev-python/xlrd 1.2.0-r200: Library to extract data from Microsoft Excel spreadsheets
@@ -807,7 +806,7 @@ media-fonts/ipamonafont 1.0.8-r1: Hacked version of IPA fonts, which is suitable
 media-gfx/GTS 2.5.1: scanning tool developed by Studio Ghibli
 media-gfx/ansel 4.0.0_pre20240223 9999-r3: Darktable 4.0 fork
 media-gfx/displaycal 3.8.9.3-r3: Display calibration and characterization powered by Argyll CMS
-media-gfx/displaycal-py3 3.9.12-r1: Display calibration and characterization powered by Argyll CMS - Python3 fork
+media-gfx/displaycal-py3 3.9.12-r2: Display calibration and characterization powered by Argyll CMS - Python3 fork
 media-gfx/fbcat 0.5.2: utility that takes a screenshot using the framebuffer device
 media-gfx/gifsicle 9999-r1: Create, manipulate, and optimize GIF images and animations
 media-gfx/gmic 3.4.0-r101: GREYC's Magic Image Converter
