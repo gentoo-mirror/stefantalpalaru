@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-lang/perl dev-libs/gmp sys-libs/libunwind vim-syntax? ( app-vim/chapel-syntax ) !!sys-devel/llvm:0
+DESCRIPTION=Chapel programming language compiler
+EAPI=8
+HOMEPAGE=https://chapel-lang.org/ https://github.com/chapel-lang/chapel
+INHERIT=llvm multiprocessing python-any-r1
+IUSE=test vim-syntax
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-lang/perl dev-libs/gmp sys-libs/libunwind vim-syntax? ( app-vim/chapel-syntax )
+RESTRICT=strip test? ( network-sandbox ) !test? ( test )
+SLOT=0
+SRC_URI=https://github.com/chapel-lang/chapel/releases/download/2.1.0/chapel-2.1.0.tar.gz
+_eclasses_=llvm-utils	e59dc622da7e7e7f16879105bed34858	llvm	1eea65d11f743b8e256ef279b652a2e6	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	b24c23a99f98c30dd8e68ec73ece42ef	python-any-r1	a3e9c0524a795d7f2767a2cf12a2e8c0
+_md5_=fa858555d50401fae3de97149bbf6732
