@@ -12,6 +12,6 @@ RDEPEND=>=dev-libs/libevent-2.0.10:= !mbedtls? ( dev-libs/openssl:0= ) mbedtls? 
 REQUIRED_USE=appindicator? ( gtk )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/stefantalpalaru/transmission-og/releases/download/3.03/transmission-og-3.03.tar.xz
+SRC_URI=https://github.com/stefantalpalaru/transmission-og/releases/download/3.04/transmission-og-3.04.tar.xz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	systemd	c8b03e8df84486aa991d4396686e8942	xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=0f3f71fcbc6419734448e203206b2ee7
