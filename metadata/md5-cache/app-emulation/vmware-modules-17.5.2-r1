@@ -14,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mkubecek/vmware-host-modules/archive/2c6d66f3f1947384038b765c897b102ecdb18298.tar.gz -> vmware-modules-17.5.2-2c6d66f3f1947384038b765c897b102ecdb18298.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	mount-boot-utils	221f3b57621b98ab8e76d42420601f6d	dist-kernel-utils	c5204a4147b612736aef239e7cc69885	edo	367e103a74bf77e6a8da7894d999fa3c	linux-info	ea4122ba1d8791a12b78e53f9510a2e3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	linux-mod-r1	0bdab9f1f3187180a16e0c6827bc13c2	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=519d54c2295ff3dcd88b32b7cefbca05
+_md5_=31201dff1b04efcfb459a6c91206ad3a
