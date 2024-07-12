@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-lang/nim-0.9.5 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=IRC client module for Nim
+EAPI=6
+HOMEPAGE=https://github.com/nim-lang/irc
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=c4e60b55be0129c9a1d70db45e6832fb

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/nim-0.14.0 dev-nim/bcrypt-nim dev-nim/cairo-nim dev-nim/jester >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Nim forum
+EAPI=6
+HOMEPAGE=https://github.com/nim-lang/nimforum
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=cb5b079600312f075376c6ff5a5f67c5

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>dev-lang/nim-0.9.2 x11-libs/libX11 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Nim bindings for X11
+EAPI=6
+HOMEPAGE=https://github.com/nim-lang/x11
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=9e23fb1b9c665eeeeb9e7cdb0cdd28ee

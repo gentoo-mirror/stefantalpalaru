@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>dev-lang/nim-0.10.3 dev-nim/x11-nim virtual/opengl >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Nim bindings for OpenGL
+EAPI=6
+HOMEPAGE=https://github.com/nim-lang/opengl
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=a2c7224091f2235481986a192c0c0a90
