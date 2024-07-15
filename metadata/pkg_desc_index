@@ -837,7 +837,6 @@ media-sound/keyfinder-cli 1.1.1: Musical key detection software (libkeyfinder CL
 media-sound/kid3 3.9.5: Simple tag editor based on Qt
 media-sound/lmms 1.2.2-r100 9999-r2: Cross-platform music production software
 media-sound/setbfree 0.8.11-r2 99999999-r3: MIDI controlled DSP tonewheel organ
-media-sound/tg 0.5.0-r1 9999-r1: a program for timing mechanical watches
 media-tv/dvb-firmware 1.4.0 9999-r3: DVB firmware from the LibreELEC project
 media-tv/w_scan2 1.0.15-r1 9999-r2: Scan for DVB-C/DVB-T/DVB-S channels (w_scan fork)
 media-video/aegisub 3.3.3-r2: Advanced subtitle editor
